@@ -1,0 +1,2 @@
+Atcoder 中abcxxx/A 中所有的源码为同一个问题的solution,abcxxx/B为另外一个
+CodeJamData 中 xx/xx 中所有的源码为同一个问题的solution
