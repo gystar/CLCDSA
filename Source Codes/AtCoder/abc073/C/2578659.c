@@ -65,21 +65,4 @@ int main(){
     }
   }
   printf("%ld\n",cnt);
-} ./Main.c: In function ‘QSort’:
-./Main.c:23:9: warning: implicit declaration of function ‘Swap’ [-Wimplicit-function-declaration]
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: At top level:
-./Main.c:35:6: warning: conflicting types for ‘Swap’
- void Swap(long x[ ], int i, int j)
-      ^
-./Main.c:23:9: note: previous implicit declaration of ‘Swap’ was here
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: In function ‘main’:
-./Main.c:46:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld",&n);
-   ^
-./Main.c:48:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&a[i]);
-     ^
+} 

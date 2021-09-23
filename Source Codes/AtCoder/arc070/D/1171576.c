@@ -27,11 +27,3 @@ main(i){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  f(x,y){
  ^
-./Main.c: In function ‘f’:
-./Main.c:3:1: warning: type of ‘x’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:1: warning: type of ‘y’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:9: warning: passing argument 1 of ‘fflush’ makes pointer from integer without a cast [-Wint-conversion]
-  fflush(!printf("? %d %d\n",x,y));
-         ^
-In file included from ./Main.c:1:0:
-/usr/include/stdio.h:242:12: note: expected ‘FILE * {ak...

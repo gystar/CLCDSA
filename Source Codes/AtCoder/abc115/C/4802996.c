@@ -21,10 +21,4 @@ int main(void){
   for(i=k;i<n;i++) min = mini(min,h[i]-h[i-k+1]);
   printf("%d\n",min);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&k);
-   ^
-./Main.c:18:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++) scanf("%d",&h[i]);
-                    ^
+} 

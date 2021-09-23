@@ -33,16 +33,4 @@ int main(){
 		printf("%lld\n",cost[r]-cost[l]);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&h,&w,&d);
-  ^
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&q);
-  ^
-./Main.c:32:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&l,&r);
-   ^
+} 

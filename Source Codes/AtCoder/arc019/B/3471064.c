@@ -145,7 +145,4 @@ main()
 #endif
 
 	return 0;
-} ./Main.c: In function ‘fMain’:
-./Main.c:64:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(sc1Name, sizeof(sc1Name), szpFpI);
-  ^
+} 

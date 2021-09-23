@@ -28,10 +28,4 @@ int main(){
 		i=t;
 	}
 	puts(ss[i-1]);
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-  qsort(ss,cnt,9,strcmp);
-  ^
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%lld",s,&k);
-  ^
+} 

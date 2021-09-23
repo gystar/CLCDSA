@@ -13,7 +13,4 @@ int a,b,c;
    if(c>=b&&b>=a){printf("%d",c*10+b+a);return 0;}//c>b>a
   if(c>=a&&a>=b){printf("%d",c*10+b+a);return 0;}//c>a>b
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d",&a,&b,&c);
-   ^
+} 

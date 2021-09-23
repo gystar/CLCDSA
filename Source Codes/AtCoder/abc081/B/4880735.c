@@ -40,14 +40,4 @@ int main(void){
     }
     printf("%d\n", k);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &x[i]);
-         ^
-In file included from /usr/include/stdio.h:937:0,
-                 from ./Main.c:2:
-In function ‘fgets’,
-    inlined from ‘main’ at ./Main.c:12:8:
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:261:9: warning: call to ‘__fgets_chk_warn’ declared with attribute warning: fgets called with bigger size than length of destination buffer
-  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
-         ^
+} 

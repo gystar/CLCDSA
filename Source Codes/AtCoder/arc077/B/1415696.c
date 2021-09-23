@@ -71,10 +71,4 @@ int main()
     printf("%lld\n", (modCombination(N, i) + mod - modCombination(right + left, i - 1)) % mod);
   }
 
-} ./Main.c: In function ‘main’:
-./Main.c:48:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &N);
-   ^
-./Main.c:51:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &A[i]);
-     ^
+} 

@@ -38,7 +38,4 @@ int main()
 {
 	q1();
 	return 0;
-} ./Main.c: In function ‘q1’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s",s,t);
-  ^
+} 

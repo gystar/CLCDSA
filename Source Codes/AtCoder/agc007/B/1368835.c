@@ -31,10 +31,4 @@ int main(void)
 	}
 	FOR(i,0,n) printf("%d%c",b[i],i==n-1?'\n':' ');
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:29:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&p);
-   ^
+} 

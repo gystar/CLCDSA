@@ -66,22 +66,4 @@ int main(int argc, char const *argv[]){
 	}
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘append’:
-./Main.c:40:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘pop’:
-./Main.c:48:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:54:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:62:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %lld",&n,&ans);
-  ^
-./Main.c:64:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf(" %lld",&t);
-   ^
+} 

@@ -39,7 +39,4 @@ int main(){
 	
 	rep(i,1,19)f(d,i,0);
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:35:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&d);
-  ^
+} 

@@ -52,10 +52,4 @@ int main(){
     }
     TF_print(flag, "POSSIBLE", "IMPOSSIBLE");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%u %u", &N, &M);
-     ^
-./Main.c:33:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%u %u", &a, &b);
-         ^
+} 

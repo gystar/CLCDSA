@@ -17,12 +17,4 @@ else
 x=s[0]-48+9*(y-1);
 printf("%d",x);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:3: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
- y=strlen(s);
-   ^
-./Main.c:13:3: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:13:3: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-./Main.c:5:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%s",s);
- ^
+} 

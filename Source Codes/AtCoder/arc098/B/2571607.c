@@ -12,13 +12,3 @@ main(){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:6: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  for(gets(a);~scanf("%d",a+i);S+=++i-f)for(w^=a[i],m+=a[i];w-m;w^=a[f++])m-=a[f];
-      ^
-./Main.c:3:15: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(gets(a);~scanf("%d",a+i);S+=++i-f)for(w^=a[i],m+=a[i];w-m;w^=a[f++])m-=a[f];
-               ^
-./Main.c:3:15: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:15: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:3:21: ...

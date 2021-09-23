@@ -90,10 +90,4 @@ signed main(){
 	acute_ans = pairnum * N / 3 - right_ans - obtuse_ans;
 	printf("%lld %lld %lld\n", acute_ans, right_ans, obtuse_ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:36:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:42:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &p[i].x, &p[i].y);
-   ^
+} 

@@ -63,25 +63,3 @@ main(){
 } ./Main.c:51:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define s(a) scanf("%d" ,&a);
-              ^
-./Main.c:53:2: note: in expansion of macro ‘s’
-  s(n); s(a);  s(b);
-  ^
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define s(a) scanf("%d" ,&a);
-              ^
-./Main.c:53:8: note: in expansion of macro ‘s’
-  s(n); s(a);  s(b);
-        ^
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define s(a) scanf("%d" ,&a);
-              ^
-./Main.c:53:15: note: in expansion of macro ‘s’
-  s(n); s(a);  s(b);
-               ^
-./Main.c:18:16: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define lls(a) scanf("%lld" ,&a)
-            ...

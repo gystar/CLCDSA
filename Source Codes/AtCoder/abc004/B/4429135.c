@@ -12,9 +12,4 @@ int main(void){
 		printf("\n");
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(s[i]);
-   ^
-/tmp/ccCSVFdm.o: In function `main':
-Main.c:(.text.startup+0x1a): warning: the `gets' function is dangerous and should not be used.
+} 

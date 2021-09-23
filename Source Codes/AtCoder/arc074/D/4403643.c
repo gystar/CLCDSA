@@ -67,10 +67,4 @@ int main(){
 	vcnt=h+w+2;
 	int ans=foodo(0,h+w+1);
 	printf("%d",ans>=1000?-1:ans);
-} ./Main.c: In function ‘main’:
-./Main.c:52:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&h,&w);
-  ^
-./Main.c:53:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,h)scanf(" %s",s[i]);
-            ^
+} 

@@ -59,10 +59,4 @@ void Swap(int x[ ], int i, int j)
     temp = x[i];
     x[i] = x[j];
     x[j] = temp;
-} ./Main.c: In function ‘main’:
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:11:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d", &a[i]);
-       ^
+} 

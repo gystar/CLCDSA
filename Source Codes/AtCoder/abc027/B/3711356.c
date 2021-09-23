@@ -18,10 +18,4 @@ if(tmp!=0)ans++;
 }
 printf("%d\n",ans);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:28: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- int n,a[100],i,sum=0,ans=0;scanf("%d",&n);
-                            ^
-./Main.c:6:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d",&a[i]);
- ^
+} 

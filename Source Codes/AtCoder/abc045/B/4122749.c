@@ -49,9 +49,4 @@ void cut(char *p)
 		p[i] = p[i+1];
 	}
 	p[i-1] = '\0';
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(Sa+1);
-  ^
-/tmp/ccUnfQbK.o: In function `main':
-Main.c:(.text.startup+0x3c): warning: the `gets' function is dangerous and should not be used.
+} 

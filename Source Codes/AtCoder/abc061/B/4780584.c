@@ -18,10 +18,4 @@ int main(int argc, char const *argv[]){
 	for (int i = 0; i < m; ++i)	++cnt[b[i]];
 	for (int i = 1; i <= n; ++i)	printf("%d\n",cnt[i]);	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:16:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (int i = 0; i < m; ++i) scanf(" %d%d",&a[i],&b[i]);
-                              ^
+} 

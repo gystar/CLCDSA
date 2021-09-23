@@ -71,7 +71,4 @@ int main() {
     init_hamburger(N);
     ret = eat_patty(N, ret);
     printf("%lld\n", ret.patty_num);
-} ./Main.c: In function ‘main’:
-./Main.c:69:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %lld", &N, &X);
-     ^
+} 

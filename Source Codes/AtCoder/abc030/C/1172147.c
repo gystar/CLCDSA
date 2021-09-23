@@ -38,13 +38,4 @@ int main(){
     *pb++;
     ans++;
   }
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld%ld%ld%ld",&N,&M,&X,&Y);
-   ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",pa++);
-     ^
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",pb++);
-     ^
+} 

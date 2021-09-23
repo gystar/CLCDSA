@@ -42,13 +42,4 @@ int main(int argc, char const *argv[]) {
     // ??
     Check(n, txa, tya, txb, tyb, X, Y, T, V);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d %d %d %d", &txa, &tya, &txb, &tyb, &T, &V);
-     ^
-./Main.c:38:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n );
-     ^
-./Main.c:40:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &X[i], &Y[i]);
-         ^
+} 

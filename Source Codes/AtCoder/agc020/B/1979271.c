@@ -19,10 +19,4 @@ int main(void){
   if(i!=k || a[k-1]!=2) printf("-1\n");
   else printf("%lld %lld\n",min, max);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&k);
-   ^
-./Main.c:10:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<k;i++) scanf("%lld",&a[i]);
-                    ^
+} 

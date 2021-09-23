@@ -10,7 +10,4 @@ int main(){
 	int n;
 	scanf("%d",&n);
 	puts(n/10==9||n%10==9?"Yes":"No");
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
+} 

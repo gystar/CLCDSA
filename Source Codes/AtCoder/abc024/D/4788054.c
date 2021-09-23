@@ -43,7 +43,4 @@ int main(int argc, char const *argv[]) {
     // ??
     calcRC(A, B, C);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:42:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld", &A, &B, &C);
-     ^
+} 

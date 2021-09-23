@@ -42,18 +42,3 @@ main()
 } ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main()
  ^
-./Main.c: In function ‘main’:
-./Main.c:5:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d",&k,&n);
-  ^
-./Main.c:5:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:5:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:6:21: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[99]’ [-Wformat=]
-  for(int i=0;~scanf("%s%s",v+i++,w+i););
-                     ^
-./Main.c:6:21: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[99]’ [-Wformat=]
-./Main.c:16:18: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-    for(int j=0;j<strlen(v[i]);j++)
-                  ^
-./Main.c:16:18: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:16:18: note: include ‘<string.h>’ or provide a declaration...

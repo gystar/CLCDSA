@@ -20,10 +20,4 @@ int main(){
 		else for(ll j=2800;j>-280;j--)dp[j+a[i]]+=dp[j];
 	}
 	printf("%lld\n",dp[0]-1);
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:15:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
+} 

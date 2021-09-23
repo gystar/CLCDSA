@@ -11,7 +11,4 @@ int main(void){
 	else ans = N/2*D+S*(N%2);
 	printf("%lld",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld%lld",&Q,&H,&S,&D,&N);
-  ^
+} 

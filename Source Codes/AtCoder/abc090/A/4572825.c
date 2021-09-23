@@ -8,10 +8,4 @@
     }
     printf("%c%c%c",S[0][0],S[1][1],S[2][2]);
     return 0;
-    } ./Main.c: In function ‘main’:
-./Main.c:7:19: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-             scanf("%s",&S[i]);
-                   ^
-./Main.c:7:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%s",&S[i]);
-             ^
+    } 

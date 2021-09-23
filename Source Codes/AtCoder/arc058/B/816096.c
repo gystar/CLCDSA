@@ -62,7 +62,4 @@ unsigned long long invdiv(unsigned long long p) {
 		x[1] = x[2];
 	} while(r[2] > 1);
 	return x[2];
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu%llu%llu%llu",&H,&W,&A,&B);
-   ^
+} 

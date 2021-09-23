@@ -18,10 +18,4 @@ int main(){
       cnt+=box[i];
   }
   printf("%d\n",cnt);
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&a[i]);
-     ^
+} 

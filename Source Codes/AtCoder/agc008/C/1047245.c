@@ -21,7 +21,4 @@ int main(void){
 	
 	printf("%lu\n",k);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lu %lu %lu %lu %lu %lu %lu",&i,&o,&t,&j,&l,&s,&z);
-  ^
+} 

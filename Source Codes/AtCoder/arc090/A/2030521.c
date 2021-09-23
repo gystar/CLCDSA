@@ -50,13 +50,4 @@ int main(void)
     printf("%d",i3);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(str, sizeof(str), stdin);
-     ^
-./Main.c:19:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(str, sizeof(str), stdin);
-     ^
-./Main.c:27:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(str, sizeof(str), stdin);
-     ^
+} 

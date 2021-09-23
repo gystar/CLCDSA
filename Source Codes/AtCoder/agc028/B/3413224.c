@@ -46,10 +46,4 @@ signed main(){
 	}
 	printf("%lld\n", MOD(ans * fact[N]));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:32:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &A[i]);
-   ^
+} 

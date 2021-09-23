@@ -19,7 +19,4 @@ int main(){
   }else{
     printf("%d\n", sum<<1);
   }
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(c,100010,stdin);
-   ^
+} 

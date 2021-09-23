@@ -16,7 +16,4 @@ int main(void){
 	else if(n==2) printf("%lld\n",a2);
 	else printf("%lld\n",a3);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

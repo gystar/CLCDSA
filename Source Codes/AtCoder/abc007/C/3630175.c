@@ -52,10 +52,4 @@ int main() {
         }
     }
     printf("%d\n", dist[gy][gx]);
-} ./Main.c: In function ‘input’:
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d%d%d%d", &R,&C,&sy,&sx,&gy,&gx);
-     ^
-./Main.c:22:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-        scanf("%s", c[i]);
-        ^
+} 

@@ -23,19 +23,4 @@ int main(void){
   }
 	printf("%d",d);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", STRING);
-   ^
-./Main.c:14:16: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
-    if(ATC_COUNT[i] == 1){
-                ^
-./Main.c:13:3: note: containing loop
-   for(i=0; i<=10; i++) {
-   ^
-./Main.c:9:14: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
-     if(STRING[i] == 'A' || STRING[i] == 'G' || STRING[i] == 'C' || STRING[i] == 'T') {
-              ^
-./Main.c:8:3: note: containing loop
-   for(i=0; i<=10; i++){
-   ^
+} 

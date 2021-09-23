@@ -48,13 +48,4 @@ int main(void){
   printf("%.9lf\n",sqrt(maxdistb/maxdista));
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:24:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld%ld",&ax[i],&ay[i]);
-     ^
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld%ld",&bx[i],&by[i]);
-     ^
+} 

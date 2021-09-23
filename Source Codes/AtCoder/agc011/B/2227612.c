@@ -16,13 +16,4 @@ int main(){
 	rep(i,1,n)if(a[i-1]*3<a[i])index=i;
 	printf("%lld\n",n-index);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:18: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  rep(i,0,n)scanf("%d",a+i);
-                  ^
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:12:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%d",a+i);
-            ^
+} 

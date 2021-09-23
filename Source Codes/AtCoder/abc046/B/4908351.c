@@ -17,7 +17,4 @@ int main(int argc, char const *argv[])
 	for (int i = 1; i < n; ++i)	pat *= (k - 1);
 	printf("%d\n", pat);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&k);
-  ^
+} 

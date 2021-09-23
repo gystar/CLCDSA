@@ -29,16 +29,4 @@ int main()
     }
     printf("%d", p);
     return (0);
-} ./Main.c: In function ‘main’:
-./Main.c:30:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
-     printf("%d", p);
-            ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", s1);
-     ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", s2);
-     ^
+} 

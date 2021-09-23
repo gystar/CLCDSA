@@ -31,10 +31,4 @@ int main(void){
   else printf("East %d\n",ans);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&N,&A,&B);
-   ^
-./Main.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s%d",s,&X);
-     ^
+} 

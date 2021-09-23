@@ -28,10 +28,4 @@ int main() {
 
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&n);
-     ^
-./Main.c:20:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld",&array[i]);
-         ^
+} 

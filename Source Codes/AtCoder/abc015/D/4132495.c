@@ -23,13 +23,4 @@ int main() {
     }
     printf("%d\n", dp[n][k][w]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &w);
-     ^
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &n, &k);
-     ^
-./Main.c:14:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d", &a, &b);
-         ^
+} 

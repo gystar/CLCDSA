@@ -276,18 +276,4 @@ long BellmanFord(long how_tyouten,long how_hen,long start_ten,long goal_ten,wdg 
     }
     
     return dist[goal_ten];
-} ./Main.c: In function ‘main’:
-./Main.c:11:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define I(a) long a;scanf("%ld",&a);
-                     ^
-./Main.c:46:5: note: in expansion of macro ‘I’
-     I(how_data);
-     ^
-./Main.c: In function ‘input_array’:
-./Main.c:68:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld",&data[loop]);
-         ^
-./Main.c: In function ‘input_array2’:
-./Main.c:84:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%ld",&data[loopA][loopB]);
-             ^
+} 

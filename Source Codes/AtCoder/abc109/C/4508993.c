@@ -30,10 +30,4 @@ int main(void)
     }
     printf("%d\n", gcd(a, n));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &n, &x);
-     ^
-./Main.c:28:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &a[i] ); a[i] -= x; 
-         ^
+} 

@@ -39,13 +39,4 @@ int sort(long x,long y){
 	if (l<y) sort(l,y);
 	if (x<r) sort(x,r);
 	return(0);
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
-  sort(1,m);
-  ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%li %li",&n,&m);
-  ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%li %li",&a[i],&b[i]);
-   ^
+} 

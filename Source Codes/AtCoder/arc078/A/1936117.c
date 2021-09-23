@@ -25,15 +25,4 @@ int main()
     }
     printf("%lld",min);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:18:9: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-     min=llabs(s2-s1);
-         ^
-./Main.c:18:9: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:18:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:11:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld",&a[i]);
-         ^
+} 

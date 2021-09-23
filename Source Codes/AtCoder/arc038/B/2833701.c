@@ -414,17 +414,4 @@ int32_t main (void) {
 	solve();
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:371:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘ull * {aka long unsigned int *}’ [-Wformat=]
-  scanf("%llu%llu", &h, &w);
-        ^
-./Main.c:371:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 3 has type ‘ull * {aka long unsigned int *}’ [-Wformat=]
-./Main.c:408:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[3010]’ [-Wformat=]
-   scanf("%s", &s[i]);
-         ^
-./Main.c:371:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu%llu", &h, &w);
-  ^
-./Main.c:408:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", &s[i]);
-   ^
+} 

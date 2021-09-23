@@ -61,10 +61,4 @@ int count(int i,int pre,int r){
 		res += count(field[i].next[j],i,r-1);
 	}
 	return res;
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&k);
-  ^
-./Main.c:23:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&a,&b);
-   ^
+} 

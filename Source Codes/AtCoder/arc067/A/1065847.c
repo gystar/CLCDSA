@@ -47,16 +47,4 @@ int main() {
 	pl(ans);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:22: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
- #define pl(x) printf("%ld\n", x)
-                      ^
-./Main.c:27:3: note: in expansion of macro ‘pl’
-   pl(1);
-   ^
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:24:2: note: in expansion of macro ‘sl’
-  sl(N);
-  ^
+} 

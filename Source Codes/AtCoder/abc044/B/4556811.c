@@ -36,10 +36,4 @@ if (count%2==1){printf("No\n"); return 0;}
 if(a%2==0&&b%2==0&&c%2==0&&d%2==0&&e%2==0&&f%2==0&&g%2==0&&h%2==0&&i%2==0&&j%2==0&&k%2==0&&l%2==0&&m%2==0&&n%2==0&&o%2==0&&p%2==0&&q%2==0&&r%2==0&&s%2==0&&t%2==0&&u%2==0&&v%2==0&&w%2==0&&x%2==0&&y%2==0&&z%2==0)
 {printf("Yes\n"); return 0;}
   else{printf("No\n"); return 0;}
-} ./Main.c: In function ‘main’:
-./Main.c:6:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[120]’ [-Wformat=]
-   scanf("%s",&sa);
-         ^
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",&sa);
-   ^
+} 

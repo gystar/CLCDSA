@@ -32,10 +32,4 @@ int main(void){
 	if(!ok)printf("-1");
 	else for(i=N-1;i>=0;i--)printf("%d\n",ans[i]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&N);
-  ^
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&a[i].b);
-   ^
+} 

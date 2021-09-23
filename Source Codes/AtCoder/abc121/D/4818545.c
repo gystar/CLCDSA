@@ -16,7 +16,4 @@ int main() {
     scanf("%lld %lld", &a, &b);
     printf("%lld\n", solve(a-1)^solve(b));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld", &a, &b);
-     ^
+} 

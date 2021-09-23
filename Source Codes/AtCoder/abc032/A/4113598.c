@@ -17,13 +17,4 @@ int main(void){
 	tmp = a * b / gcd(a, b);
 	printf("%d\n", n / tmp * tmp + ((n / tmp * tmp < n) ? tmp : 0));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &a);
-  ^
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &b);
-  ^
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
+} 

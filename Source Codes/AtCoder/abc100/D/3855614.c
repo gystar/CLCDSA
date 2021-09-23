@@ -135,10 +135,4 @@ int main() {
 		num2[0] += num[n - i];
 	}
 	printf("%lld", big(big(big(big(big(big(big(num2[0], num2[1]), num2[2]), num2[3]), num2[4]), num2[5]), num2[6]), num2[7]));
-} ./Main.c: In function ‘main’:
-./Main.c:64:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &n, &m);
-  ^
-./Main.c:66:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &x[i], &y[i], &z[i]);
-   ^
+} 

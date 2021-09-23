@@ -75,13 +75,4 @@ int main(void)
 		printf("%.20lf\n",(double)(dx+dy)*100+d1*num);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d",&s.x,&s.y,&g.x,&g.y);
-  ^
-./Main.c:51:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:53:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&X,&Y);
-   ^
+} 

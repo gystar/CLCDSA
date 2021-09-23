@@ -24,10 +24,4 @@ int main(void){
 	if(flg==1) puts("POSSIBLE");
 	else puts("IMPOSSIBLE");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&p,&q);
-   ^
+} 

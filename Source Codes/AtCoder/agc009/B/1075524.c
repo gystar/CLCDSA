@@ -80,16 +80,4 @@ int main() {
 	pl(data[1].cnt);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:42:2: note: in expansion of macro ‘sl’
-  sl(N);
-  ^
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:51:3: note: in expansion of macro ‘sl’
-   sl(A[i]);
-   ^
+} 

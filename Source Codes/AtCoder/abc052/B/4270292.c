@@ -26,12 +26,4 @@ int main()
 	}
 	printf("%d",max);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(s);
-  ^
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-/tmp/cce9ojj2.o: In function `main':
-Main.c:(.text.startup+0x3a): warning: the `gets' function is dangerous and should not be used.
+} 

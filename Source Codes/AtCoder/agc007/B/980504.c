@@ -63,17 +63,4 @@ int main(void) {
 	for (i=1;i<N;i++) printf("%d ", a[i]); printf("%d\n", a[N]);
 	for (i=1;i<N;i++) printf("%d ", b[i]); printf("%d\n", b[N]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:63:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  for (i=1;i<N;i++) printf("%d ", a[i]); printf("%d\n", a[N]);
-                           ^
-./Main.c:63:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  for (i=1;i<N;i++) printf("%d ", a[i]); printf("%d\n", a[N]);
-                                                ^
-./Main.c:64:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  for (i=1;i<N;i++) printf("%d ", b[i]); printf("%d\n", b[N]);
-                           ^
-./Main.c:64:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  for (i=1;i<N;i++) printf("%d ", b[i]); printf("%d\n", b[N]);
-                                                ^
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_re...
+} 

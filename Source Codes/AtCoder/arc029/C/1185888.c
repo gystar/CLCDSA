@@ -48,13 +48,4 @@ int main(){
   for(i=0;i<m;i++)scanf("%d %d %d",&a[i+n],&b[i+n],&c[i+n]);
   printf("%lld\n",mitr(n+1,m+n,a,b,c));
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:42:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&m);
-   ^
-./Main.c:46:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&c[i]);
-     ^
-./Main.c:48:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<m;i++)scanf("%d %d %d",&a[i+n],&b[i+n],&c[i+n]);
-                   ^
+} 

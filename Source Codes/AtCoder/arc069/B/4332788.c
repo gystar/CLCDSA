@@ -777,10 +777,4 @@ int main(){
 	if(a!=1){
 		printf("-1");
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c",&s[i]);
-   ^
+} 

@@ -66,10 +66,4 @@ int main() {
 ll ma(ll a, ll b) {
 	if (a >= b) { return a; }
 	else { return b; }
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&K);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf(" %lld",&a[i]);
-   ^
+} 

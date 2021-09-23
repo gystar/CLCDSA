@@ -23,7 +23,4 @@ int main() {
 label:
 	printf("%d%c%d%c%d%c%d=7", a[0], sign[i], a[1], sign[j], a[2], sign[k], a[3]);
     
-} ./Main.c: In function ‘main’:
-./Main.c:12:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < 4; i++) scanf("%1d", a + i);
-                          ^
+} 

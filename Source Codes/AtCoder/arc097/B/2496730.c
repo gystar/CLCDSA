@@ -30,13 +30,4 @@ int main(){
 	rep(i,1,n+1)if(same(a[i],i))ans++;
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&t);
-   ^
-./Main.c:26:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&p,&q);
-   ^
+} 

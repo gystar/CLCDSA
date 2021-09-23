@@ -23,10 +23,3 @@ main() {
 } ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main() {
  ^
-./Main.c: In function ‘main’:
-./Main.c:7:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
-  scanf("%s", &a);
-        ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", &a);
-  ^

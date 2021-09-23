@@ -60,10 +60,4 @@ int get_gcd(int a, int b)
     }
 
     return a;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &n, &lx);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &x[i]);
-   ^
+} 

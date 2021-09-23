@@ -52,16 +52,4 @@ int main() {
 		}
 
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &R, &C);
-  ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &sy, &sx);
-  ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &gy, &gx);
-  ^
-./Main.c:11:24: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i<R; i++) scanf("%s", c_0[i]);
-                        ^
+} 

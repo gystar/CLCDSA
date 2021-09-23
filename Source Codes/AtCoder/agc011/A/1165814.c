@@ -46,10 +46,4 @@ void MergeSort(int x[],int left,int right){
     if(temp[i] <= temp[j]) x[k] = temp[i++];
     else x[k] = temp[j--];
   }
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d",&N,&C,&K);
-   ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&T[i]);
-     ^
+} 

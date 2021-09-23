@@ -139,17 +139,4 @@ int main(){
 	
 	puts("Yes");
 	rep(i,0,g.vcnt)printf("%lld\n",sita[i]);
-} ./Main.c: In function ‘readgraph’:
-./Main.c:42:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:45:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&x,&y);
-   ^
-./Main.c: In function ‘main’:
-./Main.c:99:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&k);
-  ^
-./Main.c:103:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&a,&b);
-   ^
+} 

@@ -31,10 +31,4 @@ int main(){
 	}
 	puts(k==x?"YES":"NO");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:11:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
+} 

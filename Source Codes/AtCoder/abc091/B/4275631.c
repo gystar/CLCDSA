@@ -29,19 +29,4 @@
  }
  printf("%d\n",best);
  return 0;
- } ./Main.c: In function ‘main’:
-./Main.c:17:9: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
-  if (0==strcmp(s[i],s[j])){
-         ^
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf(" %s",s[i]);
-  ^
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&m);
-  ^
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf(" %s",t[i]);
-  ^
+ } 

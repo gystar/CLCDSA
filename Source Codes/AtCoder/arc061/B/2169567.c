@@ -36,10 +36,4 @@ int main(){
 	ans[0]=(h-2)*(w-2)-s;
 	rep(i,0,10)printf("%lld\n",ans[i]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&h,&w,&n);
-  ^
-./Main.c:18:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&x,&y);
-   ^
+} 

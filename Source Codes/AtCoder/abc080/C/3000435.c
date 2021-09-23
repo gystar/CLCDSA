@@ -32,13 +32,4 @@ int main(void){
         if(ans>max)max=ans;
     }
     printf("%d",max);
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:10:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&open[i][j]);
-             ^
-./Main.c:16:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&profit[i][j]);
-             ^
+} 

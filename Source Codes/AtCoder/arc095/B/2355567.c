@@ -72,24 +72,4 @@ int main(){
     }
   }
   printf("%ld %ld\n",a[n-1],j);
-} ./Main.c: In function ‘QSort’:
-./Main.c:25:9: warning: implicit declaration of function ‘Swap’ [-Wimplicit-function-declaration]
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: At top level:
-./Main.c:36:6: warning: conflicting types for ‘Swap’
- void Swap(long x[ ], int i, int j)
-      ^
-./Main.c:25:9: note: previous implicit declaration of ‘Swap’ was here
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: In function ‘main’:
-./Main.c:69:8: warning: implicit declaration of function ‘labs’ [-Wimplicit-function-declaration]
-     if(labs(a[i]-(a[n-1]/2))<=max){
-        ^
-./Main.c:69:8: warning: incompatible implicit declaration of built-in function ‘labs’
-./Main.c:69:8: note: include ‘<stdlib.h>’ or provide a declaration of ‘labs’
-./Main.c:74:10: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘int’ [-Wformat=]
-   printf("%ld %ld\n",a[n-1],j);
-          ^
-./Main.c:62:3: warning: ignoring return value of ‘scanf’, decla...
+} 

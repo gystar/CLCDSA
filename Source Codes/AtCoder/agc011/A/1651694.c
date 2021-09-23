@@ -243,10 +243,4 @@
     	solve();
      
     	return 0;
-    } ./Main.c: In function ‘main’:
-./Main.c:237:6: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-      scanf("%llu%llu%llu", &n, &m, &k);
-      ^
-./Main.c:240:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%llu", &a[i]);
-       ^
+    } 

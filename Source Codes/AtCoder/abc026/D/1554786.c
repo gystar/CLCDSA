@@ -23,7 +23,3 @@ In file included from ./Main.c:3:0:
 /usr/include/math.h:372:0: note: this is the location of the previous definition
  # define M_PI  3.14159265358979323846 /* pi */
  ^
-./Main.c: In function ‘main’:
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%Lf %Lf %Lf",&A,&B,&C);
-     ^

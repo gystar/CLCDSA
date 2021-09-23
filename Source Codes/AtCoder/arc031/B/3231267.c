@@ -97,16 +97,4 @@ int main(void)
 //	printf("???????\n");
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:39:10: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-    scanf("%c",&map[i][j]);
-          ^
-./Main.c:46:9: warning: too many arguments for format [-Wformat-extra-args]
-   scanf("%*c",s);
-         ^
-./Main.c:39:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%c",&map[i][j]);
-    ^
-./Main.c:46:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%*c",s);
-   ^
+} 

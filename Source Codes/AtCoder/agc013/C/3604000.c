@@ -60,10 +60,4 @@ int main(){
 	}else{
 		rep(i,0,n)printf("%lld\n",ans[(i+offset+cnt+n)%n].x);
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&n,&L,&T);
-  ^
-./Main.c:22:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld%lld",x+i,w+i);
-            ^
+} 

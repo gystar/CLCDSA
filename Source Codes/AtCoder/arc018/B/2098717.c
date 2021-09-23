@@ -99,20 +99,4 @@ int32_t main (void) {
 	solve();
 
 	return 0;
-} ./Main.c: In function ‘solve’:
-./Main.c:85:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘sll {aka long int}’ [-Wformat=]
-  printf("%llu\n", result);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:93:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘ull * {aka long unsigned int *}’ [-Wformat=]
-  scanf("%llu", &n, &m);
-        ^
-./Main.c:93:8: warning: too many arguments for format [-Wformat-extra-args]
-./Main.c:95:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘sll * {aka long int *}’ [-Wformat=]
-   scanf("%llu", &a[i]);
-         ^
-./Main.c:96:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘sll * {aka long int *}’ [-Wformat=]
-   scanf("%llu", &b[i]);
-         ^
-./Main.c:93:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf...
+} 

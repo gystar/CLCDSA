@@ -17,10 +17,4 @@ int main(){
 	ll l=b[n/2-1],r=b[n/2];
 	rep(i,0,n)printf("%lld\n",a[i]<=l?r:l);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:14:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
+} 

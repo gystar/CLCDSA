@@ -48,19 +48,4 @@ int main(void){
 	int n=in(),k=in();
 	puts(k<=ceil((double)(n-1)/2)?"YES":"NO");
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:11:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i;scanf("%d",&i);
-        ^
-./Main.c: In function ‘llin’:
-./Main.c:15:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i;scanf("%lld",&i);
-              ^
-./Main.c: In function ‘din’:
-./Main.c:19:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i;scanf("%lf",&i);
-           ^
-./Main.c: In function ‘chin’:
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

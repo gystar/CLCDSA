@@ -55,10 +55,4 @@ int main(void)
 	printf("%lld\n",(ll)(w-2)*(h-2)-sum);
 	FOR(i,1,10) printf("%d\n",cnt[i]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:32:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&h,&w,&n);
-  ^
-./Main.c:34:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

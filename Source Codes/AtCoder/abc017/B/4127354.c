@@ -77,19 +77,4 @@ int main(void){
     if(k==0)printf("YES\n");
     else printf("NO\n");
     return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:21:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int i;scanf("%d",&i);
-           ^
-./Main.c: In function ‘din’:
-./Main.c:25:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     double i;scanf("%lf",&i);
-              ^
-./Main.c: In function ‘chin’:
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
-./Main.c: In function ‘main’:
-./Main.c:67:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",c);
-     ^
+} 

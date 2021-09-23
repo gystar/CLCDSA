@@ -79,10 +79,4 @@ int main() {
 	}
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define ss(x) scanf("%s", x)
-               ^
-./Main.c:24:2: note: in expansion of macro ‘ss’
-  ss(S);
-  ^
+} 

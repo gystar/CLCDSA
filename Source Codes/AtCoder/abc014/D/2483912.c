@@ -91,19 +91,4 @@ int main(){
         int c = lca(a,b);
         printf("%d\n",depth[a]+depth[b]-(2*depth[c])+1);
     }
-} ./Main.c: In function ‘main’:
-./Main.c:56:20: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
-     int (*in)[2] = (int*)malloc(sizeof(int)*N*2);
-                    ^
-./Main.c:48:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:60:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&x,&y);
-         ^
-./Main.c:86:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&Q);
-     ^
-./Main.c:89:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&a,&b);
-         ^
+} 

@@ -61,13 +61,4 @@ double Volume_Cone(double r,double h){
 	double pi;
 	pi=atan(1.0)*4;
 	return r*r*pi*h/3;
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&q);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf %lf",&input[i].x_i,&input[i].r,&input[i].h);
-   ^
-./Main.c:33:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&a,&b);
-   ^
+} 

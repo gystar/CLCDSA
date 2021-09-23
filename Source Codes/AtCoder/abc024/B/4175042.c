@@ -17,13 +17,4 @@ int main(){
   printf("%ld\n", time);
   
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld %ld", &N, &T);
-   ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld", &A[i]);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &A[i]);
-     ^
+} 

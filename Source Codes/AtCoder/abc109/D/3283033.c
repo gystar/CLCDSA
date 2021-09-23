@@ -59,13 +59,4 @@ int main(void)
     }
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:39:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-   printf("%d\n",t);
-          ^
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&h,&w);
-   ^
-./Main.c:13:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d",&a[i][j]);
-       ^
+} 

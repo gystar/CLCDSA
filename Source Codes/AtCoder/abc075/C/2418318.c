@@ -49,10 +49,4 @@ int main(){
     g[a[i]][b[i]]=g[b[i]][a[i]]=1;
   }
   printf("%d\n",cnt);
-} ./Main.c: In function ‘main’:
-./Main.c:30:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&m);
-   ^
-./Main.c:32:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&a[i],&b[i]);
-     ^
+} 

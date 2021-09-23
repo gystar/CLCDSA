@@ -31,7 +31,4 @@ int main(){
 1,3,5,7,8,10,12
 4,6,9,11
 2
-*/ ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &x, &y);
-   ^
+*/ 

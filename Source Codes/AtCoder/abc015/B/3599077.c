@@ -16,10 +16,4 @@ int main() {
     if(sum%ct==0) ans=sum/ct;
     else ans=sum/ct+1;
     printf("%d\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:11:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a);
-         ^
+} 

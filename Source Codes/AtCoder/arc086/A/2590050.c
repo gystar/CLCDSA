@@ -24,14 +24,4 @@ int main(){
 	rep(i,0,k)ans+=a[i];
 	printf("%lld\n",n-ans);
 	
-} ./Main.c: In function ‘sortdown’:
-./Main.c:11:27: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
- void sortdown(ll*a,int n){qsort(a,n,sizeof(ll),downll);}
-                           ^
-./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&k);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
+} 

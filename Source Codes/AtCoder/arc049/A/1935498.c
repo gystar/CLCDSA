@@ -37,10 +37,4 @@ int main(void)
 	putchar('\"');
 	printf("%.*s\n",strlen(str)-d,str+d);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:38:9: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
-  printf("%.*s\n",strlen(str)-d,str+d);
-         ^
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%d%d%d%d",str,&a,&b,&c,&d);
-  ^
+} 

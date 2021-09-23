@@ -23,7 +23,4 @@ int main() {
     scanf("%d",&N);  
     for (int i=0; i<Nmax; i++) memo[i] = -1;
     printf("%d", dp(N));
-} ./Main.c: In function ‘main’:
-./Main.c:23:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);  
-     ^
+} 

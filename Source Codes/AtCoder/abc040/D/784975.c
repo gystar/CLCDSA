@@ -119,16 +119,4 @@ int main()
     printf("%d\n",V[j].ans);
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:75:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&M);
-   ^
-./Main.c:78:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&(Y[i].a),&(Y[i].b),&(Y[i].y));
-     ^
-./Main.c:81:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&Q);
-   ^
-./Main.c:84:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&(V[i].v),&(V[i].w));
-     ^
+} 

@@ -15,7 +15,4 @@ int main(){
 	n=strlen(s);
 	rep(i,0,n-1)if(s[i]!=s[i+1])ans++;
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

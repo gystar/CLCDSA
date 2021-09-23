@@ -16,10 +16,4 @@ int main(){
   //printf("%d %d\n",((10-2*2)-1)/(5-2)+1,((4-2*2)-1)/(5-2)+1);
   printf("%lld\n",l);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld %lld",&n,&a,&b);
-   ^
-./Main.c:6:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=l=0;i<n;i++)scanf("%lld",&d[i]);
-                     ^
+} 

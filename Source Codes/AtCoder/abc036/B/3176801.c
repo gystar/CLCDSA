@@ -8,7 +8,3 @@ char m[55][55];i,j;main(n){for(scanf("%d\n",&n);gets(m[i++]););for(;j<n;j++,puts
 ./Main.c:1:20: warning: return type defaults to ‘int’ [-Wimplicit-int]
  char m[55][55];i,j;main(n){for(scanf("%d\n",&n);gets(m[i++]););for(;j<n;j++,puts(""))for(i=n;i--;)putchar(m[i][j]);}
                     ^
-./Main.c: In function ‘main’:
-./Main.c:1:20: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:32: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
- char m[55][55];i,j;main(n){for(scanf("%d\n",&n);gets(m[i++]););for(;j<n;j++,puts(""))for(i=n;i--;...

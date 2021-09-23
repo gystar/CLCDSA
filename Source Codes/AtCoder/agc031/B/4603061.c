@@ -36,13 +36,4 @@ int main(){
 //		printf("%lld %lld\n",dp[i][0],dp[i][1]);
 	}
 	printf("%lld",(dp[n-1][0]+dp[n-1][1])%MOD);
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&t);
-  ^
-./Main.c:32:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
+} 

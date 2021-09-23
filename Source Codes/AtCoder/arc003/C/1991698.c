@@ -39,14 +39,4 @@ int main(){
 	//if(l<0)l=-1;
 	printf("%.10lf\n",l);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d %d",&h,&w);
-  ^
-./Main.c:8:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:8:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:40:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  printf("%.10lf\n",l);
-  ^
-./Main.c:40:2: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:40:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

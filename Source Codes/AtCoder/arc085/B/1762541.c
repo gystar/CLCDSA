@@ -25,10 +25,4 @@ int main(void)
 	else if(abs(a[n-2]-a[n-1])>abs(a[n-1]-w)) printf("%d\n",abs(a[n-2]-a[n-1]));
 	else printf("%d\n",abs(a[n-1]-w));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&z,&w);
-  ^
-./Main.c:23:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,n) scanf("%d",a+i);
-             ^
+} 

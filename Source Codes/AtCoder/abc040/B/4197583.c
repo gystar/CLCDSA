@@ -19,13 +19,4 @@ int main(void){
     }
     printf("%d\n",min);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:27: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-         min = Min(min,n%i+abs(i-n/i)); 
-                           ^
-./Main.c:2:20: note: in definition of macro ‘Min’
- #define Min(a,b) a<b?a:b
-                    ^
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
+} 

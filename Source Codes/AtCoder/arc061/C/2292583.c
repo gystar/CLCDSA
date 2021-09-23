@@ -158,10 +158,4 @@ int main(){
 	ll ans=daikusutorappp[bs(n,-1)];
 	printf("%lld\n",ans==INF?-1:ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:125:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:128:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&p,&q,&c);
-   ^
+} 

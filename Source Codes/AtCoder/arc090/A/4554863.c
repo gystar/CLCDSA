@@ -45,15 +45,4 @@ int main() {
 	printf("%d\n", ans);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:20: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-  int **A = (int **)malloc(sizeof(int*) * 2);
-                    ^
-./Main.c:5:20: warning: incompatible implicit declaration of built-in function ‘malloc’
-./Main.c:5:20: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:14:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &A[i][j]);
-    ^
+} 

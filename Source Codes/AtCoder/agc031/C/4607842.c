@@ -52,10 +52,4 @@ int main(void){
         write(1, buf, point);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld", &n, &a, &b);
-     ^
-./Main.c:52:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
-         write(1, buf, point);
-         ^
+} 

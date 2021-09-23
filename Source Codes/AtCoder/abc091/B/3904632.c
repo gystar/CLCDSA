@@ -36,16 +36,4 @@ int main(){
 	ll ans=0;
 	rep(i,0,cnt)ans=max(ans,a[i]);
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",ss);
-   ^
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&m);
-  ^
-./Main.c:28:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",ss);
-   ^
+} 

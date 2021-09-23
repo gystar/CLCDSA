@@ -24,10 +24,4 @@ int main(){
 	ll ans=0;
 	rep(i,-100005,100005)ans+=min(r[i],l[i+1]);
 	printf("%lld",ans*2);
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&x,&y);
-   ^
+} 

@@ -71,10 +71,4 @@ int compar(const int *val1, const int *val2) {
     } else {
         return 1;
     }
-} ./Main.c: In function ‘main’:
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &nNumber);
-     ^
-./Main.c:31:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &anX[i]);
-         ^
+} 

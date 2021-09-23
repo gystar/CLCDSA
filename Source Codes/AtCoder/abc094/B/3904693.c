@@ -17,10 +17,4 @@ int main(){
 		else s2++;
 	}
 	printf("%lld",min(s1,s2));
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&n,&m,&x);
-  ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
+} 

@@ -70,10 +70,3 @@ main() {
 } ./Main.c:35:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main() {
  ^
-./Main.c: In function ‘main’:
-./Main.c:39:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &n, &m);
-  ^
-./Main.c:41:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &s[i][0], &s[i][1]);
-   ^

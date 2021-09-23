@@ -15,10 +15,4 @@ int main(void){
         p[col]=i;
     }
     printf("%d",dp[n]);
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:5:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(i=0;i<n;i++)scanf("%d",&c[i]);
-                     ^
+} 

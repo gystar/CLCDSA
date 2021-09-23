@@ -17,7 +17,4 @@ int main(){
 
     return 0;
 
- } ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
-  fscanf(fp,"%d %d",&a[0],&a[1]);
-  ^
+ } 

@@ -14,7 +14,4 @@ int main(){
 	for(i=2;i*i<=M;i++)s=(s*(c[i]+1))%M;
 	printf("%lld\n",s);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&a,&b);
-  ^
+} 

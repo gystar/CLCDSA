@@ -26,7 +26,4 @@ int ans(int p,int q,int r){
     }
 
     return a;
-} ./Main.c: In function ‘input’:
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",a,b,k);
-     ^
+} 

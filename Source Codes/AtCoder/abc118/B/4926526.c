@@ -35,13 +35,4 @@ int main(void){
     printf("%d\n", answer);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &N, &M);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &Human[i]);
-         ^
-./Main.c:17:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d", &Food[i][j]);
-             ^
+} 

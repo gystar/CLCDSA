@@ -19,10 +19,4 @@ if(c*c==d){
 	printf("No");
 }
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%s",a);
- ^
-./Main.c:12:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%s",b);
- ^
+} 

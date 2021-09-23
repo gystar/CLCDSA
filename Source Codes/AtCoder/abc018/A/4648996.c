@@ -9,7 +9,4 @@ int main(void){
     else if(c>a && a>b) printf("2\n3\n1\n");
     else if(c>b && b>a) printf("3\n2\n1\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d",&a,&b,&c);
-     ^
+} 

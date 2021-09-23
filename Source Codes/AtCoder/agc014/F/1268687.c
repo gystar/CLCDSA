@@ -23,6 +23,3 @@ main(n){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main...

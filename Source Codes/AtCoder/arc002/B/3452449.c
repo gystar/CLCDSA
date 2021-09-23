@@ -24,7 +24,4 @@ int main()
    lhy=1;}
    printf("%d/01/01\n",srx+1);
    return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d%c%d%c%d",&srx,&t,&sry,&t,&lhy);
-    ^
+} 

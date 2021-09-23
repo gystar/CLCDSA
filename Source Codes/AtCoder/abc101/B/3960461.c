@@ -28,9 +28,4 @@ int getLength(char a[]){
         i++;
     }
     return i;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(num);
-     ^
-/tmp/ccMAiY9o.o: In function `main':
-Main.c:(.text.startup+0x19): warning: the `gets' function is dangerous and should not be used.
+} 

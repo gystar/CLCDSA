@@ -11,7 +11,4 @@ int main(void){
     if(strcmp(day,"Friday")==0) printf("1\n");
     if(strcmp(day,"Saturday")==0) printf("0\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",day);
-     ^
+} 

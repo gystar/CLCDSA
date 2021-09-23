@@ -405,17 +405,4 @@ signed main(){
 	}
 	printf("%lld\n", ans);
 	return 0;
-} ./Main.c: In function ‘outall_AVL_sub’:
-./Main.c:277:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pair {aka struct <anonymous>}’ [-Wformat=]
-   printf("(key, val, ele_num, height) = (%d, %d, %d, %d)\n", r->key, r->val, r->ele_num, r->height);
-          ^
-./Main.c:277:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
-./Main.c:277:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long int’ [-Wformat=]
-./Main.c:277:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘long long int’ [-Wformat=]
-./Main.c: In function ‘main’:
-./Main.c:351:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:353:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", S);
-  ^
+} 

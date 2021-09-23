@@ -86,14 +86,4 @@ int main()
 		printf("%06d%06d\n",data[i].p,data[i].seq_num);
 	}
 	return 0;
-} ./Main.c: In function ‘printdata’:
-./Main.c:54:10: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘int’ [-Wformat=]
-   printf("p=%d,y=%llu,n=%d\n", data[i].p, data[i].year, data[i].no);
-          ^
-./Main.c: In function ‘main’:
-./Main.c:65:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &n_pref, &m_city);
-  ^
-./Main.c:69:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %llu", &a, &b);
-   ^
+} 

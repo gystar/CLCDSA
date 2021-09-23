@@ -33,7 +33,4 @@ int main(void)
 	n2+=a[0]/2*2+a[3]/2*2+a[4]/2*2;
 	printf("%lld\n",MAX(n1,n2));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:30:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,7) scanf("%lld",a+i);
-             ^
+} 

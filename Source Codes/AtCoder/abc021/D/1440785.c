@@ -41,7 +41,4 @@ signed main(){
 	scanf("%lld%lld", &n, &k);
 	printf("%lld\n", comb(n + k - 1, k));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:41:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &n, &k);
-  ^
+} 

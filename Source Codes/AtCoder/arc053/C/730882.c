@@ -154,10 +154,4 @@ int main(int argc, const char * argv[]) {
     
     printf("%ld\n",max);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:101:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&N);
-     ^
-./Main.c:107:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld %ld",&magics[i].a,&magics[i].b);
-         ^
+} 

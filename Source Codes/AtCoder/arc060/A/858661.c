@@ -26,10 +26,4 @@ int main() {
 	for (k=1;k<=N;k++) C += dp[N][k][k*A];
 	printf("%lld\n", C);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &A);
-  ^
-./Main.c:11:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i=0;i<N;i++) scanf("%d", &x[i]);
-                    ^
+} 

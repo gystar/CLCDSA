@@ -11,10 +11,4 @@ int main(){
     if(sum-max>max)printf("Yes\n");
     else printf("No\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:3:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int n;scanf("%d",&n);
-           ^
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&l[i]);
-         ^
+} 

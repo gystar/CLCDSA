@@ -52,16 +52,4 @@ int main(){
 	}
 	printf("%d\n", shortest_case[k][b]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &a, &b);
-  ^
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &M);
-  ^
-./Main.c:27:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &x, &y);
-   ^
+} 

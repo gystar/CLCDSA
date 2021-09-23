@@ -34,13 +34,4 @@ int main(){
 	N=1<<29;
 	for(int i=0;i<R;i++)if(N>(a=shortestHamiltonPath(i,R)))N=a;
 	printf("%d\n",N);
-} ./Main.c: In function ‘main’:
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&N,&_M,&R);
-  ^
-./Main.c:25:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(int i=0;i<R;i++)scanf("%d",r+i),r[i]--;
-                      ^
-./Main.c:27:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&a,&b,&c);
-   ^
+} 

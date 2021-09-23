@@ -85,16 +85,4 @@ int main(){
   printf("Yes\n");
   for(i=0;i<n;i++)printf("%lld\n",CO[i+1]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:56:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&n);
-   ^
-./Main.c:58:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&a[i],&b[i]);
-     ^
-./Main.c:61:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&m);
-   ^
-./Main.c:63:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&b[i+n-1],&c[i+n-1]);
-     ^
+} 

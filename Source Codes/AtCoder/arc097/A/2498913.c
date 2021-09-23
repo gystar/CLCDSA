@@ -355,10 +355,4 @@ int main(){
 	st = kth_smallest_AVL(K, t)->key;
 	printf("%s\n", st);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:333:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", s);
-  ^
-./Main.c:334:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &K);
-  ^
+} 

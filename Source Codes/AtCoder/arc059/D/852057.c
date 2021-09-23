@@ -38,10 +38,4 @@ int main() {
 	printf("%lld\n", (dp[N][len]*prod)%MOD);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[5010]’ [-Wformat=]
-  scanf("%d%s", &N, &s);
-        ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%s", &N, &s);
-  ^
+} 

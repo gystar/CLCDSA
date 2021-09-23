@@ -219,11 +219,4 @@ void BinarySearch(long **dist, char **s) {
         //printf("low %ld high %ld\n", low, high);
     }
     printf("%ld\n", low);
-} ./Main.c: In function ‘main’:
-./Main.c:35:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld\n", &H, &W, &T);
-     ^
-./Main.c: In function ‘setBoard’:
-./Main.c:71:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%c", &s[i][j]);
-             ^
+} 

@@ -166,13 +166,4 @@ int main(void)
     u2ChocoMass = calcChocoMass(u1Height,u1Width,u2CumChcBlack,u2CumChcWhite);
     
     outputChocoMass(u2ChocoMass);
-} ./Main.c: In function ‘inputData’:
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&input);
-     ^
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&input);
-     ^
-./Main.c:44:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&input);
-             ^
+} 

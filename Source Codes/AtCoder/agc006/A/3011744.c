@@ -12,10 +12,4 @@ int main(void)
     }
     printf("%d",strlen(s)*2-i);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
-     printf("%d",strlen(s)*2-i);
-            ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%s%s",&n,s,t);
-     ^
+} 

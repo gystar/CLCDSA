@@ -29,16 +29,4 @@ int main(void){
   }
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&H,&W,&D);
-   ^
-./Main.c:14:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d",&A);
-       ^
-./Main.c:23:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&Q);
-   ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&L,&R);
-     ^
+} 

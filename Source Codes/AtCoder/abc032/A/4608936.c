@@ -6,7 +6,4 @@ int main(void){
     while(n%a+n%b>0)
         n+=1;
     printf("%d\n",n);
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d",&a,&b,&n);
-     ^
+} 

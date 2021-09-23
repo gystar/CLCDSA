@@ -24,13 +24,3 @@ main(){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%s",&n,s);
-  ^
-./Main.c:3:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:4:4: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  r=strlen(s)-1;
-    ^
-./Mai...

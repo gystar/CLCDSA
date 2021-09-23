@@ -81,15 +81,4 @@ int main(void){
     }
     print(zantei);
     return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:21:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     long long i;scanf("%lld",&i);
-                 ^
-./Main.c: In function ‘din’:
-./Main.c:25:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     double i;scanf("%lf",&i);
-              ^
-./Main.c: In function ‘chin’:
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
+} 

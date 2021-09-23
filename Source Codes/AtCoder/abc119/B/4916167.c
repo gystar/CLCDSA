@@ -25,7 +25,4 @@ int main(void) {
         return 1;
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[4]’ [-Wformat=]
-             if (scanf("%f %s", &(money[i]), &(money_type[i])) != EOF) {
-                       ^
+} 

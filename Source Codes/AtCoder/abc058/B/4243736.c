@@ -11,7 +11,4 @@ int main(void){
     if(e[i]!='\0') printf("%c",e[i]);
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s %s",o,e);
-   ^
+} 

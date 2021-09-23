@@ -18,7 +18,4 @@ int main(void){
   else if(w==0&&e==1) printf("No");
   else printf("Yes");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",s);
-   ^
+} 

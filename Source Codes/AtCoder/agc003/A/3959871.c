@@ -27,7 +27,4 @@ int main(){
 		return 0;
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  char s[1001];scanf("%s",s);
-               ^
+} 

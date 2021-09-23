@@ -49,19 +49,4 @@ int main(void){
 	int n=in();
 	print(min(100*((n/10)+1),(100*(n/10)+15*(n%10))));
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:12:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i;scanf("%d",&i);
-        ^
-./Main.c: In function ‘llin’:
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i;scanf("%lld",&i);
-              ^
-./Main.c: In function ‘din’:
-./Main.c:20:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i;scanf("%lf",&i);
-           ^
-./Main.c: In function ‘chin’:
-./Main.c:24:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

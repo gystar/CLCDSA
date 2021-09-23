@@ -102,13 +102,4 @@ int main(){
   printf("%d\n", ans);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:87:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
-./Main.c:90:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
-./Main.c:96:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
+} 

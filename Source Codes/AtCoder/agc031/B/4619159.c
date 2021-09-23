@@ -54,10 +54,4 @@ int main(){
 
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
-./Main.c:28:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
+} 

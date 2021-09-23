@@ -96,16 +96,4 @@ int main(void){
 
   printf("%d\n", max);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &N);
-   ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", &s[i][0]);
-     ^
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &M);
-   ^
-./Main.c:18:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", &t[i][0]);
-     ^
+} 

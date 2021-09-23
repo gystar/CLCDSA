@@ -88,12 +88,4 @@ int compare(long long*a,long long*b);
 int compare(long long*a,long long*b){
     unsigned long long v=*b-*a;
     return v?(v>>63<<1)-1:0;
-} ./Main.c: In function ‘main’:
-./Main.c:36:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(sInput);
-  ^
-./Main.c:83:9: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%ld\n",lAnswer);
-         ^
-/tmp/ccqqdBRN.o: In function `main':
-Main.c:(.text.startup+0xe): warning: the `gets' function is dangerous and should not be used.
+} 

@@ -15,7 +15,4 @@ int main(void) {
 	printf("%s", s);
 	for (int j = 0; j < b; j++)	printf(")");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%s", &n, s);
-  ^
+} 

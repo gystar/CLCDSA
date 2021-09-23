@@ -36,7 +36,4 @@ int main() {
 	else if(n*p < m*k) {
 		printf("TAKAHASHI\n");
 	}else{ printf("DRAW\n"); }
-} ./Main.c: In function ‘main’:
-./Main.c:32:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld",&n,&m,&k,&p);
-  ^
+} 

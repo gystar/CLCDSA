@@ -26,11 +26,3 @@ main()
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  f(a){return p[a]-a?p[a]=f(p[a]):a;}
  ^
-./Main.c: In function ‘f’:
-./Main.c:2:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: At top level:
-./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
- u(a,b){p[f(b)]=f(a);}
- ^
-./Main.c: In function ‘u’:
-./Main.c...

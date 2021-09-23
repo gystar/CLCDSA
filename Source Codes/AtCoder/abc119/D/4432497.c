@@ -48,16 +48,4 @@ int main(void)
     }
     printf("%" PRId64 "\n", ans);
   }
-} ./Main.c: In function ‘main’:
-./Main.c:26:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%" SCNd64 "%" SCNd64 "%" SCNd64, &a, &b, &q);
-   ^
-./Main.c:28:35: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (size_t i = 1; i <= a; i++) scanf("%" SCNd64, &s[i]);
-                                   ^
-./Main.c:29:35: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (size_t i = 1; i <= b; i++) scanf("%" SCNd64, &t[i]);
-                                   ^
-./Main.c:30:34: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (size_t i = 0; i < q; i++) scanf("%" SCNd64, &x[i]);
-                                  ^
+} 

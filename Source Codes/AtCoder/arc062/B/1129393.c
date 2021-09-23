@@ -14,9 +14,4 @@ int main(void)
 		
 		
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(s);
-  ^
-/tmp/ccZTNVZo.o: In function `main':
-Main.c:(.text.startup+0x1e): warning: the `gets' function is dangerous and should not be used.
+} 

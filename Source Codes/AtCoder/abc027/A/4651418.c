@@ -8,7 +8,4 @@ int main(){
     else if(l[0] == l[2])printf("%d\n",l[1]);
     else printf("%d\n",l[0]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&l[i]);
-         ^
+} 

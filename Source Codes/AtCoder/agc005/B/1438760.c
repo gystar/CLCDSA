@@ -56,10 +56,4 @@ int main(void)
 	FOR(i,0,n) ans+=(ll)a[i]*(i-l[i])*(r[i]-i);
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:40:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:41:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,n) scanf("%d",&a[i]);
-             ^
+} 

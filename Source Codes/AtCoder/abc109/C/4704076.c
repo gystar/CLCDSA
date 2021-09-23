@@ -20,10 +20,4 @@ int main(){
   for(i=0;i<n;i++)scanf("%d",&x[i]);
   for(i=0;i<n;i++)sub[i]=abs(x[i]-X);
   printf("%d",gcd(sub,n-1));
-} ./Main.c: In function ‘main’:
-./Main.c:18:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&n,&X);
-   ^
-./Main.c:20:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++)scanf("%d",&x[i]);
-                   ^
+} 

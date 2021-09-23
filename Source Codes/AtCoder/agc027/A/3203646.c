@@ -83,10 +83,4 @@ int main(void){
     free(kouryo);
     free(just_candies_kouryo);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &N, &x);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &just_candies[loop]);
-         ^
+} 

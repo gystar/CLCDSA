@@ -21,10 +21,4 @@ int main(){
 	ll ans=0;
 	rep(xx,0,w)rep(yy,0,h)ans+=!!a[xx][yy];
 	printf("%lld",w*h-ans);
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&w,&h,&n);
-  ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",&x,&y,&c);
-   ^
+} 

@@ -21,10 +21,4 @@ int main(void){
 	else if(kyori<0) printf("West %d\n",abs(kyori));
 	else printf("0\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&a,&b);
-  ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s%d",s,&d);
-   ^
+} 

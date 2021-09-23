@@ -54,10 +54,4 @@ void Qsort(int a[],int b[],int bottom,int up){
   }
   if(bottom<i-1) Qsort(a,b,bottom,i-1); //?????????2???????Qsort
   if(i<up) Qsort(a,b,i,up); //????????2???????sort
-} ./Main.c: In function ‘main’:
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&n,&m);
-   ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&a[i],&b[i]);
-     ^
+} 

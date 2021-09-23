@@ -16,13 +16,4 @@ int main(){
 		s=(mbk(a  ,d[i]                 ,m)*s)%m;
 	}
 	printf("%lld\n",d[0]-1?0:s);
-} ./Main.c: In function ‘main’:
-./Main.c:8:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%d",&a);
-         ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&a);
-   ^
+} 

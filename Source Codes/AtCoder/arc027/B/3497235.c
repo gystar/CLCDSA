@@ -243,13 +243,4 @@ main()
 #endif
 
 	return 0;
-} ./Main.c: In function ‘fMain’:
-./Main.c:101:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Buf, sizeof(lc1Buf), szpFpI);
-  ^
-./Main.c:106:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Str1, sizeof(lc1Str1), szpFpI);
-  ^
-./Main.c:107:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Str2, sizeof(lc1Str2), szpFpI);
-  ^
+} 

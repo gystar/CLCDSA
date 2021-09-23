@@ -68,10 +68,3 @@ main(){
 } ./Main.c:51:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define s(a) scanf("%d" ,&a);
-              ^
-./Main.c:54:2: note: in expansion of macro ‘s’
-  s(n);
-  ^

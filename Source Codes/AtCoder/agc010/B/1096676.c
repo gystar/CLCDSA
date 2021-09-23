@@ -42,10 +42,4 @@ int main(){
 	if( check() == 0 ){ printf("NO\n"); return 0; }
 	printf("YES\n");
 	return 0;
-} ./Main.c: In function ‘input’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld", &N);
-  ^
-./Main.c:18:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld", &A[i]);
-   ^
+} 

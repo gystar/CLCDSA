@@ -39,16 +39,4 @@ int main(void){
 	}
 	printf("%d\n",n-s);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:21: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  if(sum < k){printf("%d\n",n);return 0;}
-                     ^
-./Main.c:40:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n",n-s);
-         ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&k);
-  ^
-./Main.c:14:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i = 0;i < n;i++){scanf("%lld",&a[i]);sum+=a[i];}
-                       ^
+} 

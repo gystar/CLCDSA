@@ -16,7 +16,4 @@ int main(){
     if(point==X) printf("%d\n",x-2);
     else printf("%d\n", x-1);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &X);
-     ^
+} 

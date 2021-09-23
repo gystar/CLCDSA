@@ -13,13 +13,4 @@ int main(void){
   ans[2] = three[2];
   printf("%s\n", ans);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%3s", one);
-   ^
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%3s", two);
-   ^
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%3s", three);
-   ^
+} 

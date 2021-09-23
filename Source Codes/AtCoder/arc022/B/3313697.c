@@ -20,10 +20,3 @@ main(m){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(m){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘m’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:6: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  for(gets(a);~scanf("%d",a+f);M[a[f]]=m=fmax(m,1-l+f++)){
-      ^
-./Main.c:3:15: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(gets(a);~scanf("%d",a+f);M[a[f...

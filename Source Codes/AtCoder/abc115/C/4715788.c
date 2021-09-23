@@ -389,14 +389,3 @@ int main(void)
 ./Main.c:127:11: warning: conflicting types for built-in function ‘llround’
  long long llround(long long a, long long b)
            ^
-./Main.c: In function ‘shuffledget’:
-./Main.c:319:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &x[b[i]]);
-     ^
-./Main.c: In function ‘main’:
-./Main.c:368:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &n, &k);
-   ^
-./Main.c:371:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &a[i]);
-     ^

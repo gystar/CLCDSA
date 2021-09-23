@@ -20,10 +20,4 @@ int main(){
 	for(int aa=ma,bb=mb;aa<=400&&bb<=400;aa+=ma,bb+=mb)ans=min(ans,dp[aa][bb]);
 	printf("%lld\n",ans==INF?-1:ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&ma,&mb);
-  ^
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&a,&b,&c);
-   ^
+} 

@@ -25,10 +25,4 @@ int main(){
   int area = max(white[1] - white[0], 0)*max(white[3] - white[2], 0);
   printf("%d\n",area);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&w,&h,&n);
-   ^
-./Main.c:15:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d\n",&x,&y,&a);
-     ^
+} 

@@ -18,15 +18,3 @@ i,j;main(a){
 ./Main.c:1:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  i,j;main(a){
      ^
-./Main.c: In function ‘main’:
-./Main.c:1:5: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:6: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-  for(puts("98 99");i<98;i++)
-      ^
-./Main.c:4:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   i%49||scanf("%d",&a);
-         ^
-./Main.c:4:9: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:7:4: warning: implicit declaration of function ‘putchar’ [-Wimplicit-function-declaration]
-    putchar((i%2|j%2||a...

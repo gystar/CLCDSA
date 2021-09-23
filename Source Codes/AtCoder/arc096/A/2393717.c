@@ -19,7 +19,4 @@ void Sub(int total, int total2, int total3)
 	if(min>total2) min = total2;
 	if(min>total3) min = total3;
 	printf("%d\n", min);
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d %d", &a, &b, &c, &x, &y);
-  ^
+} 

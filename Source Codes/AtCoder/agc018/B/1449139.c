@@ -43,10 +43,4 @@ int main(void){
 	}
 	printf("%d\n",maxnum);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&m);
-  ^
-./Main.c:22:36: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++) for(j=0;j<m;j++) scanf("%d",&sp[i][j]);
-                                    ^
+} 

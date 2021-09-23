@@ -13,7 +13,4 @@ int main(void){
   else if(a[1] == a[2] && a[2] == a[3]) printf("Yes\n");
   else printf("No\n");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &n);
-   ^
+} 

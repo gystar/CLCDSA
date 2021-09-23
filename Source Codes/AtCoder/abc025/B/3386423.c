@@ -51,13 +51,4 @@ int main(void){
     }else{
         printf("East %d\n",ans);
     }
-} ./Main.c: In function ‘main’:
-./Main.c:36:22: warning: implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
-                 *p = atoi(ptr);
-                      ^
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d\n",&n,&a,&b);
-     ^
-./Main.c:13:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-         fgets(str,1024, stdin);
-         ^
+} 

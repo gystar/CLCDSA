@@ -21,10 +21,4 @@ int main() {
 		if (str[i] - '0' < 0 || str[i] - '0' > 9) { printf("No"); return 0; }
 	}
 	printf("Yes");
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &n,&m);
-  ^
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",str);
-  ^
+} 

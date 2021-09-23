@@ -194,10 +194,4 @@ S4 main()
 	printf("%d\n", s4_t_maxSize);
 
 	return((S4)0);
-} ./Main.c: In function ‘main’:
-./Main.c:149:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  (VD)scanf("%d %d", &s4_t_height, &s4_t_width);
-  ^
-./Main.c:167:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    (VD)scanf("%d", &s4_t_concentration);
-    ^
+} 

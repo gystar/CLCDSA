@@ -10,11 +10,4 @@ int main(void){
         printf("NO");
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[3]’ [-Wformat=]
-     scanf("%s%s",&S,&s);
-           ^
-./Main.c:6:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[3]’ [-Wformat=]
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s%s",&S,&s);
-     ^
+} 

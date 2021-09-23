@@ -94,10 +94,4 @@ int main(void)
 //	printf("???????\n");
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:31:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&m);
-  ^
-./Main.c:34:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&kenka[i].a,&kenka[i].b);
-   ^
+} 

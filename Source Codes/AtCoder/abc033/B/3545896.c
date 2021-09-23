@@ -17,10 +17,4 @@ int main(void){
 	}
 	printf("atcoder\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s %lld",s[i],&p[i]);
-   ^
+} 

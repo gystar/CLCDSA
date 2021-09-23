@@ -75,12 +75,3 @@ main()
 } ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main()
  ^
-./Main.c: In function ‘main’:
-./Main.c:9:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(b[i]);
-   ^
-./Main.c:44:9: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-   if(WC)puts("NO");
-         ^
-/tmp/ccMZwpuv.o: In function `main':
-Main.c:(.text.startup+0x1e): warning: the `gets' function is dangerous and should not be used.

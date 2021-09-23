@@ -26,10 +26,3 @@ int main(void){
 } ./Main.c:3:15: warning: conflicting types for built-in function ‘abs’
  long long int abs(long long int a){return a>0?a:-a;}
                ^
-./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld %lld",&N,&Z,&W);
-     ^
-./Main.c:9:25: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(int i=0;i<N;i++)scanf("%lld",&a[i]);
-                         ^

@@ -22,10 +22,4 @@ else if (3199<o){yo=yo+1;}}
   }
   printf ("%d %d",min,max);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf ("%d",&k);
-   ^
-./Main.c:5:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (i=0;i<k;i++){scanf ("%d",&o);
-                     ^
+} 

@@ -23,7 +23,4 @@ int main(){
 		if(b>c)swap(b,c);
 	}
 	printf("%lld",ans+(a==c?0:a==b?1:2));
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&a,&b,&c);
-  ^
+} 

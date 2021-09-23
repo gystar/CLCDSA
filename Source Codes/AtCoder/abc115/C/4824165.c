@@ -108,10 +108,4 @@ SINT32 main() {
     printf("%d\n",ans);
     free(data);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:68:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&a,&b);
-     ^
-./Main.c:74:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &data[i]);
-         ^
+} 

@@ -102,10 +102,4 @@ void usort(int *a,int n){
     }
     free(store);
     return;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&n,&k);
-   ^
-./Main.c:10:25: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (int i=0;i<n;i++) scanf("%d",&a[i]);
-                         ^
+} 

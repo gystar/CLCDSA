@@ -17,17 +17,4 @@ int main(n){
   }
   printf("%lld\n",y[n]+e);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:2:5: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
- int main(n){
-     ^
-./Main.c:3:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   scanf("%d%lld%lld",&n,&e,&t);
-   ^
-./Main.c:3:3: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:18:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   printf("%lld\n",y[n]+e);
-   ^
-./Main.c:18:3: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:18:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

@@ -26,10 +26,4 @@ int main(){
 	rep(i,1,n+1)a[i][m-i]=1;
 	printf("%d\n",n*(n-1)/2-n/2);
 	rep(i,1,n+1)rep(j,i+1,n+1)if(!a[i][j])printf("%lld %lld\n",i,j);
-} ./Main.c: In function ‘main’:
-./Main.c:27:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n",n*(n-1)/2-n/2);
-         ^
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

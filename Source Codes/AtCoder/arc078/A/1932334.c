@@ -25,10 +25,4 @@ int main(void)
     printf("%lld",fab(q));
     return 0;
 
-} ./Main.c: In function ‘main’:
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&N);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld",&a[n]);
-         ^
+} 

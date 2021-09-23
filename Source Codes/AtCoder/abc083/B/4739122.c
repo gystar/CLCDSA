@@ -18,7 +18,4 @@ for(i=1;i<=value;i++){
                                    }
 }
 printf("%d",sum);
-} ./Main.c: In function ‘main’:
-./Main.c:9:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d %d %d",&value,&min,&max);
- ^
+} 

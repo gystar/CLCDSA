@@ -91,19 +91,4 @@ int main(void) {
 	for (i = 0; i<n; i += 2)ans += a[i];
 	print(ans);
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:25:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i; scanf("%d", &i);
-         ^
-./Main.c: In function ‘llin’:
-./Main.c:29:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i; scanf("%lld", &i);
-               ^
-./Main.c: In function ‘din’:
-./Main.c:33:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i; scanf("%lf", &i);
-            ^
-./Main.c: In function ‘chin’:
-./Main.c:37:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", s);
-  ^
+} 

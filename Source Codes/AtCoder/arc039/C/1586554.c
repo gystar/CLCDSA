@@ -377,18 +377,4 @@ int main(){
 	}
 	printf("%d %d\n", p.x, p.y);
 	return 0;
-} ./Main.c: In function ‘insert_sub’:
-./Main.c:166:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pos {aka struct <anonymous>}’ [-Wformat=]
-    printf("In function 'insert_sub':\nkey '%d' already exists\n", key);
-           ^
-./Main.c: In function ‘erase_sub’:
-./Main.c:183:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pos {aka struct <anonymous>}’ [-Wformat=]
-   printf("In function 'erase_sub':\nkey '%d' doesn't exist\n", key);
-          ^
-./Main.c: In function ‘main’:
-./Main.c:286:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &K);
-  ^
-./Main.c:288:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", S);
-  ^
+} 

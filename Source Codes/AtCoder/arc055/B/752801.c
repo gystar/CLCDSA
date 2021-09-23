@@ -20,7 +20,4 @@ int main() {
     dp[i][0] = 0;
   }
   printf("%.15lf\n", f(N, K));
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%hd %hd", &N, &K);
-   ^
+} 

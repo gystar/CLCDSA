@@ -32,9 +32,3 @@ main(n){
 ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:4:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:5:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%*d%d",&n);~scanf("%s%s",v+i++,w+i););
-      ^
-./Main.c:5:6: warning: incompatible implicit declaration of...

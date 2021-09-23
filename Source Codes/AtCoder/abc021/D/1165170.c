@@ -30,10 +30,4 @@ int main() {
  
     printf("%lld\n", mod_choose(n+k-1, n-1, 1e9+7));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:31:12: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int64_t {aka long int}’ [-Wformat=]
-     printf("%lld\n", mod_choose(n+k-1, n-1, 1e9+7));
-            ^
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &n, &k);
-     ^
+} 

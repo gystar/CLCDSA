@@ -36,10 +36,4 @@ int main(){
 	//C(n+1,k)-C(n-x,k)
 	rep(k,1,n+2)printf("%lld\n",(choose(n+1,k)-choose(n-x,k-1)+M)%M);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&t);
-   ^
+} 

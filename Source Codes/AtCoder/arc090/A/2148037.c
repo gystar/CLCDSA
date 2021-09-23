@@ -54,13 +54,4 @@ int candynum(int* candy1, int* candy2, int down, int N) {
 	}
 
 	return now;
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:30:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&candy_1[i]);
-   ^
-./Main.c:33:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &candy_2[i]);
-   ^
+} 

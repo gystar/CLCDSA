@@ -88,13 +88,4 @@ int main(){
 	p=0;
 	while(id[p+1]-id[p]==1)p++;
 	puts(f(p)?"NO":"YES");
-} ./Main.c: In function ‘main’:
-./Main.c:61:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:62:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
-./Main.c:65:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld",&x,&y);
-   ^
+} 

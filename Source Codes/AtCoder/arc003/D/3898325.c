@@ -58,10 +58,4 @@ int main(void){
     res/=tt;
     printf("%.12lf\n",res);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:18:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld%lld",&n,&m,&k);
-     ^
-./Main.c:24:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%lld%lld",&a,&b);
-       ^
+} 

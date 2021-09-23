@@ -52,13 +52,4 @@ int main(){
 	else{printf("%.10f\n",salt*100.0/(water+salt));}
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:51:21: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
-  if(salt==0){printf("%.10f\n",0);}
-                     ^
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&K);
-  ^
-./Main.c:18:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf",&w[i],&p[i]);
-   ^
+} 

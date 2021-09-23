@@ -152,16 +152,4 @@ int main(){
   }
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:94:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
-./Main.c:102:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
-./Main.c:106:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
-./Main.c:110:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
+} 

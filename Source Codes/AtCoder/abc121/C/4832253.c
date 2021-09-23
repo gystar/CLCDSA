@@ -42,16 +42,4 @@ int main() {
 	}
 	printf("%lld\n", min_money);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:26:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &M);
-  ^
-./Main.c:29:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &shop[i].A);
-   ^
-./Main.c:30:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &shop[i].B);
-   ^
+} 

@@ -40,10 +40,4 @@ int main(){
 	rep(i,0,n)ans=min(ans,(max(a[n-1].l,rM[i])-min(a[i].l,rm[i]))*(rM[n]-a[0].l));
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&x,&y);
-   ^
+} 

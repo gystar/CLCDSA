@@ -59,10 +59,4 @@ int main(){
 //				for(j=0;j<n;j++)printf("%d,%d\n",shine[j].money,shine[j].count);
 		printf("%lld\n",shine[0].money);
 		return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&shine[i].b);
-     ^
+} 

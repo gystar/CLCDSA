@@ -71,7 +71,4 @@ void quicksort(long list[], long left, long right)
 
     quicksort(list, left, last-1);
     quicksort(list, last+1, right);
-} ./Main.c: In function ‘main’:
-./Main.c:21:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld%ld\n%s\n%s",&n,&m,s,t);
-     ^
+} 

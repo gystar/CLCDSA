@@ -74,10 +74,4 @@ int main() {
 	}
 	printf("%s\n", goal ? "YES" : "NO");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &height, &width);
-  ^
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", map + i*width);
-   ^
+} 

@@ -45,10 +45,4 @@ void solve(void){
 int main(void){
   solve();
   return 0;
-} ./Main.c: In function ‘solve’:
-./Main.c:38:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d\n", &n);
-     ^
-./Main.c:40:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     rep(n, i) scanf("%lf %lf %lf\n", &xs[i], &ys[i], &cs[i]);
-               ^
+} 

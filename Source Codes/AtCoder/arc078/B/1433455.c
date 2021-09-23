@@ -59,10 +59,4 @@ int main(void)
 	FOR(i,0,n) if(d1[i]<=d2[i]) cnt++;
 	printf("%s",cnt>n/2?"Fennec":"Snuke");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:49:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:52:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

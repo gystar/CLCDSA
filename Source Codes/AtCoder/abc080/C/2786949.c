@@ -60,13 +60,4 @@ int p=F[n][a]+F[n][b]+F[n][c]+F[n][d]+F[n][e]+F[n][f]+F[n][g]+F[n][h]+F[n][i]+F[
    
    printf("%d\n",max);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d",&N);
-    ^
-./Main.c:15:6: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-      scanf("%d",&F[n][x]);
-      ^
-./Main.c:25:6: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-      scanf("%d",&P[n][x]);
-      ^
+} 

@@ -78,10 +78,4 @@ int main(){
   printf("%s\n",calc()?"YES":"NO");
   free(board);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:75:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&h,&w);
-   ^
-./Main.c:77:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   Rep(i,h) scanf("%s",board+POS(i,0));
-            ^
+} 

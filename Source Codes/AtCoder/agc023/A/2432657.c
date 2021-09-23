@@ -62,25 +62,4 @@ int main(){
 
   }
   printf("%ld\n",sum);
-} ./Main.c: In function ‘QSort’:
-./Main.c:23:9: warning: implicit declaration of function ‘Swap’ [-Wimplicit-function-declaration]
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: At top level:
-./Main.c:34:6: warning: conflicting types for ‘Swap’
- void Swap(long long int x[ ], long long int i, long long int j)
-      ^
-./Main.c:23:9: note: previous implicit declaration of ‘Swap’ was here
-         Swap(x, i, j);             /* x[i] ? x[j]??? */
-         ^
-./Main.c: In function ‘main’:
-./Main.c:45:9: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%ld",&n);
-         ^
-./Main.c:48:11: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-     scanf("%ld",&a);
-           ^
-./Main.c:64:10: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("%ld\n",sum);
-          ^
-./Main.c:45:3...
+} 

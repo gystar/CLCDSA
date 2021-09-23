@@ -54,10 +54,4 @@ int main(){
 	
 	printf("%lld\n",sum-otoku);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:15:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,1,n+1)scanf("%d",a+i);
-              ^
+} 

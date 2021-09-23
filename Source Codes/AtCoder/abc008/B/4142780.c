@@ -27,13 +27,4 @@ int main(){
     }
     printf("%s\n",str[max_i]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[51]’ [-Wformat=]
-         scanf("%s",&str[i]);
-               ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:12:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",&str[i]);
-         ^
+} 

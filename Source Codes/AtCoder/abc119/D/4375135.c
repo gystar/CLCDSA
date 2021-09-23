@@ -43,16 +43,4 @@ int main(){
 	}
 	for(i=0;i<q;i++)printf("%lld\n",ans[i]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&a,&b,&q);
-  ^
-./Main.c:15:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<a;i++)scanf("%lld",&s[i]);
-                  ^
-./Main.c:16:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<b;i++)scanf("%lld",&t[i]);
-                  ^
-./Main.c:17:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<q;i++)scanf("%lld",&x[i]);
-                  ^
+} 

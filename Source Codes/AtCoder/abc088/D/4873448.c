@@ -52,13 +52,4 @@ int main(void){
 	if(p==INF)printf("-1");
 	else printf("%d",white-p-1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:48:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[51]’ [-Wformat=]
-  for(i=0;i<H;i++){scanf("%s",&s[i]);}
-                         ^
-./Main.c:45:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&H,&W);
-  ^
-./Main.c:48:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<H;i++){scanf("%s",&s[i]);}
-                   ^
+} 

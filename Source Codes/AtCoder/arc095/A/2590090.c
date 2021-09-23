@@ -21,14 +21,4 @@ int main(){
 	}
 	sortup(b,n);
 	rep(i,0,n)printf("%lld\n",a[i]<=b[n/2-1]?b[n/2]:b[n/2-1]);
-} ./Main.c: In function ‘sortup’:
-./Main.c:11:25: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
- void sortup(ll*a,int n){qsort(a,n,sizeof(ll),upll);}
-                         ^
-./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",a+i);
-   ^
+} 

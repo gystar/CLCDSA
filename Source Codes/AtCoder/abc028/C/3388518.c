@@ -21,7 +21,4 @@ int main(void)
 	qsort(ans, 10, sizeof(int), compare);
 	printf("%d\n", ans[2]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < 5; ++i) scanf("%d", &tmp[i]);
-                          ^
+} 

@@ -20,13 +20,4 @@ int main (void){
 	}
 
 	printf("%lld\n",reserve - counter);
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&a);
-  ^
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&b);
-  ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&x);
-  ^
+} 

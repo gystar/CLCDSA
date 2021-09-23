@@ -63,10 +63,4 @@ int main(void){
   else printf("%d\n",white-visited[H-1][W-1]);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&H,&W);
-   ^
-./Main.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",str);
-     ^
+} 

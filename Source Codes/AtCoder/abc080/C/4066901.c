@@ -31,13 +31,4 @@ int main()
     }
     printf("%lld",Max);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:12:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%lld",&f[i][j]);
-             ^
-./Main.c:15:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%lld",&p[i][j]);
-             ^
+} 

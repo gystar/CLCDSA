@@ -30,7 +30,4 @@ int main(void)
 	FOR(i,0,(n+8)/9) putchar('1'+(n-1)%9);
 	puts("");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
+} 

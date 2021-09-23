@@ -41,20 +41,4 @@ int main(){
 		ans+=bc[bb];
 	}
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘sortup’:
-./Main.c:11:25: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
- void sortup(ll*a,int n){qsort(a,n,sizeof(ll),upll);}
-                         ^
-./Main.c: In function ‘main’:
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:21:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
-./Main.c:22:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",b+i);
-            ^
-./Main.c:23:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",c+i);
-            ^
+} 

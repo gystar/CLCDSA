@@ -12,12 +12,4 @@ int main(void){
 	}
 	printf("%d\n",(n/2)-p);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:4: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  n=strlen(s);
-    ^
-./Main.c:8:4: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:8:4: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

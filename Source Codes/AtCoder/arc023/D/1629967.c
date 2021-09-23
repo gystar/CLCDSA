@@ -393,18 +393,4 @@ signed main(){
 		}
 	}
 	return 0;
-} ./Main.c: In function ‘insert_sub’:
-./Main.c:198:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-    printf("In function 'insert_sub':\nkey '%d' already exists\n", key);
-           ^
-./Main.c: In function ‘erase_sub’:
-./Main.c:215:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("In function 'erase_sub':\nkey '%d' doesn't exist\n", key);
-          ^
-./Main.c: In function ‘outall_sub’:
-./Main.c:257:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("(key, val, ele_num, height) = (%d, %d, %d, %d)\n", r->key, r->val, r->ele_num, r->height);
-          ^
-./Main.c:257:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
-./Main.c:257:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long int’ [-Wformat=]
-./Main.c:257:10: warni...
+} 

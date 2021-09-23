@@ -55,10 +55,4 @@ int main(){
         }
     }
     printf("%d\n",n_max_min);
-} ./Main.c: In function ‘main’:
-./Main.c:21:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&N,&M);
-     ^
-./Main.c:34:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d",&a,&b,&t);
-         ^
+} 

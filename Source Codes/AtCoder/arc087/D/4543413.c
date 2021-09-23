@@ -103,10 +103,4 @@ int main(){
 	ll ans=0;
 	rep(x,0,N+1)ans=(ans+(x%2?-1:1)*fact[N-x]*dp[K][x])%MOD;
 	printf("%lld",(ans+MOD)%MOD);
-} ./Main.c: In function ‘readgraph’:
-./Main.c:42:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:45:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&x,&y);
-   ^
+} 

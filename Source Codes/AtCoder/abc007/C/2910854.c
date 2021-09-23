@@ -60,16 +60,4 @@ void bfs(int x,int y){
             }
         }
     }
-} ./Main.c: In function ‘main’:
-./Main.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&row,&column);
-     ^
-./Main.c:23:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&row_start,&column_start);
-     ^
-./Main.c:24:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&row_goal,&column_goal);
-     ^
-./Main.c:27:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",c[i]);
-         ^
+} 

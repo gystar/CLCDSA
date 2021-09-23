@@ -11,10 +11,4 @@ int A,B,C,D,E,N,M,x,y,cou=0,cou2,v[1000000],w[1000000],min_i,en=0;
        printf("NO");
    }
    return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-    scanf("%s",&S);
-          ^
-./Main.c:6:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s",&S);
-    ^
+} 

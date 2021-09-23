@@ -33,10 +33,4 @@ int main(){
   for(i=0;i<m&&C-1;i++)s+=N[hout()];
   printf("%d\n",n-s);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&m);
-   ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&a);
-     ^
+} 

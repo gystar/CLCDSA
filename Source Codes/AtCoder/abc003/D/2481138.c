@@ -65,7 +65,4 @@ signed main(){
 	}
 */	printf("%lld\n", MOD((R - X + 1) * (C - Y + 1) * MOD(dp[X][Y] * combination(D + L, D))));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld%lld%lld", &R, &C, &X, &Y, &D, &L);
-  ^
+} 

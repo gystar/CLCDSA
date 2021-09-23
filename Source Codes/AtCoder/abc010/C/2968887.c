@@ -18,13 +18,4 @@ int main() {
     }
     puts(flag ? "YES" : "NO");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:31: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int ax, ay, bx, by, t, v; scanf("%d%d%d%d%d%d", &ax, &ay, &bx, &by, &t, &v);
-                               ^
-./Main.c:12:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int n; scanf("%d", &n);
-            ^
-./Main.c:15:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         int x, y; scanf("%d%d", &x, &y);
-                   ^
+} 

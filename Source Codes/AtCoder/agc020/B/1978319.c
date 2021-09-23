@@ -37,10 +37,4 @@ int main(void)
         max=(max+1)*a[q]-1;
     }
     printf("%lld %lld",min,max);
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&k);
-     ^
-./Main.c:7:25: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(int p=0;p<k;p++)scanf("%ld ",&a[p]);
-                         ^
+} 

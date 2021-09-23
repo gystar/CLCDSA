@@ -35,10 +35,3 @@ int main()
 } ./Main.c:2:15: warning: conflicting types for built-in function ‘abs’
  long long int abs(long long int n)
                ^
-./Main.c: In function ‘main’:
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld %lld", &x[i], &y[i]);
-         ^

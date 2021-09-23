@@ -24,10 +24,4 @@ max = sqrt(pow(x[j]-x[i], 2)+pow(y[j]-y[i], 2));
 printf("%lf", max);
 
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d", &n);
- ^
-./Main.c:13:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d %d", &x[i], &y[i]);
- ^
+} 

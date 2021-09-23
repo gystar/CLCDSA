@@ -74,7 +74,4 @@ long dfs(int index, long left, long *Lv_n, long *Lv_p){
   }
 
   return res;
-} ./Main.c: In function ‘main’:
-./Main.c:26:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
+} 

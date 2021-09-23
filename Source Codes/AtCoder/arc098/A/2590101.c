@@ -16,7 +16,4 @@ int main(){
 	rep(i,0,n)a[i+1]=a[i]+(s[i]=='E');
 	rep(i,0,n)ans=min(ans,(i-a[i])+(a[n]-a[i+1]));
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld\n%s",&n,s);
-  ^
+} 

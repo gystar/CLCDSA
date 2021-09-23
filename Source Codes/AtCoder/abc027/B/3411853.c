@@ -56,10 +56,4 @@ int main(void){
     }
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d\n",&n);
-     ^
-./Main.c:13:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(str,1024, stdin);
-     ^
+} 

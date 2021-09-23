@@ -70,10 +70,4 @@ int main(void){
     printf("%lld\n", sum);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:57:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &a); n = a;
-     ^
-./Main.c:60:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &a);
-         ^
+} 

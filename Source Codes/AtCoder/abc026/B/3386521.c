@@ -27,10 +27,4 @@ int main(void){
         pm *= -1;
     }
     printf("%-.7lf\n",ans * M_PI);
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:13:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&data[i]);
-         ^
+} 

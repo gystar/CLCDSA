@@ -37,14 +37,4 @@ int main(int argc, char const *argv[]) {
 
   printf("%d %d\n", max_suger+max_water, max_suger);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   scanf("%d %d %d %d %d %d\n", &A, &B, &C, &D, &E, &F );
-   ^
-./Main.c:12:3: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:12:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:38:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   printf("%d %d\n", max_suger+max_water, max_suger);
-   ^
-./Main.c:38:3: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:38:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

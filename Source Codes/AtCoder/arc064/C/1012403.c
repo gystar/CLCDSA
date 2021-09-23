@@ -148,16 +148,4 @@ int main(void){
 	printf("%.10lf\n", nd[0].val);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:131:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf%lf",&point[0].x,&point[0].y);
-  ^
-./Main.c:132:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf%lf",&point[1].x,&point[1].y);
-  ^
-./Main.c:133:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:139:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf%lf%lf",&point[i].x,&point[i].y,&point[i].r);
-   ^
+} 

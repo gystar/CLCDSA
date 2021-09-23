@@ -85,7 +85,4 @@ signed main(){
 	int ans = MOD((U.a + U. b) * (V.a + V.b));
 	printf("%lld\n", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:72:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld", &A, &B, &M);
-  ^
+} 

@@ -12,7 +12,4 @@ int main(void) {
   }
   printf("%d %d %d %d\n", x[2], y[2], x[3], y[3]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d %d", &x[0], &y[0], &x[1], &y[1]);
-   ^
+} 

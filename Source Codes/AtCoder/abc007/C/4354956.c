@@ -68,10 +68,4 @@ int main(int argc, char const *argv[]) {
     // ?????
     solve_maze(sx, sy, gx, gy);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:64:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &R, &C );
-     ^
-./Main.c:65:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d%d", &sy, &sx, &gy, &gx);
-     ^
+} 

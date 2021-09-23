@@ -62,7 +62,4 @@ int main(void){
     pl(data[m-1]);
     putchar_unlocked('\n');
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:49:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld", &n, &a, &b);
-     ^
+} 

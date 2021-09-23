@@ -100,7 +100,4 @@ int main(int argc, char **argv)
     }
     printf("%s\n", result);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:62:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %s", &n, &k, s);
-     ^
+} 

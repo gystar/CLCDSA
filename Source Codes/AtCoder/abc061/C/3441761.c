@@ -22,10 +22,4 @@ int main(void)
 	for (i = 0; sum < K; ++i) sum += array[i].b;
 	printf("%d", array[i - 1].a);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%ld", &N, &K);
-  ^
-./Main.c:20:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < N; ++i) scanf("%d%ld", &array[i].a, &array[i].b);
-                          ^
+} 

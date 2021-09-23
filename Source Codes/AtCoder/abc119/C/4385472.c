@@ -27,10 +27,4 @@ int main(void)
     if (ans > mp) ans = mp;
   }
   printf("%d\n", ans);
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d %d", &n, &a, &b, &c);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &l[i]);
-     ^
+} 

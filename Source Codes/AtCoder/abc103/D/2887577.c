@@ -85,10 +85,4 @@ void quicksort(struct pair data[],int left,int right)
 		if(left<j)quicksort(data,left,j);
 		if(i<right)quicksort(data,i,right);
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&m);
-  ^
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&(arr[i].key),&(arr[i].bi));
-   ^
+} 

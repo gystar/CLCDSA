@@ -46,10 +46,4 @@ showPosition(const point* p){
   printf("x:%d\n", p -> x);
   printf("y:%d\n", p -> y);
 
-} ./Main.c: In function ‘main’:
-./Main.c:25:10: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-   area = abs(b.x*c.y - b.y*c.x)/2.;
-          ^
-./Main.c:18:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d %d %d %d", &xa, &ya, &xb, &yb, &xc, &yc);
-   ^
+} 

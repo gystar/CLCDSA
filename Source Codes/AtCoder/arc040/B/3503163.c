@@ -147,10 +147,3 @@ main()
 } ./Main.c:9:20: warning: ISO C99 requires whitespace after the macro name
  #define D_MASS_NONE'.'          // ?????????
                     ^
-./Main.c: In function ‘fMain’:
-./Main.c:43:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Buf, sizeof(lc1Buf), szpFpI);
-  ^
-./Main.c:47:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Buf, sizeof(lc1Buf), szpFpI);
-  ^

@@ -20,12 +20,3 @@ main(){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:4: warning: implicit declaration of function ‘getchar_unlocked’ [-Wimplicit-function-declaration]
-  c=getchar_unlocked();
-    ^
-./Main.c:9:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  printf("%d",s);
-  ^
-./Main.c:9:2: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:9:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

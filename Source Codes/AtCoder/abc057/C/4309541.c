@@ -36,7 +36,4 @@ int ketaf(int a,int b)
 	}
 	if(ka>=kb){return ka;}
 	else{return kb;}
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

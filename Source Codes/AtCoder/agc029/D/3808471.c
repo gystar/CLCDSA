@@ -40,10 +40,4 @@ int main(void){
     }
     printf("%d\n", h);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:32:20: warning: type defaults to ‘int’ in declaration of ‘b’ [-Wimplicit-int]
-         const auto b = v[x];
-                    ^
-./Main.c:33:20: warning: type defaults to ‘int’ in declaration of ‘r’ [-Wimplicit-int]
-         const auto r = right+1;
-                    ^
+} 

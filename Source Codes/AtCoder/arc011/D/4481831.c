@@ -153,13 +153,4 @@ int main(){
 	}
 	printf("%.20lf\n", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:101:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%lf", &N, &M, &R);
-  ^
-./Main.c:104:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf%lf%lf", &ls[i].A, &ls[i].B, &ls[i].C);
-   ^
-./Main.c:108:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf%lf", &ps[i].X, &ps[i].Y);
-   ^
+} 

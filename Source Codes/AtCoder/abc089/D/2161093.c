@@ -37,16 +37,4 @@ int main(void) {
         scanf("%d%d", &l, &r);
         printf("%d\n", dd[r] - dd[l]);
     }
-} ./Main.c: In function ‘main’:
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d", &h, &w, &d);
-     ^
-./Main.c:23:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d", &a);
-             ^
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &q);
-     ^
-./Main.c:37:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d", &l, &r);
-         ^
+} 

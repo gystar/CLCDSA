@@ -29,10 +29,4 @@ int main()
     dfs(0,0,0,0,0);
     printf("%lld",p);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld%lld%lld",&n,&a,&b,&c);
-     ^
-./Main.c:27:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld",&l[i]);
-         ^
+} 

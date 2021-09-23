@@ -55,21 +55,4 @@
             printf("%d\n",max[P[i]]);
         }
         return 0;
-    } ./Main.c: In function ‘main’:
-./Main.c:34:9: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-         memset(dp,-1,sizeof(dp));
-         ^
-./Main.c:34:9: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:34:9: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c:24:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&N);
-         ^
-./Main.c:27:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-                 scanf("%d",&D[i][j]);
-                 ^
-./Main.c:30:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&Q);
-         ^
-./Main.c:32:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&P[i]);
-             ^
+    } 

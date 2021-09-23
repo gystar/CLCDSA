@@ -23,10 +23,4 @@ int main(){
     }
   }
   puts(S[f]);
-} ./Main.c: In function ‘main’:
-./Main.c:9:12: warning: implicit declaration of function ‘getchar’ [-Wimplicit-function-declaration]
-   while((c=getchar())!=10){s[i++]=c;}
-            ^
-./Main.c:25:3: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-   puts(S[f]);
-   ^
+} 

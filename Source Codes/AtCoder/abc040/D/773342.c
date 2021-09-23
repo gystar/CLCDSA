@@ -143,16 +143,4 @@ int main(void){
 
 	solve();
 	return 0;
-} ./Main.c: In function ‘solve’:
-./Main.c:83:33: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [-Wincompatible-pointer-types]
-  qsort(brid, m, sizeof(bridge), sort_bridge);
-                                 ^
-In file included from ./Main.c:2:0:
-/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t {aka int (*)(const void *, const void *)}’ but argument is of type ‘int (*)(const bridge *, const bridge *) {aka int (*)(const struct <anonymous> *, const struct <anonymous> *)}’
- extern void qsort (void *__base, size_t __nmemb, size_t __size,
-             ^
-./Main.c:84:33: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [-Wincompatible-pointer-types]
-  qsort(hum , q, sizeof(human ), sort_human );
-                                 ^
-In file included from ./Main.c:2:0:
-/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t {aka int (*)(const void *, const void *)}’ but argument is of type ‘int (*)(const human *, const human *) {aka int (*)(const struct <anonymous...
+} 

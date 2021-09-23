@@ -45,7 +45,4 @@ int main() {
     if (dfs(n, npos) > 100) puts("NO");
     else puts("YES");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int n; scanf("%d%d%d%d", &n, ng, ng+1, ng+2);
-            ^
+} 

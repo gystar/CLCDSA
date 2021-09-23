@@ -49,10 +49,4 @@ int main(void)
 	}
 	printf("%lld\n",MIN(s1,s2));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:26:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,n) scanf("%d",&a[i]);
-             ^
+} 

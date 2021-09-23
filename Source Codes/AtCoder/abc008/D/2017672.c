@@ -32,13 +32,4 @@ int main(){
     X[N]=0;X[N+1]=W+1;
     Y[N]=0;Y[N+1]=H+1;
     printf("%d\n",dfs(N,N+1,N,N+1));
-} ./Main.c: In function ‘main’:
-./Main.c:26:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&W,&H);
-     ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:30:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&X[i],&Y[i]);
-         ^
+} 

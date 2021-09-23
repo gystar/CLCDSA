@@ -23,13 +23,4 @@ int main(){
 		}
 		printf("%lld\n",idx+1);
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:13:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld%lld",a+i,b+i);
-            ^
-./Main.c:14:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,m)scanf("%lld%lld",c+i,d+i);
-            ^
+} 

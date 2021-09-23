@@ -16,7 +16,4 @@ int main(void)
 	for(i=1;i<4;i+=2)if(a[i]>0)we++;
 	puts(ns%2||we%2?"No":"Yes");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

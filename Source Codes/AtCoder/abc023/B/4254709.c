@@ -78,13 +78,4 @@ int main(void){
     }
     return 0;
 
-} ./Main.c: In function ‘main’:
-./Main.c:5:11: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘int *’ [-Wformat=]
-     scanf("%ld", &N);
-           ^
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &N);
-     ^
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", S);
-     ^
+} 

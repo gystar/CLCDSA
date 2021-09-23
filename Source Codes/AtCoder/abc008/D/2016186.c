@@ -56,13 +56,4 @@ int main(){
     //for(i=0;i<N+2;i++)printf("%d %d\n",sX[i],sY[i]);
     int ans=dfs(0,N+1,0,N+1);
     printf("%d\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&W,&H);
-     ^
-./Main.c:35:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:38:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&X[i],&Y[i]);
-         ^
+} 

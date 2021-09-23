@@ -11,5 +11,3 @@ s,d,e;main(a,b,c){for(scanf("%d%d%d",&a,&b,&c);a%2+b%2+c%2<1&s<30;a=b+c>>1,b=d+c
 ./Main.c:1:7: warning: return type defaults to ‘int’ [-Wimplicit-int]
  s,d,e;main(a,b,c){for(scanf("%d%d%d",&a,&b,&c);a%2+b%2+c%2<1&s<30;a=b+c>>1,b=d+c>>1,c=d+e>>1)d=a,e=b,s++;printf("%d",s<30?s:-1);}
        ^
-./Main.c: In function ‘main’:
-./Main.c:1:7: warning: type of ‘a’ defaults to ‘int’ ...

@@ -36,10 +36,4 @@ int main(){
 	for(i=max=0;i<n-1;i++)max=MAX(max,co[i]+i);
 	printf("%lf\n",max);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:9:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++)scanf("%d %d %d %d",&x[i],&y[i],&t[i],&c[i]);
-                  ^
+} 

@@ -12,7 +12,4 @@ int main(){
 	ll a,b,c;
 	scanf("%lld%lld%lld",&a,&b,&c);
 	printf("%lld",a+b+c-max(a,max(b,c)));
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&a,&b,&c);
-  ^
+} 

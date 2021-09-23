@@ -134,13 +134,4 @@ signed main(){
 //	printf("fountain_num = %lld\n", fountain_num);
 	printf("%.15lf\n", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:59:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld", &x1, &y1, &x2, &y2);
-  ^
-./Main.c:77:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:80:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &X, &Y);
-   ^
+} 

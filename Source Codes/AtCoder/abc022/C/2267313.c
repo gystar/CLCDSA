@@ -38,13 +38,3 @@ main(){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:5:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d%*c",&N,&M);
-  ^
-./Main.c:5:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:5:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:18:11: warning: implicit declaration of function ‘fmin’ [-Wimplicit-function-declaration]
-   c[i][j]=fmin(c[i][j],c[i][k]+c[k][j]);
-           ^
-./Main.c:18:11: war...

@@ -19,10 +19,4 @@ int main(){
   }
   else x+=z;
   printf("%d\n",x);
-} ./Main.c: In function ‘main’:
-./Main.c:15:5: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-   x=abs(x)+abs(y);
-     ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s%d",s,&t);
-   ^
+} 

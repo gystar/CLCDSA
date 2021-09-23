@@ -12,7 +12,4 @@ int main(){
   }
   f = (n%m)==0;
   puts(P[f]);
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", s);
-   ^
+} 

@@ -42,7 +42,4 @@ int main() {
   		
   		if(str[n-1]!='z'){printf("%c",(str[n-1]+1));return 0;}
 		printf("None");	
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",str);
-  ^
+} 

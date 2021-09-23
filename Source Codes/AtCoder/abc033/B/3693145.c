@@ -38,10 +38,4 @@ int main() {
         printf("%s\n", city[flag].name);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:20:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s %d", s, &p);
-         ^
+} 

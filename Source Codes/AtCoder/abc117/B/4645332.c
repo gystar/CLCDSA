@@ -13,10 +13,4 @@ int main(void){
     if(max * 2 < sum) printf("%s", "Yes\n");
     else printf("%s", "No\n");
     return 0; 
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &l);
-         ^
+} 

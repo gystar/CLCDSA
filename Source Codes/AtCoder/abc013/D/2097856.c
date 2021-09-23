@@ -38,16 +38,4 @@ int main(){
     for(i=1;i<=n;i++){
         printf("%d\n",ans[i]);
     }
-} ./Main.c: In function ‘main’:
-./Main.c:24:14: warning: passing argument 1 of ‘Swap’ from incompatible pointer type [-Wincompatible-pointer-types]
-         Swap(t,a[i],a[i]+1);
-              ^
-./Main.c:7:6: note: expected ‘int (*)[200001]’ but argument is of type ‘int (*)[100001]’
- void Swap(int (*a)[200001],int x,int y){
-      ^
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %lld",&n,&m,&d);
-     ^
-./Main.c:21:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[i]);
-         ^
+} 

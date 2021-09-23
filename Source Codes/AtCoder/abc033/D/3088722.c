@@ -256,10 +256,3 @@ In file included from ./Main.c:2:0:
 /usr/include/math.h:372:0: note: this is the location of the previous definition
  # define M_PI  3.14159265358979323846 /* pi */
  ^
-./Main.c: In function ‘fMain’:
-./Main.c:123:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Buf, sizeof(lc1Buf), stdin);
-  ^
-./Main.c:132:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(lc1Buf, sizeof(lc1Buf), stdin);
-   ^

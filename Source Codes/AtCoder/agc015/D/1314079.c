@@ -48,7 +48,3 @@ int main(void){
 } ./Main.c:12:15: warning: conflicting types for built-in function ‘pow’
  long long int pow(int n){
                ^
-./Main.c: In function ‘main’:
-./Main.c:18:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&A,&B);
-     ^

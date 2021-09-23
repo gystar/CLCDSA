@@ -42,7 +42,4 @@ void quicksort(int a[],int l,int r){
     i = partition(a,l,r);
     quicksort(a,l,i-1);
     quicksort(a,i+1,r);
-} ./Main.c: In function ‘main’:
-./Main.c:8:25: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(i=0;i<3;i++)    scanf("%d",&num[i]);
-                         ^
+} 

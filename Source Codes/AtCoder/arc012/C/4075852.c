@@ -54,17 +54,3 @@ main()
 } ./Main.c:31:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main()
  ^
-./Main.c: In function ‘main’:
-./Main.c:36:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(b[i]);
-   ^
-./Main.c:49:34: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
-    if((bc-wc==1||bc-wc==0)&&!f())exit(!puts("YES"));
-                                  ^
-./Main.c:49:34: warning: incompatible implicit declaration of built-in function ‘exit’
-./Main.c:49:34: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
-./Main.c:49:40: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-    if((bc-wc==1||bc-wc==0)&&!f())exit(!puts("YES"));
-                                        ^
-/tmp/ccwQUwIO.o: In function `main':
-Main.c:(.text.startup+0x1e): warning: the `gets' function is dangerous and should not be used.

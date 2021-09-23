@@ -100,10 +100,4 @@ int main(void)
 
 	printf("%d\n", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:72:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d", &in_y, &in_x, &in_k);
-  ^
-./Main.c:78:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", list[i]);
-   ^
+} 

@@ -233,17 +233,4 @@ int main(void){
     }
     printf("%.12lf\n",db/da);
     return 0;
-} ./Main.c: In function ‘shuffledget’:
-./Main.c:50:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&x[b[i]]);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:215:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&n);
-     ^
-./Main.c:217:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%lld%lld",&a[i].xz,&a[i].yz);
-       ^
-./Main.c:220:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%lld%lld",&b[i].xz,&b[i].yz);
-       ^
+} 

@@ -22,7 +22,4 @@ int main(){
   }
   printf("%lld\n",low);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld%lld",&R,&B,&x,&y);
-   ^
+} 

@@ -214,16 +214,4 @@ long long int main(){
 	}
 	printf("%lld\n", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:176:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:184:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &a);
-   ^
-./Main.c:190:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &ac[i]);
-   ^
-./Main.c:194:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &a);
-   ^
+} 

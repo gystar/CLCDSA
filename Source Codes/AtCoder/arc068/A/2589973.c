@@ -11,7 +11,4 @@ ll n;
 int main(){
 	scanf("%lld",&n);
 	printf("%lld\n",n/11*2+!!(n%11)*(n%11<=6?1:2));
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

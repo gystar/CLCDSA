@@ -36,10 +36,4 @@ int main() {
         printf("%ld\n", ab.a);
 
         return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &N, &M);
-         ^
-./Main.c:23:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-                 scanf("%ld %d", &AB[i].a, &AB[i].b);
-                 ^
+} 

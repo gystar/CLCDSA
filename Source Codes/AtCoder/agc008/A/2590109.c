@@ -17,7 +17,4 @@ int main(){
 	if(x+y>=0)ans=min(ans,x+y+1);//BA
 	if(y<x)ans=min(ans,x-y+2);//BAB
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&x,&y);
-  ^
+} 

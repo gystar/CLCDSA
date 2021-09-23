@@ -28,13 +28,4 @@ int main(){
 		}
 		puts("IMPOSSIBLE");
 		return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%ld",&n,&k);
-   ^
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld",&a[0]);b=a[0];
-   ^
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&a[i]);
-     ^
+} 

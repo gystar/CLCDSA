@@ -9,7 +9,4 @@ int main(){
     if(strchr(s,'r')) a++;
   }
   printf("%d\n",a);
-} ./Main.c: In function ‘main’:
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
+} 

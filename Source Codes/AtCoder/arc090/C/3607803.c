@@ -148,13 +148,4 @@ int main(){
 	}
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘readgraph’:
-./Main.c:69:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:70:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&s,&t);
-  ^
-./Main.c:74:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",&x,&y,&c);
-   ^
+} 

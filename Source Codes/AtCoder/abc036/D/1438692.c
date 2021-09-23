@@ -128,10 +128,4 @@ signed main(){
 	}
 	printf("%lld\n", ((t->v)[0].val.w + (t->v)[0].val.b) % p);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:115:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:121:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &a, &b);
-   ^
+} 

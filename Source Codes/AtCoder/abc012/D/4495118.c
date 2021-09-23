@@ -55,10 +55,4 @@ int main(int argc, char const *argv[]) {
     int ans = WarshallFloyd(N, M, a, b, t);
     printf("%d\n", ans );
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:50:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &N, &M);
-     ^
-./Main.c:52:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d", &a[i], &b[i], &t[i]);
-         ^
+} 

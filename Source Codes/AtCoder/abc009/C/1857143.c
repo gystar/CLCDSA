@@ -57,12 +57,4 @@ int main(void)
 	calc(n, k, s, o);
 	printf("%s\n", s);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:54:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-  strcpy(s, o);
-  ^
-./Main.c:54:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-./Main.c:54:2: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-./Main.c:53:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%s", &n, &k, o);
-  ^
+} 

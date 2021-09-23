@@ -4,6 +4,6 @@
         "algorithm": "cpp"
     },
     "python.formatting.provider": "black",
-    "python.defaultInterpreterPath": "../ProgramLD/.venv/bin/python",
-    "python.pythonPath": "../ProgramLD/.venv/bin/python",
+    "python.defaultInterpreterPath": "/home/wanyao/anaconda3/envs/py372/bin/python",
+    "python.pythonPath": "/home/wanyao/anaconda3/envs/py372/bin/python",
 }

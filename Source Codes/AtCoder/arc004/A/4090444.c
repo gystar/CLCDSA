@@ -76,23 +76,4 @@ int main() {
     
     dout(sqrt(maxNum));
     return 0;
-} ./Main.c: In function ‘iin’:
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &i);
-     ^
-./Main.c: In function ‘llin’:
-./Main.c:17:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld", &i);
-     ^
-./Main.c: In function ‘din’:
-./Main.c:23:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lf", &i);
-     ^
-./Main.c: In function ‘chin’:
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%c", &c);
-     ^
-./Main.c: In function ‘stin’:
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", s);
-     ^
+} 

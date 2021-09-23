@@ -26,12 +26,3 @@ main(m){
 ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(m){
  ^
-./Main.c: In function ‘main’:
-./Main.c:4:1: warning: type of ‘m’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:5:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(s);
-  ^
-./Main.c:6:10: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  for(i=L=strlen(s);i--;dp[i][s[i]]=m+1)
-          ^
-./Main.c:6:10: warning: incompati...

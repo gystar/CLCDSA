@@ -45,13 +45,4 @@ int V(int d[10],int c[10][10])
         }
     }
     return count;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&m,&n);
-     ^
-./Main.c:14:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&c[i][j]);
-             ^
-./Main.c:21:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&temp);
-             ^
+} 

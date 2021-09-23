@@ -36,17 +36,4 @@ int main()
     
     printf("%d\n",DP(-1000,0));
     return 0;
-} ./Main.c: In function ‘culRGB’:
-./Main.c:9:5: warning: type of ‘v’ defaults to ‘int’ [-Wimplicit-int]
- int culRGB(v,n){
-     ^
-./Main.c:9:5: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: In function ‘main’:
-./Main.c:35:5: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-     memset(dp,-1,sizeof(dp));
-     ^
-./Main.c:35:5: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:35:5: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c:33:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&R,&G,&B);
-     ^
+} 

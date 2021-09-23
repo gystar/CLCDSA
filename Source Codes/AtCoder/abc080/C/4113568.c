@@ -88,18 +88,4 @@ int main()
     qsort(profit,1023,sizeof(profit[0]),cmp);
     printf("%ld\n",profit[0]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:36:15: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
-             t=pow(2,9-i);
-               ^
-./Main.c:36:15: warning: incompatible implicit declaration of built-in function ‘pow’
-./Main.c:36:15: note: include ‘<math.h>’ or provide a declaration of ‘pow’
-./Main.c:52:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&k);
-     ^
-./Main.c:57:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%ld",&shop[i].period[j]);
-             ^
-./Main.c:64:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%ld",&gain[i].momney[j]);
-             ^
+} 

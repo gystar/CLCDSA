@@ -13,10 +13,4 @@ int main(){
 	}
 	for(i=1;i<=N;i++)R+=Z[i][i*A];
 	printf("%lld\n",R);
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&N,&A);
-  ^
-./Main.c:8:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<N;i++)scanf("%d",X+i);
-                  ^
+} 

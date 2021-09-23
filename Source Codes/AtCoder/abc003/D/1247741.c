@@ -29,7 +29,4 @@ int main(){
 	d=d*aCb(a+b,a,M)%M;//printf("%lld %d\n",d,c);
 	printf("%lld\n",c*d%M);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d %d %d",&w,&h,&x,&y,&a,&b);
-  ^
+} 

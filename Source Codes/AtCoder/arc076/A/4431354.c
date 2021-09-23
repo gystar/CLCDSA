@@ -30,10 +30,4 @@ int main() {
 		printf("%lld\n", ans);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:6: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-  if (abs(N - M) > 1)
-      ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &N, &M);
-  ^
+} 

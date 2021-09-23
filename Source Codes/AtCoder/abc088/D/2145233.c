@@ -30,12 +30,4 @@ int main(){
 	rep(i,1,h+1)rep(j,1,w+1)if(s[i][j]=='#')ans--;
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:14: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  rep(i,1,h+1)gets(s[i]+1);
-              ^
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d\n",&h,&w);
-  ^
-/tmp/ccAxcgr2.o: In function `main':
-Main.c:(.text.startup+0x52): warning: the `gets' function is dangerous and should not be used.
+} 

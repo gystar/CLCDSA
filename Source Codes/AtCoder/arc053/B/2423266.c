@@ -13,10 +13,4 @@ int main(void){
 	if(k<=1)printf("%d\n",strlen(s));
 	else printf("%d\n",n/k*2+1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:17: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
-  if(k<=1)printf("%d\n",strlen(s));
-                 ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

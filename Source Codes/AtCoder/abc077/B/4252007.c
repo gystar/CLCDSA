@@ -14,10 +14,4 @@ int main(void){
     }
     printf("%ld\n", max);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:11: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘long int *’ [-Wformat=]
-     scanf("%lld", &N);
-           ^
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld", &N);
-     ^
+} 

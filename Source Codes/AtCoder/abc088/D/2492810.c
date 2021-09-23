@@ -95,10 +95,4 @@ void bfs(int x,int y){
   }
   
   return;
-} ./Main.c: In function ‘main’:
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&h,&w);
-   ^
-./Main.c:37:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%c",&map[i][j]);
-       ^
+} 

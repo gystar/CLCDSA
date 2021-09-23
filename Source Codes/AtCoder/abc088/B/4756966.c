@@ -29,10 +29,4 @@ int main(void){
     }
   
     printf("%d",sumA-sumB);
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&num);
-     ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&x[i]);
-     ^
+} 

@@ -86,21 +86,4 @@ int main() {
 	getch();
 #endif
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:66:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100001]’ [-Wformat=]
-  scanf("%s", &S);
-        ^
-./Main.c:82:9: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%ld\n", ans);
-         ^
-./Main.c: In function ‘in’:
-./Main.c:36:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- int in(void) { int i; scanf("%d", &i); return i; }
-                       ^
-./Main.c: In function ‘llin’:
-./Main.c:37:37: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- long long llin(void) { long long i; scanf("%lld", &i); return i; }
-                                     ^
-./Main.c: In function ‘din’:
-./Main.c:38:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- double din(void) { double i; scanf("%lf", ...
+} 

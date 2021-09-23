@@ -37,17 +37,4 @@ int main(void) {
 	if(x == -1 && y == -1) puts("0");
 	else printf("%lld\n", map[x] * map[y]);
 	return 0;	
-} ./Main.c: In function ‘main’:
-./Main.c:15:27: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [-Wincompatible-pointer-types]
-  qsort(a, n, sizeof(int), cmp);
-                           ^
-In file included from ./Main.c:2:0:
-/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t {aka int (*)(const void *, const void *)}’ but argument is of type ‘int (*)(const int *, const int *)’
- extern void qsort (void *__base, size_t __nmemb, size_t __size,
-             ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
-./Main.c:14:25: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i = 0; i < n; i++) scanf("%d", &a[i]);
-                         ^
+} 

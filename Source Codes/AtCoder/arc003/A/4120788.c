@@ -24,7 +24,4 @@ int main(){
     printf("%1.15f\n", GPACalc(&UnitNumber, Unitstr));
 
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %s", &UnitNumber, Unitstr);
-     ^
+} 

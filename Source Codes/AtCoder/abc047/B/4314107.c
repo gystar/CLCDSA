@@ -42,10 +42,4 @@ int main(void){
   printf("%d\n",max(0,(xmax-xmin))*max(0,(ymax-ymin)));
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&W,&H,&N);
-   ^
-./Main.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d",&x,&y,&a);
-     ^
+} 

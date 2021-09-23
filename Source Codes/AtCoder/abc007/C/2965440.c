@@ -63,13 +63,4 @@ int main() {
     }
     printf("%d\n", ret[gy-1][gx-1]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:48:39: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[64]’ [-Wformat=]
-     for (int i = 0; i < r; i++) scanf("%s", mp + i);
-                                       ^
-./Main.c:47:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d%d%d%d", &r, &c, &sy, &sx, &gy, &gx);
-     ^
-./Main.c:48:33: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for (int i = 0; i < r; i++) scanf("%s", mp + i);
-                                 ^
+} 

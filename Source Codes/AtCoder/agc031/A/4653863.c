@@ -158,10 +158,3 @@ int main(void)
 } ./Main.c:7:14: warning: built-in function ‘index’ declared as non-function
  int ctr[26], index[26], index_num = 0;
               ^
-./Main.c: In function ‘main’:
-./Main.c:38:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:42:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", S);
-     ^

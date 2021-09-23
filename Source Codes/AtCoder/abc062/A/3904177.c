@@ -11,7 +11,4 @@ int main(){
 	ll n,m;
 	scanf("%lld%lld",&n,&m);
 	puts(a[n]==a[m]?"Yes":"No");
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
+} 

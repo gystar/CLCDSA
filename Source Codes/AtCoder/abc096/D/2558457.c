@@ -71,14 +71,4 @@ int main() {
 	}
 
 		return 0;
-	} ./Main.c: In function ‘main’:
-./Main.c:44:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&N);
-  ^
-./Main.c: In function ‘eratosthenes’:
-./Main.c:15:14: warning: iteration 300000u invokes undefined behavior [-Waggressive-loop-optimizations]
-   isprime[i] = 1;
-              ^
-./Main.c:14:2: note: containing loop
-  for(i=0;i<=MAX_a;i++){
-  ^
+	} 

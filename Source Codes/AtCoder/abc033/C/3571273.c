@@ -16,13 +16,3 @@ main(f){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(f){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘f’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
-  n=read(0,s,100000);
-    ^
-./Main.c:5:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  printf("%d\n",c+f);
-  ^
-./Main.c:5:2: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:5:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

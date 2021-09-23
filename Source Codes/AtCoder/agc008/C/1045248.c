@@ -55,24 +55,4 @@ int main() {
 	pl(ans);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:25:2: note: in expansion of macro ‘sl’
-  sl(ai); sl(ao); sl(at); sl(aj); sl(al); sl(as); sl(az);
-  ^
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:25:10: note: in expansion of macro ‘sl’
-  sl(ai); sl(ao); sl(at); sl(aj); sl(al); sl(as); sl(az);
-          ^
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define sl(x) scanf("%ld", &x)
-               ^
-./Main.c:25:18: note: in expansion of macro ‘sl’
-  sl(ai); sl(ao); sl(at); sl(aj); sl(al); sl(as); sl(az);
-                  ^
-./Main.c:6:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define ...
+} 

@@ -13,5 +13,3 @@ i;S;M;main(d){for(;~scanf("%d",&d);)i?M=d>M?d:M,S+=d:i++;printf("%d %.f\n",S,fma
 ./Main.c:1:7: warning: return type defaults to ‘int’ [-Wimplicit-int]
  i;S;M;main(d){for(;~scanf("%d",&d);)i?M=d>M?d:M,S+=d:i++;printf("%d %.f\n",S,fmax(0,2*M-S));}
        ^
-./Main.c: In function ‘main’:
-./Main.c:1:7: warning: type of ‘d’ defaults to ‘int’ [-Wimpli...

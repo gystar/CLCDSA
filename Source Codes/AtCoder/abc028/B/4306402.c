@@ -9,7 +9,4 @@ int main() {
     a[s[i]-65]++;
   }
   printf("%d %d %d %d %d %d\n",a[0],a[1],a[2],a[3],a[4],a[5]);
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",s);
-   ^
+} 

@@ -33,13 +33,4 @@ int main(){
 		if(B[qx][qy+1]==MAX){B[qx][qy+1]=B[qx][qy]+1; push(qx, qy+1);}
 	}
 	printf("%d\n", B[qx][qy]);
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%hd %hd\n", &W, &H);
-  ^
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%hd %hd\n", &Sx, &Sy); --Sx; --Sy;
-  ^
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%hd %hd\n", &Gx, &Gy); --Gx; --Gy;
-  ^
+} 

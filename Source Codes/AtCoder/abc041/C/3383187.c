@@ -22,10 +22,4 @@ int main(void)
 	qsort(student, N, sizeof(s), compare);
 	for (i = 0; i < N; ++i) printf("%d\n", student[i].tmp);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &student[i].a);
-   ^
+} 

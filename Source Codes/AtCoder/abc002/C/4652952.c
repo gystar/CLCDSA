@@ -17,7 +17,4 @@ int main(){
 int abs(int x){
   if (x<0) x=-x;
   return x;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f);
-   ^
+} 

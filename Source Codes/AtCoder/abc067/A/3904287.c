@@ -10,7 +10,4 @@ int main(){
 	ll a,b;
 	scanf("%lld%lld",&a,&b);
 	puts(a%3==0||b%3==0||(a+b)%3==0?"Possible":"Impossible");
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&a,&b);
-  ^
+} 

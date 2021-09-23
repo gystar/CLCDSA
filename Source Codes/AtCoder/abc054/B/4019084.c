@@ -54,19 +54,4 @@ int main()
     }
     printf("No");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[(sizetype)(n + 1)]’ [-Wformat=]
-         scanf("%s",&a[i]);
-               ^
-./Main.c:12:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[(sizetype)(m + 1)]’ [-Wformat=]
-         scanf("%s",&b[i]);
-               ^
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&n,&m);
-     ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",&a[i]);
-         ^
-./Main.c:12:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",&b[i]);
-         ^
+} 

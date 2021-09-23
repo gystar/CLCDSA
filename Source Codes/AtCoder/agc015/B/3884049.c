@@ -13,7 +13,4 @@ int main() {
 		else { result += 2 * i ; result +=(m - i-1); }
 	}
 	printf("%lld", result);
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", str);
-  ^
+} 

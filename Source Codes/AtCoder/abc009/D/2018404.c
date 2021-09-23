@@ -64,13 +64,4 @@ int main(){
         sol2();
     }
     printf("%u\n",A[0]);
-} ./Main.c: In function ‘main’:
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&K,&M);
-     ^
-./Main.c:32:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%u",&A[K-i-1]);
-         ^
-./Main.c:35:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%u",&tmp1[0][i]);
-         ^
+} 

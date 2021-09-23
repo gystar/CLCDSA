@@ -66,19 +66,4 @@ p += c*(c+1)/2;
 }
 printf("%ld",p);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:48:7: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
- scanf("%ld",&n);
-       ^
-./Main.c:52:7: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
- scanf("%ld",&a);
-       ^
-./Main.c:67:8: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
- printf("%ld",p);
-        ^
-./Main.c:48:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%ld",&n);
- ^
-./Main.c:52:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%ld",&a);
- ^
+} 

@@ -16,13 +16,4 @@ int main()
 		  for(i=0;i<N-K;i++)ans+=count[i];
 			  printf("%d",ans);
 		return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &N);
-   ^
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &K);
-   ^
-./Main.c:13:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (i = 0; i < N; i++)scanf("%d",&A[i]);
-                          ^
+} 

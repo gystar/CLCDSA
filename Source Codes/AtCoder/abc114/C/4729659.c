@@ -41,7 +41,4 @@ int main(int argc, char *argv[]) {
 	for (r = 1; r < 10; r++) tenpower[r] = 10 * tenpower[r - 1];
 	printf("%d\n", calc(n, c, 0, 1));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:37:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
+} 

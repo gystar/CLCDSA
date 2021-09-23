@@ -16,7 +16,4 @@ int main()
   if(data[0]+data[3]+data[4]>data[1]+data[2]+data[4])
 	  printf("%d\n",data[0]+data[3]+data[4]);
   else printf("%d\n",data[1]+data[2]+data[4]);
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d %d %d",&data[0],&data[1],&data[2],&data[3],&data[4]);
-   ^
+} 

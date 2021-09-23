@@ -19,7 +19,4 @@ int main(){
   if(flag == 0) printf("Yes\n");
   else printf("No\n");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(int i = 0; i < 3; ++i) scanf("%d %d %d",&c[i][0],&c[i][1],&c[i][2]);
-                              ^
+} 

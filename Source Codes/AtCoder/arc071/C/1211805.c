@@ -19,14 +19,3 @@ main(d){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(d){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:1: warning: type of ‘d’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%s%s%*d",S+1,T+1);S[d]|T[d];++d)
-      ^
-./Main.c:4:6: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:6: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:7:8: warning: incompatible implicit declaration of built-in function ‘scanf’
-  for(;~scanf("%d%d%d%d",&a,&b,&c,&d);)
-        ^
-./Main.c:7:8: note: inc...

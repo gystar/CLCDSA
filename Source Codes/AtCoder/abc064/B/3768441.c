@@ -16,10 +16,4 @@ int main(){
   qsort(a, N, sizeof(int), compare);
   printf("%d\n", a[N-1] - a[0]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &N);
-   ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &a[i]);
-     ^
+} 

@@ -38,10 +38,4 @@ int main(void)
   printf("%s\n",name[tosen]);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:17:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%s",name[i]);
-       ^
+} 

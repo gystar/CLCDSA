@@ -15,10 +15,4 @@ int main(){
   a+=b?1:0;
   printf("%s\n",c+1>=a?"Yes":"No");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&m);
-     ^
+} 

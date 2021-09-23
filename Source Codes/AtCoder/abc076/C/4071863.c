@@ -49,9 +49,4 @@ int main()
         printf("UNRESTORABLE");
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(S1);
-     ^
-/tmp/ccreXLFw.o: In function `main':
-Main.c:(.text.startup+0x35): warning: the `gets' function is dangerous and should not be used.
+} 

@@ -78,21 +78,4 @@ int main() {
 	getch();
 #endif
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:75:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n", b);
-         ^
-./Main.c: In function ‘in’:
-./Main.c:34:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- int in(void) { int i; scanf("%d", &i); return i; }
-                       ^
-./Main.c: In function ‘llin’:
-./Main.c:35:37: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- long long llin(void) { long long i; scanf("%lld", &i); return i; }
-                                     ^
-./Main.c: In function ‘din’:
-./Main.c:36:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- double din(void) { double i; scanf("%lf", &i); return i; }
-                              ^
-./Main.c: In function ‘chin’:
-./Main.c:37:23: warning: ignoring return value of ‘scanf’, declared with attribute wa...
+} 

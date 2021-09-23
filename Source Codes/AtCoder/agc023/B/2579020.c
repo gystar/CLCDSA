@@ -72,10 +72,4 @@ int sym(char array[max][max],int n){
     }else{
         return 0;
     }
-} ./Main.c: In function ‘main’:
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:16:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",net[i]);
-         ^
+} 

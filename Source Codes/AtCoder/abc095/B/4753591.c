@@ -26,17 +26,4 @@ int main(int argc, char const *argv[]){
 	ans += (x / m[0]);
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:24: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [-Wincompatible-pointer-types]
-  qsort(m,n,sizeof(int),comp);
-                        ^
-In file included from ./Main.c:2:0:
-/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t {aka int (*)(const void *, const void *)}’ but argument is of type ‘int (*)(const int *, const int *)’
- extern void qsort (void *__base, size_t __nmemb, size_t __size,
-             ^
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&x);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf(" %d",&m[i]);
-   ^
+} 

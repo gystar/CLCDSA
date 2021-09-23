@@ -36,13 +36,4 @@ int main(){
 
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:41: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-     for ( x = 1 ; x < h ; x++ ) scanf ( " %s " , &masu[x] );
-                                         ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf ( " %d %d " , &h , &w );
-     ^
-./Main.c:12:33: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for ( x = 1 ; x < h ; x++ ) scanf ( " %s " , &masu[x] );
-                                 ^
+} 

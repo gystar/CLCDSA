@@ -13,10 +13,4 @@ int main(void){
   if(strcmp(s3, s1) == 0) printf("YES\n");
   else printf("NO\n");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%4s", s1);
-   ^
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%4s", s2);
-   ^
+} 

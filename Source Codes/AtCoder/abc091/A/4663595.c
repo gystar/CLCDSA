@@ -64,19 +64,4 @@ int main(int argc, char const *argv[])
 	if(a + b >= c)	puts("Yes");
 	else puts("No");
 	return 0;
-} ./Main.c: In function ‘append’:
-./Main.c:42:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘pop’:
-./Main.c:50:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:56:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:63:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&a,&b,&c);
-  ^
+} 

@@ -26,7 +26,4 @@ int main(){
 	ll ans=1;
 	rep(i,2,n+1)ans=ans*(d[i]+1)%1000000007;
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

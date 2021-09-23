@@ -11,7 +11,4 @@ int main(){
 	if(flag==1)printf("%d\n",(N[0]-'0')+(l-1)*9);
 	else printf("%d\n",(N[0]-'0')+(l-1)*9-1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",N);
-  ^
+} 

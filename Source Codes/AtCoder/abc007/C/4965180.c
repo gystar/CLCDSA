@@ -41,13 +41,4 @@ int main(void) {
 	printf("%d\n",b[gy][gx]);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d %d %d",&r,&c,&sy,&sx,&gy,&gx);
-  ^
-./Main.c:8:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   if(i%c==0)scanf("%*c%c",&a[i/c][i%c]);
-             ^
-./Main.c:9:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   else scanf("%c",&a[i/c][i%c]);
-        ^
+} 

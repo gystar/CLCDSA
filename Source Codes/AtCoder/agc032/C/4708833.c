@@ -68,10 +68,4 @@ void QSort(int left,int right)
   }
   if (left<i-1){QSort(left,i-1);} 
   if (j+1<right){QSort(j+1,right);}
-} ./Main.c: In function ‘ans’:
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&M);
-   ^
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&temp,&temp2);
-     ^
+} 

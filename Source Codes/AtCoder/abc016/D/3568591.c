@@ -36,13 +36,4 @@ void run(void){
 int main(void){
   run();
   return 0;
-} ./Main.c: In function ‘run’:
-./Main.c:23:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d",&l.s.x,&l.s.y,&l.t.x,&l.t.y);
-   ^
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:28:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++) scanf("%d%d",&p[i].x,&p[i].y);
-                    ^
+} 

@@ -47,9 +47,4 @@ int check_have_r(char word[], int len)
         iter++;
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:9: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-         gets(table[i]);
-         ^
-/tmp/ccbY9ut9.o: In function `main':
-Main.c:(.text.startup+0x4a): warning: the `gets' function is dangerous and should not be used.
+} 

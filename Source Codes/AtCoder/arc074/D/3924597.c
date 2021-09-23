@@ -291,10 +291,3 @@ int main(void){
 ./Main.c:30:11: warning: conflicting types for built-in function ‘llround’
  long long llround(long long a,long long b){if((a%b)*2 >= b){return (a/b)+1;}return a/b;}
            ^
-./Main.c: In function ‘main’:
-./Main.c:214:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-     scanf("%d%d",&n,&m);
-           ^
-./Main.c:214:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-./Main.c: In function ‘shuffledget’:
-./Main.c:64:9: warning: ignoring return value of ...

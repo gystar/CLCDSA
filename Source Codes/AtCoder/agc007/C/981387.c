@@ -10,11 +10,3 @@ n,d;main(x){scanf("%d%d%d",&n,&d,&x);printf("%.9f",f(2*n,d,x));} ./Main.c:3:1: w
 ./Main.c:3:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  n,d;main(x){scanf("%d%d%d",&n,&d,&x);printf("%.9f",f(2*n,d,x));}
      ^
-./Main.c: In function ‘main’:
-./Main.c:3:5: warning: type of ‘x’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
- n,d;main(x){scanf("%d%d%d",&n,&d,&x);printf("%.9f",f(2*n,d,x));}
-             ^
-./Main.c:3:13: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:13: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:3:38: warning: implicit declaration of function ‘p...

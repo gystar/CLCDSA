@@ -26,15 +26,4 @@ int main(void)
 	}
 	printf("%lld",dim);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:6: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-  dim=llabs(x-y);
-      ^
-./Main.c:17:6: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:17:6: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&a[i]);
-   ^
+} 

@@ -33,12 +33,4 @@ int main (void)
 
 	// STEP.END
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:24: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[30]’ [-Wformat=]
-  buf_rtvl_int = scanf ("%s", &buf_target_string);
-                        ^
-./Main.c:25:32: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  for (itr_elem = 0; itr_elem < strlen (buf_target_string); itr_elem++)
-                                ^
-./Main.c:25:32: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:25:32: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+} 

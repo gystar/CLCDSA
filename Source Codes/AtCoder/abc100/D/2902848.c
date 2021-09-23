@@ -57,10 +57,4 @@ point[7]=point[7]+H[N-i];
 selectionSort(point,8);
 printf("%lld\n",point[7]);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%lld %lld ",&N,&M);
- ^
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld %lld",&b[i],&d[i],&p[i]);
-     ^
+} 

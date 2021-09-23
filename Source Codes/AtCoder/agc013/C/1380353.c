@@ -60,13 +60,4 @@ int main(void)
 	d=(s-k+n)%n;
 	FOR(i,0,n) printf("%d\n",pos[(d+i)%n]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:37:2: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-  qsort(pos,n,sizeof(int),comp);
-  ^
-./Main.c:30:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&l,&t);
-  ^
-./Main.c:32:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&x[i],&w[i]);
-   ^
+} 

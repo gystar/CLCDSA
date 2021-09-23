@@ -339,10 +339,4 @@ int main(){
 		printf("%d\n", kth_smallest(K, t)->val + 1);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:328:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &K);
-  ^
-./Main.c:331:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &X[i]);
-   ^
+} 

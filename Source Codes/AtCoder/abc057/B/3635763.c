@@ -28,16 +28,4 @@ int main()
 		printf("%d\n",ans);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:7: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-   min=abs(a[i]-c[0])+abs(b[i]-d[0]);
-       ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&m);
-  ^
-./Main.c:10:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d %d",&a[i],&b[i]);
-    ^
-./Main.c:12:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d %d",&c[i],&d[i]);
-    ^
+} 

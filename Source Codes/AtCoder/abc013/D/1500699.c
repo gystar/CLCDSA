@@ -29,10 +29,4 @@ int main(void){
     for(int i=0;i<N;i++)TrueAns[Ans[i]-1]=i+1;
     for(int i=0;i<N;i++)printf("%d\n",TrueAns[i]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&N,&M,&D);
-     ^
-./Main.c:14:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&kari);
-         ^
+} 

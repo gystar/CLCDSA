@@ -100,10 +100,4 @@ int main(void){
   printf("%d\n%d\n",(maxpoint+point)/2,(maxpoint-point)/2);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:87:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d",&b[i][j]);
-       ^
-./Main.c:93:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d",&c[i][j]);
-       ^
+} 

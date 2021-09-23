@@ -26,7 +26,4 @@ int main(int argc, char *argv[])
     }
     printf("%d\n", total);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf, sizeof(buf), stdin);
-     ^
+} 

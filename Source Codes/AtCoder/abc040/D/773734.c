@@ -103,16 +103,4 @@ conn(struct city *from, struct city *to)
         to->cnt = from->cnt + to->cnt;
         from->to = to;
     }
-} ./Main.c: In function ‘main’:
-./Main.c:39:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &n, &m);
-     ^
-./Main.c:46:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d%d", &a, &b, &y);
-         ^
-./Main.c:55:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &q);
-     ^
-./Main.c:61:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d", &v, &w);
-         ^
+} 

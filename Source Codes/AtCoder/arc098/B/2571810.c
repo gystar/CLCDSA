@@ -30,10 +30,4 @@ int main(){
     cnt+=left-i;
   }
   printf("%ld\n",cnt);
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld",&n);
-   ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&a[i]);
-     ^
+} 

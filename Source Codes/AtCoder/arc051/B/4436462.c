@@ -6,7 +6,4 @@ int main()
   scanf("%d",&k);
   printf("%d %d\n",ans[k-1],ans[k]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&k);
-   ^
+} 

@@ -38,10 +38,4 @@ int main()
         if (c[i]<=(n/2)) printf("%d\n",a[(1+n)/2+1]); else printf("%d\n",a[(1+n)/2]);
     }
     return(0);
-} ./Main.c: In function ‘main’:
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:30:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[i]);
-         ^
+} 

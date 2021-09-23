@@ -62,13 +62,4 @@ int checkDigit(int n ){
     digit++;
   }
   return digit;
-} ./Main.c: In function ‘main’:
-./Main.c:16:14: warning: implicit declaration of function ‘checkDigit’ [-Wimplicit-function-declaration]
-     int ad = checkDigit(a);
-              ^
-./Main.c:21:15: warning: implicit declaration of function ‘expo’ [-Wimplicit-function-declaration]
-       bdig0 = expo(10 ,bd - 1);
-               ^
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
+} 

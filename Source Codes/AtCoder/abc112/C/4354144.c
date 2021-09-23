@@ -80,10 +80,4 @@ int main()
 	h = data[ref].h + abs(data[ref].x - x) + abs(data[ref].y - y);
 	printf("%lld %lld %lld\n", x, y, h);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:64:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n_info_count);
-  ^
-./Main.c:66:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld %lld", &x, &y, &h);
-   ^
+} 

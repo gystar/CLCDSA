@@ -422,17 +422,4 @@ int main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘solve’:
-./Main.c:375:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu%llu%llu%llu", &vua, &vub, &vuc, &vud);
-   ^
-./Main.c: In function ‘main’:
-./Main.c:404:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", s);
-  ^
-./Main.c:406:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", t);
-  ^
-./Main.c:408:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n);
-  ^
+} 

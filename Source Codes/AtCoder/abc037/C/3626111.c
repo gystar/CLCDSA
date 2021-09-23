@@ -14,13 +14,4 @@ bubunwa[i-m+1]-=a[i-m];
 for(i=0;i<n;i++)ans+=bubunwa[i];
 printf("%llu\n",ans);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:23: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
- for(i=0;i<n;i++)scanf("%ld",&a[i]);
-                       ^
-./Main.c:7:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d%d",&n,&m);
- ^
-./Main.c:8:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- for(i=0;i<n;i++)scanf("%ld",&a[i]);
-                 ^
+} 

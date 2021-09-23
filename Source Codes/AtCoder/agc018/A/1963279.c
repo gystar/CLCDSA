@@ -90,10 +90,4 @@ int main(void){
         printf("IMPOSSIBLE\n");
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:74:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %lld", &n, &k);
-     ^
-./Main.c:76:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld", &a[i]);
-         ^
+} 

@@ -8,7 +8,4 @@ int main(void){
 	scanf("%d %d %d", &a, &b, &c);
 	printf("%d\n", max(a * 10 + b + c, max(b * 10 + a + c, c * 10 + a + b)));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d", &a, &b, &c);
-  ^
+} 

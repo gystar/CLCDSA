@@ -55,10 +55,4 @@ signed main(){
 	printf("%lld\n", ans1);
 	printf("%lld\n", ans2);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:30:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:34:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &T[i]);
-   ^
+} 

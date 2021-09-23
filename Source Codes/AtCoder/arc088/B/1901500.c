@@ -57,10 +57,4 @@ int main(void)
     if(a[1]==0)printf("%d",len);
     else if(mingu>minki)printf("%d",mingu);
     else printf("%d",minki);
-} ./Main.c: In function ‘main’:
-./Main.c:32:18: warning: comparison between pointer and integer
-     while(a[leng]!=NULL)leng++;
-                  ^
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
+} 

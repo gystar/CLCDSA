@@ -48,7 +48,4 @@ int main()
     }
     printf("%d%c%d%c%d%c%d=7\n",number[0],op_1,number[1],op_2,number[2],op_3,number[3]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%1d",&number[i]);
-         ^
+} 

@@ -438,17 +438,4 @@ int main(){
 	}
 	printf("%d\n", ans);
 	return 0;
-} ./Main.c: In function ‘outall_AVL_sub’:
-./Main.c:315:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pair {aka struct <anonymous>}’ [-Wformat=]
-   printf("(key, val, ele_num, height) = (%d, %d, %d, %d)\n", r->key, r->val, r->ele_num, r->height);
-          ^
-./Main.c: In function ‘main’:
-./Main.c:389:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &M);
-  ^
-./Main.c:392:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &man[i].x, &man[i].y);
-   ^
-./Main.c:398:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &woman[i].y, &woman[i].x);
-   ^
+} 

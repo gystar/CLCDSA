@@ -12,10 +12,4 @@ int main(void){
     }
     sum=sum+t; //An?????t??
     printf("%lu\n",sum);
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lu%lu\n\n%lu\n",&n,&t,&a);
-     ^
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lu\n",&b);
-         ^
+} 

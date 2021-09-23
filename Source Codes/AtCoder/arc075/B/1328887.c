@@ -18,10 +18,4 @@ if(need <= t){max = t-1;}else{min = t+1;}
 }
 printf("%lld\n",min);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%lld%lld%lld",&n,&a,&b);
- ^
-./Main.c:12:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- for(i = 1;i <= n;i++){scanf("%lld",&h[i]);}
-                       ^
+} 

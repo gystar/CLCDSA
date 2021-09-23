@@ -15,7 +15,4 @@ int main(void){
 		}
 	}
 	flag ? printf("Yes\n") : printf("No\n");
-} ./Main.c: In function ‘main’:
-./Main.c:7:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d",&a[i][j]);
-    ^
+} 

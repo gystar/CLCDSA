@@ -47,14 +47,3 @@ main(a){
 ./Main.c:8:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(a){
  ^
-./Main.c: In function ‘main’:
-./Main.c:8:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:9:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-     scanf("%d",&a);
-     ^
-./Main.c:9:5: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:9:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:12:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[(sizetype)(a + 1)]’ [-Wformat=]
-     scanf("%s",&n);
-           ^
-./Main.c:37:5: warning: implicit declaration of fu...

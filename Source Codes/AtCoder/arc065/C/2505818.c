@@ -600,14 +600,4 @@ signed main(){
 	}
 	printf("%lld\n", ans);
 	return 0;
-} ./Main.c: In function ‘insert_AVL_sub’:
-./Main.c:293:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pos {aka struct <anonymous>}’ [-Wformat=]
-    printf("In function 'insert_AVL_sub':\nkey '%d' already exists\n", key);
-           ^
-./Main.c: In function ‘main’:
-./Main.c:440:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld", &N, &a, &b);
-  ^
-./Main.c:447:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &x, &y);
-   ^
+} 

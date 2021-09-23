@@ -22,7 +22,4 @@ int main(void){
     for(i=0;i<cnt;i++)printf(")");
     printf("\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %s",&n,s);
-     ^
+} 

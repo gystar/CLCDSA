@@ -40,10 +40,4 @@ int main(){
 	//???????ans[0]?????cnt????????????
 	//0??????????????ans[-cnt]??
 	rep(i,0,n)printf("%lld\n",ans[(i-cnt+n)%n]);
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&n,&L,&T);
-  ^
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&x,&w);
-   ^
+} 

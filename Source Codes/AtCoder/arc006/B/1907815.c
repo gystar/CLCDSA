@@ -41,12 +41,4 @@ int main(){
 	}
 	printf("%d\n", (j + 1) / 2);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(&A[i][1]);
-   ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d\n", &N, &L);
-  ^
-/tmp/cc4iFfKT.o: In function `main':
-Main.c:(.text.startup+0x76): warning: the `gets' function is dangerous and should not be used.
+} 

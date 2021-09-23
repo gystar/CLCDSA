@@ -9,11 +9,3 @@ a;s[9];main(){for(;gets(s);)a+=!!index(s,114);printf("%d\n",a);} ./Main.c:1:1: w
 ./Main.c:1:8: warning: return type defaults to ‘int’ [-Wimplicit-int]
  a;s[9];main(){for(;gets(s);)a+=!!index(s,114);printf("%d\n",a);}
         ^
-./Main.c: In function ‘main’:
-./Main.c:1:20: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
- a;s[9];main(){for(;gets(s);)a+=!!index(s,114);printf("%d\n",a);}
-                    ^
-./Main.c:1:34: warning: implicit declaration of function ‘index’ [-Wimplicit-function-declaration]
- a;s[9];main(){for(;gets(s);)a+=!!index(s,114);printf("%d\n",a);}
-                                  ^
-./Main.c:1:34: ...

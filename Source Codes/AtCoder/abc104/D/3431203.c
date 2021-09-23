@@ -54,9 +54,4 @@ int main()
     }
     printf("%d", abcCount);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(str);
-     ^
-/tmp/ccClJLRk.o: In function `main':
-Main.c:(.text.startup+0x27): warning: the `gets' function is dangerous and should not be used.
+} 

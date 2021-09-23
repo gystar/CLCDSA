@@ -253,13 +253,4 @@ int main() {
   }
   printf("%d\n", min);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", s);
-   ^
-./Main.c:10:17: warning: iteration 30u invokes undefined behavior [-Waggressive-loop-optimizations]
-     distance[i] = 0;
-                 ^
-./Main.c:9:3: note: containing loop
-   for (i = 0; i < 31; i++) {
-   ^
+} 

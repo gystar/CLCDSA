@@ -18,13 +18,4 @@
         if(max<sum) max=sum;
       }
       printf("%d\n",max);
-    } ./Main.c: In function ‘main’:
-./Main.c:5:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d",&n);
-       ^
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[0][i]);
-         ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[1][i]);
-         ^
+    } 

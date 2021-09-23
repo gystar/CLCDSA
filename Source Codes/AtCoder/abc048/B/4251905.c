@@ -9,7 +9,4 @@ int main()
     scanf("%lld%lld%lld",&a,&b,&x);
     printf("%lld",func(b,x)-func(a-1,x));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld%lld",&a,&b,&x);
-     ^
+} 

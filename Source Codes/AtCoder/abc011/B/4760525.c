@@ -49,9 +49,4 @@ void formatname(char a[], int len)
         }
         iter++;
     }
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(name); 
-     ^
-/tmp/cc39IrD9.o: In function `main':
-Main.c:(.text.startup+0x32): warning: the `gets' function is dangerous and should not be used.
+} 

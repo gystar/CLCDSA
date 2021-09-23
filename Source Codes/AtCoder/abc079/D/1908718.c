@@ -52,13 +52,4 @@ int main(void){
     printf("%d\n", magicka);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &H, &W);
-     ^
-./Main.c:24:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d", &c[i][j]);
-             ^
-./Main.c:30:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d", &a[i][j]);
-             ^
+} 

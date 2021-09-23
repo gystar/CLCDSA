@@ -25,23 +25,4 @@ main()
 		s|=f(c,d)||f(d,c);
 		puts(s?"YES":"NO");
 	}
-} ./Main.c: In function ‘f’:
-./Main.c:9:8: warning: implicit declaration of function ‘sin’ [-Wimplicit-function-declaration]
-   if(a*sin(t)+b*cos(t)<c&&a*cos(t)+b*sin(t)<d)return 1;
-        ^
-./Main.c:9:8: warning: incompatible implicit declaration of built-in function ‘sin’
-./Main.c:9:8: note: include ‘<math.h>’ or provide a declaration of ‘sin’
-./Main.c:9:17: warning: implicit declaration of function ‘cos’ [-Wimplicit-function-declaration]
-   if(a*sin(t)+b*cos(t)<c&&a*cos(t)+b*sin(t)<d)return 1;
-                 ^
-./Main.c:9:17: warning: incompatible implicit declaration of built-in function ‘cos’
-./Main.c:9:17: note: include ‘<math.h>’ or provide a declaration of ‘cos’
-./Main.c: At top level:
-./Main.c:15:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
- main()
- ^
-./Main.c: In function ‘main’:
-./Main.c:19:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%f%f%d",&a,&b,&n);
-  ^
-./Main.c:19:2: warning: incompatible implicit declaration of built-in func...
+} 

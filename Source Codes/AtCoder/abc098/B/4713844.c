@@ -24,10 +24,4 @@ int main(void){
 		ans=max(ans, now);
 	}
 	printf("%d\n", ans);
-} ./Main.c: In function ‘main’:
-./Main.c:7:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘short int *’ [-Wformat=]
-  scanf("%d\n", &n);
-        ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d\n", &n);
-  ^
+} 

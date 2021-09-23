@@ -53,18 +53,4 @@ int main(){
 	daikusutora(n,0);
 	printf("%.15f\n",daikusutorap[n-1]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:50:12: warning: implicit declaration of function ‘hypot’ [-Wimplicit-function-declaration]
-   double d=hypot(x[i]-x[j],y[i]-y[j]);
-            ^
-./Main.c:50:12: warning: incompatible implicit declaration of built-in function ‘hypot’
-./Main.c:50:12: note: include ‘<math.h>’ or provide a declaration of ‘hypot’
-./Main.c:39:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf%lf%lf%lf",&sx,&sy,&gx,&gy);
-  ^
-./Main.c:41:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:47:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,1,n-1)scanf("%lf%lf%lf",x+i,y+i,r+i);
-              ^
+} 

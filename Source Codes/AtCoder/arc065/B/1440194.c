@@ -103,13 +103,4 @@ int main(void)
 	delete_union(&p);
 	delete_union(&q);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:85:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&k,&l);
-  ^
-./Main.c:89:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
-./Main.c:93:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

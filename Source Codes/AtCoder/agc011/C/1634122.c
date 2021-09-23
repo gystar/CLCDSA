@@ -79,10 +79,4 @@ int main(void)
 	printf("%lld\n",res);
 	delete_edge(edge,n);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:59:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:61:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

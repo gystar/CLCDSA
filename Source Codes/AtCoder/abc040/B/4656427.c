@@ -13,5 +13,3 @@ m=99;v;l;main(n){for(scanf("%d",&n);++l<=n;m=v<m?v:m)v=n-n/l*l+abs(l-n/l);printf
 ./Main.c:1:10: warning: return type defaults to ‘int’ [-Wimplicit-int]
  m=99;v;l;main(n){for(scanf("%d",&n);++l<=n;m=v<m?v:m)v=n-n/l*l+abs(l-n/l);printf("%d",m);}
           ^
-./Main.c: In function ‘main’:
-./Main.c:1:10: warning: type of ‘n’ defaults to ‘int’ [-Wimplic...

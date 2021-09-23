@@ -19,11 +19,4 @@ int main(){
 	k--;n--;
 	printf("%lld\n",(n+k-1)/k);
 	return 0;
-} ./Main.c: In function ‘sortup’:
-./Main.c:12:25: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
- void sortup(ll*a,int n){qsort(a,n,sizeof(ll),upll);}
-                         ^
-./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&k);
-  ^
+} 

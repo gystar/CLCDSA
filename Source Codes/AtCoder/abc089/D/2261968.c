@@ -70,17 +70,4 @@ void calc()
 int diff_abs(int a, int b)
 {
     return a > b ? a - b : b - a;
-} ./Main.c: In function ‘main’:
-./Main.c:28:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d\n", &l, &r);
-         ^
-./Main.c: In function ‘init’:
-./Main.c:38:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d\n", &h, &w, &d);
-     ^
-./Main.c:41:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &point2num[i][j]);
-         ^
-./Main.c:46:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d\n", &q);
-     ^
+} 

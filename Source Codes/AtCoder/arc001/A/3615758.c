@@ -61,19 +61,4 @@ int four_min(int a, int b, int c, int d)
 	}
 	
 	return min;
-} ./Main.c: In function ‘main’:
-./Main.c:13:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
-  c[N + 1] = "\0";
-           ^
-./Main.c:27:20: warning: implicit declaration of function ‘four_max’ [-Wimplicit-function-declaration]
-  printf("%d %d\n", four_max(one, two, three, four),
-                    ^
-./Main.c:28:8: warning: implicit declaration of function ‘four_min’ [-Wimplicit-function-declaration]
-        four_min(one, two, three, four));
-        ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", c);
-  ^
+} 

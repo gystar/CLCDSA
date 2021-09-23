@@ -70,13 +70,4 @@ int main(int argc, char const *argv[]) {
     // ??
     calcExpansionRate(N, A, B);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:61:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:65:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lf %lf", &A[i].x, &A[i].y);
-         ^
-./Main.c:68:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lf %lf", &B[i].x, &B[i].y);
-         ^
+} 

@@ -82,10 +82,4 @@ int main() {
   
   printf("%llu\n", am - bm + c - d);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:65:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu", &temp);
-   ^
-./Main.c:70:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu", &temp);
-   ^
+} 

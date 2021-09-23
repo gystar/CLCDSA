@@ -77,13 +77,4 @@ int main(void)
 	for(i=0;size[i]==1;i++);
 	printf("%s\n",dfs(i,-1)==0?"YES":"NO");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:65:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:66:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,n) scanf("%d",&a[i]);
-             ^
-./Main.c:72:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&x,&y);
-   ^
+} 

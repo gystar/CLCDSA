@@ -8,7 +8,4 @@ int main()
     else
         printf("%d\n", 100 * ((n + 10) / 10));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
+} 

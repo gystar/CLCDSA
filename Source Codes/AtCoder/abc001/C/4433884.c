@@ -49,7 +49,4 @@ int main(){
 	if(ens==0)strcpy(ans,"C");
 	printf("%s %d\n",ans,ens);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
+} 

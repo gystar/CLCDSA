@@ -13,10 +13,4 @@ int main(){
     return 0;
   }
   printf("a\n");
-} ./Main.c: In function ‘main’:
-./Main.c:7:13: warning: comparison between pointer and integer
-   while(A[i]!=NULL){
-             ^
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",A);
-   ^
+} 

@@ -37,13 +37,4 @@ int main() {
 		printf("%lf\n", sum);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &N, &Q);
-  ^
-./Main.c:13:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<N;i++) scanf("%lf %lf %lf", &X[i], &R[i], &H[i]);
-                   ^
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf", &A, &B);
-   ^
+} 

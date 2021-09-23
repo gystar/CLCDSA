@@ -10,7 +10,4 @@ int main(void){
     printf("\n");
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(j=0;j<8;j++)scanf("%c",&s[i][j]);
-                     ^
+} 

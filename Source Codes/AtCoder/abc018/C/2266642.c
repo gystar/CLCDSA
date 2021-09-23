@@ -32,21 +32,3 @@ main(){
 } ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:5:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d%d%*c",&H,&W,&K);
-  ^
-./Main.c:5:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:5:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:7:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(s[y]+1);
-   ^
-./Main.c:23:21: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-     if(az[y+d][x]<K-abs(d)||za[y+d][x]<K-abs(d)){
-                     ^
-./Main.c:31:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  printf("%d\n",ans);
-  ^
-./Main.c:31:2: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:31:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-/tmp/ccTTZCbv.o: In function ...

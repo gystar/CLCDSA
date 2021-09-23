@@ -18,10 +18,4 @@ int main()
     printf("%lf\n", ans);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:26: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-     double ans = (double)abs(a * d - b * c) / 2;
-                          ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", x + i);
-         ^
+} 

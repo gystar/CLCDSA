@@ -20,7 +20,4 @@ int main(void){
     if(flag) puts("Yes");
     else puts("No");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&grid[i][j]);
-             ^
+} 

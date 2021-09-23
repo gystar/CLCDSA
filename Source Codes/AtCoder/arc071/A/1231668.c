@@ -40,11 +40,4 @@ int main(void) {
     solve(res);
     puts(res);
     return 0;
-} ./Main.c: In function ‘read_str’:
-./Main.c:14:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf, MAXN, stdin);
-     ^
-./Main.c: In function ‘main’:
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d\n", &n);
-     ^
+} 

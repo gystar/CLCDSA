@@ -80,10 +80,4 @@ int comp(const void *p1,const void *p2){
   n1=*(struct dat *)p1;
   n2=*(struct dat *)p2;
   return n2.dist-n1.dist;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&N,&K);
-   ^
-./Main.c:23:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&tele[i]);
-     ^
+} 

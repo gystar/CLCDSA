@@ -21,10 +21,4 @@ int main(){
 	rep(i,0,100005)ans=max(ans,d[35][i]);
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%*d",&n);
-  ^
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&s,&t,&c);
-   ^
+} 

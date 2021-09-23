@@ -49,22 +49,4 @@ for(i=0;i<100;i++)a[i].a=0;
 //	for(i=0;i<count;i++)printf("%s,%d\n",a[i].name,a[i].a);
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:31:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
-    if(strcmp(s[i],a[j].name)==0){
-       ^
-./Main.c:38:4: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-    strcpy(a[count].name,s[i]);
-    ^
-./Main.c:38:4: warning: incompatible implicit declaration of built-in function ‘strcpy’
-./Main.c:38:4: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:26:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++)scanf("%s",s[i]);
-                  ^
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&m);
-  ^
-./Main.c:28:18: warning: ignoring return value of ‘scanf’, declared with attribute...
+} 

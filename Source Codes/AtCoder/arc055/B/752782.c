@@ -34,7 +34,4 @@ int main() {
 double max(double a, double b) {
 	if (a >= b) { return a; }
 	else { return b; }
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&K);
-  ^
+} 

@@ -100,17 +100,4 @@ int main(int argc, char **argv) {
   }
 
   return 0;
-} ./Main.c: In function ‘size’:
-./Main.c:42:5: warning: type of ‘x’ defaults to ‘int’ [-Wimplicit-int]
- int size(x) {
-     ^
-./Main.c: In function ‘main’:
-./Main.c:73:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d %d %d", &d[i].a, &d[i].b, &d[i].y);
-       ^
-./Main.c:79:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &q);
-     ^
-./Main.c:81:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d %d", &qq[i].v, &qq[i].w);
-       ^
+} 

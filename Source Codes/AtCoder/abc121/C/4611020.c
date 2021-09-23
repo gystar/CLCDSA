@@ -35,10 +35,4 @@ int main(void){
 	}
 	printf("%llu\n",price);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&M);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu %d",&data[i].price,&data[i].bottle);
-   ^
+} 

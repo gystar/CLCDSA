@@ -53,10 +53,4 @@ int main(){
 	rep(i,0,h)scanf(" %s",ss[i]);
 	f(0,h%2);
 	puts("NO");
-} ./Main.c: In function ‘main’:
-./Main.c:52:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&h,&w);
-  ^
-./Main.c:53:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,h)scanf(" %s",ss[i]);
-            ^
+} 

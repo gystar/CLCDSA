@@ -36,7 +36,4 @@ int main(void) {
   if(l == 0) printf("%lld\n", r/x+1);
   else printf("%lld\n", (r/x+1) - ((l-1)/x+1));
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:35:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &l, &r, &x);
-   ^
+} 

@@ -9,7 +9,4 @@ int main(void){
         printf("TAKAHASHI\n");
     else
         printf("AOKI\n");
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%f%f%f%f",&a,&b,&c,&d);
-     ^
+} 

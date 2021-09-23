@@ -42,9 +42,4 @@ int retlen(char a[])
         len++;
     }
     return len;
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(s); 
-     ^
-/tmp/ccVT3Iej.o: In function `main':
-Main.c:(.text.startup+0x44): warning: the `gets' function is dangerous and should not be used.
+} 

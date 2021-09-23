@@ -46,7 +46,4 @@ int main(){
   if(c[0]==1 && c[1]==1 && c[2]==1)printf("Yes");
   else printf("No");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:40:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",s);
-   ^
+} 

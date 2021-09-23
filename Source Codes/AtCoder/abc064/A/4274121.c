@@ -20,7 +20,4 @@ int main()
   scanf("%*d%d%d", &g, &b);
   puts((g * 10 + b) % 4 == 0 ? "YES" : "NO");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%*d%d%d", &g, &b);
-   ^
+} 

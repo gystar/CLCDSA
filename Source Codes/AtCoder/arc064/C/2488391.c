@@ -320,13 +320,4 @@ int main(){
 	build_graph(g);
 	printf("%.12lf\n", Dijkstra(g, 0)[N + 1]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:298:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf%lf%lf%lf", &xs, &ys, &xt, &yt);
-  ^
-./Main.c:299:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:307:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf%lf%lf", &x[i], &y[i], &r[i]);
-   ^
+} 

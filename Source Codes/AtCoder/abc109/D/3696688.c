@@ -105,10 +105,4 @@ int main(void)
 		printf("%d %d %d %d\n", ans[4*i], ans[4*i+1], ans[4*i+2], ans[4*i+3]);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &h, &w);
-  ^
-./Main.c:14:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &a[500*i+j]);
-    ^
+} 

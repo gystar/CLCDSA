@@ -26,10 +26,4 @@
             sum=(sum+dp[j])%1000000007;
         }
         printf("%lld\n",dp[n]%1000000007);
-    } ./Main.c: In function ‘main’:
-./Main.c:5:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&n,&m);
-         ^
-./Main.c:11:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d",&f[i]);
-             ^
+    } 

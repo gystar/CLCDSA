@@ -58,10 +58,4 @@ int main(){
 	//printf("%lld ",ans);
 	puts(ans?"Alice":"Bob");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&k);
-  ^
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",s+ptr[i]);
-   ^
+} 

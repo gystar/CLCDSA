@@ -46,7 +46,4 @@ int main(){
 
 int distance(short ax, short ay, short bx, short by){
 	return (ax>bx?ax-bx:bx-ax)+(ay>by?ay-by:by-ay);
-} ./Main.c: In function ‘main’:
-./Main.c:14:11: warning: format ‘%hd’ expects argument of type ‘short int *’, but argument 2 has type ‘int *’ [-Wformat=]
-  if(scanf("%hd", &N));
-           ^
+} 

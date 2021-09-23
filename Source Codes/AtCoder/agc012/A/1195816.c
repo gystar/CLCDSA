@@ -240,15 +240,4 @@ long npr(long n, long r){
 }
 long nhr(long n , long r){
     return ncr(n+r-1,r);
-} ./Main.c: In function ‘main’:
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&how_team);
-     ^
-./Main.c: In function ‘input_array’:
-./Main.c:56:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld",&data[loop]);
-         ^
-./Main.c: In function ‘input_array2’:
-./Main.c:72:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%ld",&data[loopA][loopB]);
-             ^
+} 

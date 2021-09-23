@@ -66,10 +66,4 @@ void sub_mc(int n, int k, int rank, int *count, int p_tmp, int *comb)
 	else {
 		comb[(*count)++] = p_tmp;
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &n, &m);
-  ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d", &j, &k);
-   ^
+} 

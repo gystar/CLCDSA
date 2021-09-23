@@ -190,10 +190,4 @@ int main(void){
   }
   for(i=9;i>=1;i--)for(j=0;j<f_A[i]-1;j++)printf("%d",i);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d\n%d",&N,&M,&i);
-   ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf(" %d",&i);
-     ^
+} 

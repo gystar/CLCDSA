@@ -32,13 +32,4 @@ int main(){
   for(i=0;i<r;i++)dp[j][0]=MIN(dp[j][i],dp[j][0]);
   printf("%d\n",dp[j][0]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d",&n,&m,&r);
-   ^
-./Main.c:6:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<r;i++)scanf("%d",&g[i]);
-                   ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&i,&j,&k);
-     ^
+} 

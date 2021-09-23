@@ -32,7 +32,4 @@ int main(){
     printf("%s\n", Pnew);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(strings, 40, stdin);
-     ^
+} 

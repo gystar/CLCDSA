@@ -15,13 +15,4 @@ int main(void){
     else printf("NO");
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:15: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long int *’ [-Wformat=]
-         scanf("%d", &a[i]);
-               ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:10:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &a[i]);
-         ^
+} 

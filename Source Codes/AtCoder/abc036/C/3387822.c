@@ -33,10 +33,4 @@ int main(void)
 	qsort(people, N, sizeof(s), compare2);
 	for (i = 0; i < N; ++i) printf("%d\n", people[i].b);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &people[i].tmp1);
-   ^
+} 

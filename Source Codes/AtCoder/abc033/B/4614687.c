@@ -16,13 +16,4 @@ int main(void){
         printf("%s\n",c[place]);
     else
         printf("atcoder\n");
-} ./Main.c: In function ‘main’:
-./Main.c:8:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[21]’ [-Wformat=]
-         scanf("%s %d",&c[i],&num[i]);
-               ^
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:8:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s %d",&c[i],&num[i]);
-         ^
+} 

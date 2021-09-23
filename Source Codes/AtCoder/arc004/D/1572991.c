@@ -19,7 +19,4 @@ int main(){
 	if(n-1)s=s*(m+1)%M;
 	printf("%lld\n",(s*mbk(2,m,M))%M);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld",&n,&m);
-  ^
+} 

@@ -39,10 +39,4 @@ int main()
         printf("%d\n",a[i].compress);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:25:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[i].value);
-         ^
+} 

@@ -49,10 +49,4 @@ int main()
 	memset(dp, -1, sizeof(dp));
 	printf("%d\n", rec((1 << N) - 1));
 	return(0);
-} ./Main.c: In function ‘main’:
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &N, &K);
-  ^
-./Main.c:37:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &W[i][j]);
-    ^
+} 

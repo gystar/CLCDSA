@@ -30,15 +30,4 @@ int main(){
 		printf("%lld\n",ans);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:8: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
-   ll c=sqrt(n-1)-1;
-        ^
-./Main.c:24:8: warning: incompatible implicit declaration of built-in function ‘sqrt’
-./Main.c:24:8: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&q);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&a,&b);  
-   ^
+} 

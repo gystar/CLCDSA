@@ -14,11 +14,3 @@ main(f){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(f){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘f’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:10: warning: implicit declaration of function ‘getchar’ [-Wimplicit-function-declaration]
-  for(;(c=getchar())>10;)
-          ^
-./Main.c:9:2: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-  puts(f?"YES":"NO");
-  ^

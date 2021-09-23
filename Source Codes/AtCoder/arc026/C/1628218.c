@@ -289,10 +289,4 @@ signed main(){
 	out_node(t->root->left->right);
 */	printf("%lld\n", query(L, L + 1, t));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:262:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &N, &L);
-  ^
-./Main.c:265:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &lights[i].l, &lights[i].r, &lights[i].c);
-   ^
+} 

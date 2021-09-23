@@ -11,12 +11,4 @@ int main(){
 	ll n,m;
 	scanf("%lld%lld",&n,&m);
 	printf("%lld",llabs(n-2)*llabs(m-2));
-} ./Main.c: In function ‘main’:
-./Main.c:13:16: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-  printf("%lld",llabs(n-2)*llabs(m-2));
-                ^
-./Main.c:13:16: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:13:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
+} 

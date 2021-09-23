@@ -107,10 +107,4 @@ int main(void){
     //qsort(a,n,sizeof(int),sortfncsj);
     printf("%.12lf\n",res);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:95:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lf%lf%d",&a.x,&a.y,&n);
-     ^
-./Main.c:99:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lf%lf",&p[i].x,&p[i].y);
-         ^
+} 

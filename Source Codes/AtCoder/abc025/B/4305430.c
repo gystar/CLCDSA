@@ -16,13 +16,4 @@ int main(){
     printf("%s %d\n",p>0?E:W,abs(p));
   }
   else puts("0");
-} ./Main.c: In function ‘main’:
-./Main.c:16:30: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-     printf("%s %d\n",p>0?E:W,abs(p));
-                              ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&n,&a,&b);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s%d",s,&d);
-     ^
+} 

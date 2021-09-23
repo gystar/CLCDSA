@@ -34,17 +34,4 @@ int main(void){
 	read(w,h,'#');
 	printf("%s\n",dfs(1,1)?"First":"Second");
 	return 0;
-} ./Main.c: In function ‘read’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%*c");
-  ^
-./Main.c:14:10: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-          scanf("%c",&map[j][i]);
-          ^
-./Main.c:17:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%*c");
-         ^
-./Main.c: In function ‘main’:
-./Main.c:33:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&h,&w);
-  ^
+} 

@@ -46,10 +46,4 @@ int main(void){
 	qsort(l, n, sizeof(int), comp);
 	printf("%d\n", try(chk, 0, l, a, n));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:43:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d", &n, a, a + 1, a + 2);
-  ^
-./Main.c:45:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", l + i);
-   ^
+} 

@@ -15,7 +15,4 @@ int main(void){
     qsort(t,strlen(t),sizeof(char),tcompare);
     printf("%s\n",strcmp(s,t)<0?"Yes":"No");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s%s",s,t);
-     ^
+} 

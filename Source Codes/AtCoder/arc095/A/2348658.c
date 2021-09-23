@@ -33,10 +33,4 @@ int main(void){
   qsort(array,N,sizeof(struct pair),compnum);
   for(i=0;i<N;i++) printf("%d\n",array[i].ans);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&array[i].data);
-     ^
+} 

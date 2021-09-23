@@ -23,13 +23,4 @@ int main(){
 	ans+=(c2+1)/2;
 	printf("%d\n",n-2*ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n",n-2*ans);
-         ^
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&t);
-   ^
+} 

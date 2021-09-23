@@ -27,17 +27,3 @@
       return 0;
     } In file included from /usr/include/string.h:635:0,
                  from ./Main.c:2:
-./Main.c: In function ‘main’:
-./Main.c:12:23: warning: passing argument 1 of ‘__builtin_strlen’ from incompatible pointer type [-Wincompatible-pointer-types]
-             if(strcmp(&S[i],&S[j])==0){
-                       ^
-./Main.c:12:23: note: expected ‘const char *’ but argument is of type ‘char (*)[100]’
-./Main.c:12:29: warning: passing argument 1 of ‘__builtin_strlen’ from incompatible pointer type [-Wincompatible-pointer-types]
-             if(strcmp(&S[i],&S[j])==0){
-                             ^
-./Main.c:12:29: note: expected ‘const char *’ but argument is of type ‘char (*)[100]’
-./Main.c:12:23: warning: passing argument 1 of ‘__builtin_strcmp’ from incompatible pointer type [-Wincompatible-pointer-types]
-             if(strcmp(&S[i],&S[j])==0){
-                       ^
-./Main.c:12:23: note: expected ‘const char *’ but argument is of type ‘char (*)[100]’
-./Main.c:12:29: warning: passing argument 2 of ‘__builtin_st...

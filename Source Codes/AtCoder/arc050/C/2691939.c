@@ -142,11 +142,3 @@ int main(void){
 ./Main.c:25:11: warning: conflicting types for built-in function ‘llround’
  long long llround(long long a,long long b){if((a%b)*2 >= b){return (a/b)+1;}return a/b;}
            ^
-./Main.c: In function ‘shuffledget’:
-./Main.c:72:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&x[b[i]]);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:113:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld%lld",&a,&b,&m);
-     ^

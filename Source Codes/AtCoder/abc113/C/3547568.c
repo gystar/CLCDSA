@@ -32,10 +32,4 @@ int main(void)
 	qsort(tmp1, M, sizeof(s), compare2);
 	for (i = 0; i < M; ++i) printf("%06d%06d\n", tmp1[i].P, tmp1[i].tmp2);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &M);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &tmp1[i].P, &tmp1[i].Y);
-   ^
+} 

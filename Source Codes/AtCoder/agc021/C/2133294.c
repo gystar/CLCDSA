@@ -44,6 +44,3 @@ main(n) {
 ./Main.c:5:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  x(i,j){if(a)p[i]=60,p[i+1]=62,a--;}
  ^
-./Main.c: In function ‘x’:
-./Main.c:5:1: warning: type of ‘i’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:5:1: warn...

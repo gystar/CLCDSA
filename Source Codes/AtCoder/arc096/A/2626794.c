@@ -91,9 +91,4 @@ int main() {
 	printf("%d\n",nSubTotal);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:34:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(sInput);
-  ^
-/tmp/ccCspChw.o: In function `main':
-Main.c:(.text.startup+0x45): warning: the `gets' function is dangerous and should not be used.
+} 

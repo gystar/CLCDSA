@@ -31,13 +31,4 @@ int main(){
   for(i=a=0;i<n;i++)a+=Find(i+1,d[i]);
   printf("%d\n",n-a);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&m);
-   ^
-./Main.c:26:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++)scanf("%d",&d[i]);
-                   ^
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&a,&b);
-     ^
+} 

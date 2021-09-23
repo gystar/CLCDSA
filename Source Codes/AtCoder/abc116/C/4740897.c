@@ -60,10 +60,4 @@ int main(void)
     for(i = 0; i < n; ++i) { scanf("%d", &h[i]); }
     solve(h, n);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:58:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:60:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(i = 0; i < n; ++i) { scanf("%d", &h[i]); }
-                              ^
+} 

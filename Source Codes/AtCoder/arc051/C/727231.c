@@ -90,10 +90,4 @@ int main(void){
         printf("%lld\n",aa[i] * c % 1000000007);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %lld %lld",&n,&A,&B);
-     ^
-./Main.c:25:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld",&aa[i]);
-         ^
+} 

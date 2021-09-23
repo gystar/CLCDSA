@@ -28,17 +28,4 @@ int main(){
 	rep(i,0,W+1)ans=max(ans,dp[i]);
 	printf("%d\n",ans-1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:18: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  rep(i,0,n)scanf("%d%d",w+i,v+i);
-                  ^
-./Main.c:14:18: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-./Main.c:29:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n",ans-1);
-         ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&W);
-  ^
-./Main.c:14:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%d%d",w+i,v+i);
-            ^
+} 

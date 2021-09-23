@@ -15,12 +15,4 @@
        }
        printf("%d",cou);
        return 0;
-    } ./Main.c: In function ‘main’:
-./Main.c:6:14: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-        scanf("%s%s%s",&S);
-              ^
-./Main.c:6:14: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-./Main.c:6:14: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-./Main.c:6:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-        scanf("%s%s%s",&S);
-        ^
+    } 

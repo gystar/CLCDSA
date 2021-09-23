@@ -9,10 +9,4 @@ int main(){
 		X >>= 1;
 	}
 	printf("%d\n", Ans);
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%lld", &N, &X);
-  ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &A);
-   ^
+} 

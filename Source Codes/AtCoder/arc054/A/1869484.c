@@ -403,17 +403,4 @@ int main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘printquotient’:
-./Main.c:322:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ull {aka long long unsigned int}’ [-Wformat=]
-   printf("%1d", left / right);
-          ^
-./Main.c: In function ‘main’:
-./Main.c:372:8: warning: too many arguments for format [-Wformat-extra-args]
-  scanf("%llu", &n, &k);
-        ^
-./Main.c:372:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n, &k);
-  ^
-./Main.c:373:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu%llu%llu%llu", &vua, &vub, &vuc, &vud);
-  ^
+} 

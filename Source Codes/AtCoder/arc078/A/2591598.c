@@ -16,18 +16,4 @@ int main(){
       min=llabs(sum[n-1]-2*sum[i]);
   }
   printf("%lld\n",min);
-} ./Main.c: In function ‘main’:
-./Main.c:15:12: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-     if(min>llabs(sum[n-1]-2*sum[i]))
-            ^
-./Main.c:15:12: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:15:12: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&a);
-   ^
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&a);
-     ^
+} 

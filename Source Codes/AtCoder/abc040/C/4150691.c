@@ -26,13 +26,4 @@ int main()
     }
     printf("%d\n", ans[n - 1]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:47: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-         ans[i + 1] = min(ans[i + 1], ans[i] + abs(a[i] - a[i + 1]));
-                                               ^
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:17:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &a[i]);
-         ^
+} 

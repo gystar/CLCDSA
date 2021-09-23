@@ -102,10 +102,3 @@ int main(void){
 } ./Main.c:54:20: warning: conflicting types for built-in function ‘puts_unlocked’
  static inline void puts_unlocked(const char *s){
                     ^
-./Main.c: In function ‘main’:
-./Main.c:85:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld", &n, &a, &b);
-     ^
-./Main.c:100:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
-     write(1, buf, point);
-     ^

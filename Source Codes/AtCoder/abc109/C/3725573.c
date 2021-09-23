@@ -32,13 +32,4 @@ int main()
     }
     printf("%d",p);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:14: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-         b[i]=abs(x-a[i]);
-              ^
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&n,&x);
-     ^
-./Main.c:22:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[i]);
-         ^
+} 

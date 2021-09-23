@@ -90,13 +90,4 @@ void run (void) {
 int main (void) {
   run ();
   return 0;
-} ./Main.c: In function ‘run’:
-./Main.c:45:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf ("%" SCNi32 "%" SCNi32, &n, &m);
-   ^
-./Main.c:47:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf ("%s", s);
-   ^
-./Main.c:51:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf ("%" SCNi32 "%" SCNi32, &a, &b);
-     ^
+} 

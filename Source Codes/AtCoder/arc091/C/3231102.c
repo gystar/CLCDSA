@@ -50,7 +50,4 @@ int main(){
 	rep(i,0,n)printf("%lld ",d[i]);
 	puts("");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:44:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&n,&a,&b);
-  ^
+} 

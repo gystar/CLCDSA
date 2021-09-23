@@ -38,10 +38,4 @@ int main(){
 	if(m<INF)printf("%d\n",m);
 	else printf("-1\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&N,&A,&B);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&a[i],&b[i],&c[i]);
-   ^
+} 

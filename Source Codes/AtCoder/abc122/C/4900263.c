@@ -23,13 +23,4 @@ int main(){
         printf("%d\n", t[r[i]-1]-t[l[i]-1]);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &N, &Q);
-     ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", S);
-     ^
-./Main.c:20:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d", &l[i], &r[i]);
-         ^
+} 

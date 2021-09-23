@@ -98,22 +98,4 @@ int main() {
 	getch();
 #endif
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:86:17: warning: passing argument 1 of ‘check’ from incompatible pointer type [-Wincompatible-pointer-types]
-    flag = check(A, B, i, j, M);
-                 ^
-./Main.c:58:5: note: expected ‘char (*)[64]’ but argument is of type ‘char (*)[51]’
- int check(char A[64][64], char B[64][64], int i, int j, int m) {
-     ^
-./Main.c:86:20: warning: passing argument 2 of ‘check’ from incompatible pointer type [-Wincompatible-pointer-types]
-    flag = check(A, B, i, j, M);
-                    ^
-./Main.c:58:5: note: expected ‘char (*)[64]’ but argument is of type ‘char (*)[51]’
- int check(char A[64][64], char B[64][64], int i, int j, int m) {
-     ^
-./Main.c: In function ‘in’:
-./Main.c:34:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- int in(void) { int i; scanf("%d", &i); return i; }
-                       ^
-./Main.c: In function ‘llin’:
-./Main.c:35:37: warning: ignoring return value of ‘scanf’, declared with attrib...
+} 

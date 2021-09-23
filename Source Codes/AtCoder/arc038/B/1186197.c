@@ -15,10 +15,4 @@ int main(){
     }//*/
   printf("%s\n",d[0][0]?"Second":"First");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&h,&w);
-   ^
-./Main.c:6:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<h;i++)scanf("%s",s[i]);
-                   ^
+} 

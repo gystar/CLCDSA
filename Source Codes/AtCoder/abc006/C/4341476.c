@@ -32,10 +32,4 @@ int main(int argc, char const *argv[]) {
         printf("%ld %ld %ld\n", ans[0], ans[1], ans[2] );
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &population );
-     ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &legs );
-     ^
+} 

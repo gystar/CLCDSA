@@ -18,7 +18,4 @@ long getbignum(){
         i++;
     }
     return ans+7;
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld%ld%ld",&a,&b,&c);
-     ^
+} 

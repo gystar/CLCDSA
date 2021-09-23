@@ -142,13 +142,4 @@ int main(int argc, const char * argv[]) {
 #endif
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:115:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld", &N, &Q);
-     ^
-./Main.c:121:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld %ld %ld", &cones[i].X, &cones[i].R, &cones[i].H);
-         ^
-./Main.c:126:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%ld %ld", &A, &B);
-         ^
+} 

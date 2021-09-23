@@ -47,10 +47,4 @@ int main(void){
 	prr*=100000000000;
 	prr/=rvpm;
 	printf("%llu.%011llu\n%llu\n",rvpc/rvpm,prr,r);
-} ./Main.c: In function ‘main’:
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu%llu%llu",&n,&a,&b);
-  ^
-./Main.c:28:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i = 0;i < n;i++){scanf("%llu",&v[i]);}
-                       ^
+} 

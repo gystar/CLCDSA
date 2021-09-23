@@ -38,7 +38,3 @@ int main(void){
 } ./Main.c:3:5: warning: conflicting types for built-in function ‘ceil’
  int ceil(int a,int b){if(a%b==0){return a/b;}return (a/b)+1;}
      ^
-./Main.c: In function ‘main’:
-./Main.c:17:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&k);
-     ^

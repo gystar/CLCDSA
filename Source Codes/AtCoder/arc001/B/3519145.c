@@ -25,7 +25,4 @@ int main(void)
     printf("%d\n", num);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d%*c", &now_tmp, &target_tmp);
-     ^
+} 

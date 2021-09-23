@@ -63,7 +63,4 @@ int main(void){
     
     return 0;
     
-} ./Main.c: In function ‘string_input’:
-./Main.c:26:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",buf);//buf=??????????char????
-     ^
+} 

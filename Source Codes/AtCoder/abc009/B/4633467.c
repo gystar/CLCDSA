@@ -24,10 +24,4 @@ for (i = n-1; i > -1 ; i--) {
  	}
  printf("%d\n",a);
  return 0;
- } ./Main.c: In function ‘main’:
-./Main.c:11:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf ("%d",&n);
- ^
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &kore[i]);
-  ^
+ } 

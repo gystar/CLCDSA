@@ -57,15 +57,4 @@ int countnine(char data[],int length){
         i++;
     }
     return count;
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(n);
-     ^
-./Main.c:11:15: warning: implicit declaration of function ‘getlength’ [-Wimplicit-function-declaration]
-     int len = getlength(n);
-               ^
-./Main.c:28:13: warning: implicit declaration of function ‘countnine’ [-Wimplicit-function-declaration]
-     else if(countnine(n,len)==len-1)
-             ^
-/tmp/ccwEwbnH.o: In function `main':
-Main.c:(.text.startup+0x32): warning: the `gets' function is dangerous and should not be used.
+} 

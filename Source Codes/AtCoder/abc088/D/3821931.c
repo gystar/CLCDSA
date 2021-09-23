@@ -54,10 +54,4 @@ int main(){
 	else printf("%d\n",white-step[H-1][W-1]);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&H,&W);
-  ^
-./Main.c:24:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(int i=0;i<H;i++)scanf("%s",s[i]);
-                      ^
+} 

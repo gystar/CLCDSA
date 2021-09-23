@@ -23,12 +23,4 @@ int main(){
 	}
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘choose’:
-./Main.c:9:4: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
- ll choose(n,r){
-    ^
-./Main.c:9:4: warning: type of ‘r’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d",&h,&w,&a,&b);
-  ^
+} 

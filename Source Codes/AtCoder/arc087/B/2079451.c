@@ -58,10 +58,4 @@ int comp( const void *c1, const void *c2 )
   if( tmp1 > tmp2 )  return -1;
   if( tmp1 == tmp2 ) return  0;
   if( tmp1 < tmp2 )  return  1;
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", s);
-  ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &x, &y);
-  ^
+} 

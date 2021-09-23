@@ -27,10 +27,4 @@ int main(void){
     res*= pow(2,evens);
     printf("%lld\n",res);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int N,P;scanf("%d %d",&N,&P);
-             ^
-./Main.c:18:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         int a;scanf("%d",&a);
-               ^
+} 

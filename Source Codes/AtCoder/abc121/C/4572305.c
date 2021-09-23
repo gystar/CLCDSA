@@ -26,13 +26,4 @@ int main(void){
     }
     printf("%lld\n", cost);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:15: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘int *’ [-Wformat=]
-         scanf("%lld %lld", &monster[i].a, &monster[i].b);
-               ^
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &n, &m);
-     ^
-./Main.c:16:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld %lld", &monster[i].a, &monster[i].b);
-         ^
+} 

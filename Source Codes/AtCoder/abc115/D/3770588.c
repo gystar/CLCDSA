@@ -41,7 +41,4 @@ long long pate(long long burger[], long long p[], int n, long long x)
 		ans=0;
 	}
 	return ans;
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%lld", &n, &x);
-  ^
+} 

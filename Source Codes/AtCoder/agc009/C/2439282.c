@@ -283,22 +283,4 @@ signed main(){
 */	}
 	printf("%lld\n", (query(0, N, t1) + query(0, N, t2)) % p);
 	return 0;
-} ./Main.c: In function ‘out_node’:
-./Main.c:74:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("N = %d\n", r->N);
-         ^
-./Main.c:75:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("val = %d\n", r->val);
-         ^
-./Main.c:76:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("arg1 = %d\n", r->arg1);
-         ^
-./Main.c:77:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("arg2 = %d\n", r->arg2);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:214:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld", &N, &A, &B);
-  ^
-./Main.c:218:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &S[i]...
+} 

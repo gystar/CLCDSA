@@ -9,7 +9,4 @@ int main(){
 		}
 		else printf("%.9f\n",(l-((d-s)%l))/(double)(y-x));
 		return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld%lld%lld",&l,&x,&y,&s,&d);
-   ^
+} 

@@ -16,7 +16,4 @@ int main(){
     ans=min(ans,abs(753-num));
   }
   printf("%d",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",a);
-   ^
+} 

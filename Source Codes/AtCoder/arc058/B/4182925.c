@@ -58,7 +58,4 @@ int main(void){
 	setup(&height, &width, &a, &b);
 	printf("%ld\n", sumup(&height, &width, &a, &b));
 return 0;
-} ./Main.c: In function ‘setup’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d", h, w, a, b);
-  ^
+} 

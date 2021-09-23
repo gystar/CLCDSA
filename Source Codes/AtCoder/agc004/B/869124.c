@@ -60,10 +60,4 @@ ll f(ll A, ll B) {
 ll min(ll A, ll B) {
 	if (A >= B) { return B; }
 	else { return A; }
-} ./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld",&N,&x);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf(" %lld",&a[i]);
-   ^
+} 

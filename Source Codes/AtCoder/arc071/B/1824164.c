@@ -360,13 +360,4 @@ int main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:343:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu%llu", &n, &m);
-  ^
-./Main.c:348:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &a[i]);
-   ^
-./Main.c:351:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &b[i]);
-   ^
+} 

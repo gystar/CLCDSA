@@ -17,10 +17,4 @@ int main(void)
 	for (i = 1; i < N * 2; i += 2) ans += a[i];
 	printf("%ld", ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:15:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < N * 3; ++i) scanf("%ld", &a[i]);
-                              ^
+} 

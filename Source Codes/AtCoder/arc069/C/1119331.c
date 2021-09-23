@@ -37,13 +37,4 @@ int main(int argc, char const *argv[]) {
 		printf("%lld\n",s[i]);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:2: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-  qsort(a,n,sizeof(stone),cmp);
-  ^
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld",&n);
-  ^
-./Main.c:23:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&a[i].a);
-   ^
+} 

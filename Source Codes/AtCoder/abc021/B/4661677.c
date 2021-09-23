@@ -32,13 +32,4 @@ int main(int argc, char const *argv[]) {
     // ??
     isShortestRoute(a, b, K, P);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d", &N , &a, &b);
-     ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &K);
-     ^
-./Main.c:30:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &P[i]);
-         ^
+} 

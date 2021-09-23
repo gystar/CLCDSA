@@ -33,10 +33,4 @@ int check(long long K) {
 	if (maxR + maxB >= K) { return 1; }
 	else { return 0; }
 
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld", &R, &B);
-  ^
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld", &x, &y);
-  ^
+} 

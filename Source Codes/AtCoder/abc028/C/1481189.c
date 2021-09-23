@@ -46,7 +46,4 @@ int main(void)
         }                                                                                                                                                                                                 
         printf("%d\n", sum[i]);                                                                                                                                                                           
         return 0;                                                                                                                                                                                         
-} ./Main.c: In function ‘main’:
-./Main.c:24:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d %d %d", &org[0], &org[1], &org[2], &org[3], &org[4]);                                                                                                                             
-         ^
+} 

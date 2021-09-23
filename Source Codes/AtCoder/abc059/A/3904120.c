@@ -10,7 +10,4 @@ char s[3][20];
 int main(){
 	scanf("%s%s%s",s[0],s[1],s[2]);
 	printf("%c%c%c",s[0][0]^32,s[1][0]^32,s[2][0]^32);
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s%s",s[0],s[1],s[2]);
-  ^
+} 

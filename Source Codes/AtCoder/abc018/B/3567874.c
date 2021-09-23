@@ -17,13 +17,4 @@ s[lr[i][1]-j-1]=tmp;
 }
 printf("%s\n",s);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%s",s);
- ^
-./Main.c:7:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d",&n);
- ^
-./Main.c:8:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- for(i=0;i<n;i++)scanf("%d%d",&lr[i][0],&lr[i][1]);
-                 ^
+} 

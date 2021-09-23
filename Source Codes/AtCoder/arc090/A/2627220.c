@@ -53,9 +53,4 @@ int main() {
 	printf("%d\n",nMaxTotal);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:27:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(sInput);
-  ^
-/tmp/ccjpB7Na.o: In function `main':
-Main.c:(.text.startup+0x53): warning: the `gets' function is dangerous and should not be used.
+} 

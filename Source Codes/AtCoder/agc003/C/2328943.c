@@ -29,13 +29,4 @@ int main(){
 	rep(i,0,n)if(i%2!=bs(a[i])%2)ans++;
 	printf("%lld\n",ans/2);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  scanf("%d",&n);
-        ^
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:24:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",a+i);
-            ^
+} 

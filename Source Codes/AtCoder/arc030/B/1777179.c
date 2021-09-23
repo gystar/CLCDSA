@@ -143,13 +143,4 @@ int main(){
 	}
 	printf("%d\n", t->sorted_v[0]->val);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:126:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &x);
-  ^
-./Main.c:129:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &h[i]);
-   ^
-./Main.c:133:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &a, &b);
-   ^
+} 

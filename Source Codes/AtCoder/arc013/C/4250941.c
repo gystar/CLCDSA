@@ -31,16 +31,4 @@ void run(void){
 int main(void){
   run();
   return 0;
-} ./Main.c: In function ‘run’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:13:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(i=0;i<3;i++) scanf("%d",x+i);
-                      ^
-./Main.c:15:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&m);
-     ^
-./Main.c:20:24: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       for(i=0;i<3;i++) scanf("%d",p+i);
-                        ^
+} 

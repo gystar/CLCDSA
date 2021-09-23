@@ -84,7 +84,4 @@ void initialize( bool reached[Row][Column] ){
             reached[a][b] = false;
         }
     }
-} ./Main.c: In function ‘main’:
-./Main.c:19:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",A[i]);
-         ^
+} 

@@ -18,7 +18,4 @@ int main(){
 		}
 		crr=s[crr][a[crr]++]-'a';
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s%s",s[0],s[1],s[2]);
-  ^
+} 

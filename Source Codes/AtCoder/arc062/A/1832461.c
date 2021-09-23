@@ -396,13 +396,4 @@ int main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:373:8: warning: too many arguments for format [-Wformat-extra-args]
-  scanf("%llu", &n, &m);
-        ^
-./Main.c:373:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n, &m);
-  ^
-./Main.c:380:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu%llu", &a[i], &b[i]);
-   ^
+} 

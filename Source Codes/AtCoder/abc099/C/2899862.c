@@ -26,7 +26,3 @@ int main()
  dp[200000];
  ^
 ./Main.c:3:1: warning: type defaults to ‘int’ in declaration of ‘dp’ [-Wimplicit-int]
-./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^

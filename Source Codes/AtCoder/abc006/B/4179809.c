@@ -15,10 +15,4 @@ int main(){
   if(n<=2)printf("0\n");
   else if(n==3)printf("1\n");
   else printf("%lld\n",a);
-} ./Main.c: In function ‘main’:
-./Main.c:6:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%d",&n);
-         ^
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
+} 

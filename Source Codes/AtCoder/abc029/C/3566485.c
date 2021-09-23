@@ -11,11 +11,3 @@ else puts("aaaaaaaa\naaaaaaab\naaaaaaac\naaaaaaba\naaaaaabb\naaaaaabc\naaaaaaca\
 } ./Main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:1:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:3: warning: implicit declaration of function ‘getchar_unlocked’ [-Wimplicit-function-declaration]
- n=getchar_unlocked();
-   ^
-./Main.c:3:11: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
- if(n=='1')puts("a\nb\nc");
-           ^

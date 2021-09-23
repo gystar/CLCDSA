@@ -144,7 +144,4 @@ int main()
   int num_dots = count_dots(height, width);
   printf("%d\n", num_dots - distance);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:120:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &height, &width);
-   ^
+} 

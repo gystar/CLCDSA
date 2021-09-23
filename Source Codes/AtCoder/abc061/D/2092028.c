@@ -21,10 +21,4 @@ int main(){
 	if(l[n]==0)printf("%lld\n",co[n]);
 	else       printf("inf\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld",&n,&m);
-  ^
-./Main.c:6:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<m;i++)scanf("%lld %lld %lld",&a[i],&b[i],&c[i]);
-                  ^
+} 

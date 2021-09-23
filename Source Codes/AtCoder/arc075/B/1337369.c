@@ -62,14 +62,4 @@ static int try_attack(long long a, long long b, int ntry, int num, long long lis
         }
     }
     return 1;
-} ./Main.c: In function ‘main’:
-./Main.c:13:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-     scanf("%d %d %d\n", &n, &a, &b);
-           ^
-./Main.c:13:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘long long int *’ [-Wformat=]
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d\n", &n, &a, &b);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d\n", &v);
-         ^
+} 

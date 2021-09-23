@@ -13,7 +13,4 @@ int main(){
 	if(i==d)printf("\"");
 	puts("");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%d%d%d%d",s,&a,&b,&c,&d);
-  ^
+} 

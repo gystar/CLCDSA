@@ -119,7 +119,4 @@ void Swap(int *a, int *b) {
     int tmp = *a;
     *a = *b;
     *b = tmp;
-} ./Main.c: In function ‘main’:
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
+} 

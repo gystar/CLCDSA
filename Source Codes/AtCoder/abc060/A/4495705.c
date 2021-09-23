@@ -13,22 +13,4 @@ char a[100],b[100],c[100];
   if(a[o-1]==b[0]&&b[p-1]==c[0]){printf("YES");}
   else{printf("NO");}
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-  scanf("%s",&a);
-        ^
-./Main.c:8:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-    scanf("%s",&b);
-          ^
-./Main.c:9:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
-    scanf("%s",&c);
-          ^
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",&a);
-  ^
-./Main.c:8:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s",&b);
-    ^
-./Main.c:9:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s",&c);
-    ^
+} 

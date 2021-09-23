@@ -33,7 +33,4 @@ int main(void)
 	else if(n%(a+1)==0) puts("Aoki");
 	else puts("Takahashi");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&a,&b);
-  ^
+} 

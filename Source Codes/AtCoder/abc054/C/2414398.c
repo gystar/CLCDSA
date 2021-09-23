@@ -503,11 +503,4 @@ core_definitions_is_release = core_definitions_is_release_fnGG_();
 core_definitions_is_debug = core_definitions_is_debug_fnGG_();
 c_mainGG_();
 }
-int main(int argc, char** argv) { flori_main(); } ./Main.c: In function ‘c_mainGG_’:
-./Main.c:462:8: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int64_t {aka long int}’ [-Wformat=]
- printf("%lld", c_dfsGG_core_prelude_Int_core_vec_Vec_core_prelude_Bool(0, c_check));
-        ^
-./Main.c: In function ‘procon_read_intGG_’:
-./Main.c:232:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%" PRId64, &procon_ret);
- ^
+int main(int argc, char** argv) { flori_main(); } 

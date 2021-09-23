@@ -15,7 +15,4 @@ int main()
     b=(int)(a);
     ans=(b-flag)+(digit-1)*9;
     printf("%d",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&a);
-     ^
+} 

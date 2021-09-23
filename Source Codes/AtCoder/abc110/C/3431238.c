@@ -34,10 +34,4 @@ int main(void) {
 	}
 	printf("Yes\n"); // ??????Yes???
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(s, SIZE, stdin);
-  ^
-./Main.c:11:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(t, SIZE, stdin);
-  ^
+} 

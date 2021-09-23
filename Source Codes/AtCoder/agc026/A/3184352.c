@@ -30,10 +30,4 @@ int main(){
 
 	printf("%d",color_change_count);
 
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&slime_count);
-  ^
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &a[i]);
-   ^
+} 

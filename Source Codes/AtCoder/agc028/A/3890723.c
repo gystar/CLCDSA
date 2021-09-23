@@ -73,11 +73,4 @@ ll get_gcd(ll a, ll b){
 
     if(a % b == 0) return b;
     return get_gcd(b, a % b);
-} ./Main.c: In function ‘main’:
-./Main.c:12:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘ll * {aka long long int *}’ [-Wformat=]
-     scanf("%d %d %s %s", &n, &m, s, t);
-           ^
-./Main.c:12:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘ll * {aka long long int *}’ [-Wformat=]
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %s %s", &n, &m, s, t);
-     ^
+} 

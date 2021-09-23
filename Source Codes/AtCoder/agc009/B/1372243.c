@@ -69,10 +69,4 @@ int main(void){
 	dfs(0);
 	printf("%d\n",dp[0]);
 	delete_graph(g,n);
-} ./Main.c: In function ‘main’:
-./Main.c:62:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:65:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&p);
-   ^
+} 

@@ -93,10 +93,4 @@ int main(){
 	pair ans = solve(9);
 	printf("%d\n%d\n", ans.a, ans.b);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:76:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &b[i][j]);
-    ^
-./Main.c:83:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &c[i][j]);
-    ^
+} 

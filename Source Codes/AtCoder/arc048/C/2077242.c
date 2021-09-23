@@ -43,10 +43,4 @@ signed main(){
 		gcdL = gcd(gcdL, L[i] - minL);
 	}
 	printf("%lld\n", power(2, minL + (gcdL + 1) / 2));
-} ./Main.c: In function ‘main’:
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:37:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &L[i]);
-   ^
+} 

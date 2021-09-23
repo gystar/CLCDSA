@@ -18,13 +18,4 @@ int main(){
     }
   }
   printf("%ld\n",dp[n][50*n]-1);
-} ./Main.c: In function ‘main’:
-./Main.c:20:10: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("%ld\n",dp[n][50*n]-1);
-          ^
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&n,&a);
-   ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&x[i]);
-     ^
+} 

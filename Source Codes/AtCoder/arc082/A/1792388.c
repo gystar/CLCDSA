@@ -91,9 +91,4 @@ int compare(const int *val1, const int *val2) {
     } else {
         return 1;
     }
-} ./Main.c: In function ‘main’:
-./Main.c:37:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(sInput);
-  ^
-/tmp/cczu8UT0.o: In function `main':
-Main.c:(.text.startup+0x10): warning: the `gets' function is dangerous and should not be used.
+} 

@@ -69,13 +69,4 @@ void length(int x, int y, int len_in_adv, int W, int H, char s[W][H], int visite
         visited[x - 1][y] = len_in_adv + 1;
     }
     return;
-} ./Main.c: In function ‘main’:
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d\n", &H, &W);
-     ^
-./Main.c:19:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%c", &s[x][y]);
-             ^
-./Main.c:25:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%c", &temp);
-             ^
+} 

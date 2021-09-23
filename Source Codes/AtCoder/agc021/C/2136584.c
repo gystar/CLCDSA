@@ -10,17 +10,4 @@ int main(int j){
 	puts(a|b?"NO":"YES");
 	for(i=1;!a&!b&i<=n;)puts(p[i++]+1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d%d%d",&n,&m,&a,&b);
-  ^
-./Main.c:4:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:5:16: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-  for(i=1;i<=n;)memset(p[i++]+1,46,m);
-                ^
-./Main.c:5:16: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:5:16: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c:10:2: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-  puts(a|b?"NO":"YES");
-  ^
+} 

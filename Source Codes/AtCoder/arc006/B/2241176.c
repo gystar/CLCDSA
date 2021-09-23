@@ -97,23 +97,4 @@ int main(void){
 	}
 	print(x+1);
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:21:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i;scanf("%d",&i);
-        ^
-./Main.c: In function ‘llin’:
-./Main.c:25:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i;scanf("%lld",&i);
-              ^
-./Main.c: In function ‘din’:
-./Main.c:29:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i;scanf("%lf",&i);
-           ^
-./Main.c: In function ‘chin’:
-./Main.c:33:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
-./Main.c: In function ‘main’:
-./Main.c:89:12: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,l+1)fgets(s[i],2*n+5,stdin);
-            ^
+} 

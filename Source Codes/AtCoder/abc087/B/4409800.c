@@ -21,10 +21,4 @@ int main(){
   }
   printf("%d",count);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:9: warning: too many arguments for format [-Wformat-extra-args]
-   scanf("%d\n%d\n%d\n%d",&a,&b,&c,&x,stdin);
-         ^
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d\n%d\n%d\n%d",&a,&b,&c,&x,stdin);
-   ^
+} 

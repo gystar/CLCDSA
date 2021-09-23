@@ -46,10 +46,4 @@ int main(){
   for(i=0;i<9;i++)s=(s+d[i][n-1])%M;
   printf("%d\n",s);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s %s",s1,s2);
-   ^
+} 

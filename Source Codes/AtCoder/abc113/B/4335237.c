@@ -41,10 +41,4 @@ int main()
 ll calc_diff_fromA(ll t, ll x, ll a)
 {
   return llabs(a * 1000 - (t * 1000 - x * 6));
-} ./Main.c: In function ‘main’:
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &n, &t, &a);
-   ^
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld", &h[i]);
-     ^
+} 

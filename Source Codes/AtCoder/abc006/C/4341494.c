@@ -30,10 +30,4 @@ int main(int argc, char const *argv[]) {
     // ??
     solve_equation(population, legs);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &population );
-     ^
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld", &legs );
-     ^
+} 

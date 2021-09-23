@@ -22,10 +22,4 @@ int main(){
 	}
 	printf("%d\n",max);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d %d",&n,&m,&p,&q,&k);
-  ^
-./Main.c:5:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<k;i++)scanf("%d %d %d",&a[i],&b[i],&c[i]);
-                  ^
+} 

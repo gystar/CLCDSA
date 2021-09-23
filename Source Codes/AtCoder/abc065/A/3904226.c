@@ -14,7 +14,4 @@ int main(){
 	if(b<=a)puts("delicious");
 	else if(b<=a+x)puts("safe");
 	else puts("dangerous");
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&x,&a,&b);
-  ^
+} 

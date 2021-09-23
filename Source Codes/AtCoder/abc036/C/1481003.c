@@ -44,10 +44,4 @@ static int cmp_a(const void *a, const void *b)
 static int cmp_idx(const void *a, const void *b)
 {
 	return ((num_t *)a)->idx - ((num_t *)b)->idx;
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &list[i].a);
-   ^
+} 

@@ -28,7 +28,4 @@ int main(){
   int ret = b75 + b25*(b3-1) + b15*(b5-1) + (b5*(b5-1)*(b3-2))/2;
   printf("%d\n",ret);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&x);
-   ^
+} 

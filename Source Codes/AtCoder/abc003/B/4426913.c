@@ -19,7 +19,4 @@ int main(void){
 	if(strlen(s)==i) printf("You can win\n");
 	else printf("You will lose\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s",s,t);
-  ^
+} 

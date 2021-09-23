@@ -14,10 +14,4 @@ int main(void) {
     t[N] = INT_MAX;
     printf("%d", solve());
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &N, &T);
-     ^
-./Main.c:13:32: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(int i = 0; i < N; i++) scanf("%d", &t[i]);
-                                ^
+} 

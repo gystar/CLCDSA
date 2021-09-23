@@ -19,15 +19,4 @@ int main ()
             min=value[i];
     printf("%lld\n",min);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:18: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-         value[i]=llabs(sum-sum2-sum2);
-                  ^
-./Main.c:14:18: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:14:18: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&n);
-     ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld",&a[i]);
-         ^
+} 

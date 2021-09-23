@@ -55,18 +55,4 @@ int main() {
 			return 0;
 		}
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:6:18: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-  int *X = (int *)malloc(sizeof(int)*N);
-                  ^
-./Main.c:6:18: warning: incompatible implicit declaration of built-in function ‘malloc’
-./Main.c:6:18: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-./Main.c:24:23: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-      int tmp = H[i] + abs(posY - Y[i]) + abs(posX - X[i]);
-                       ^
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d", &X[i], &Y[i], &H[i]);
-   ^
+} 

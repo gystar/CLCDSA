@@ -23,14 +23,4 @@ int main(void){
 	scanf("%llu %llu",&A,&B);
 	
 	printf("%llu",XOR(A-1)^XOR(B));
-} ./Main.c: In function ‘main’:
-./Main.c:23:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘uint64_t * {aka long unsigned int *}’ [-Wformat=]
-  scanf("%llu %llu",&A,&B);
-        ^
-./Main.c:23:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 3 has type ‘uint64_t * {aka long unsigned int *}’ [-Wformat=]
-./Main.c:25:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t {aka long unsigned int}’ [-Wformat=]
-  printf("%llu",XOR(A-1)^XOR(B));
-         ^
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu %llu",&A,&B);
-  ^
+} 

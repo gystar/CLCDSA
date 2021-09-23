@@ -22,10 +22,4 @@ int main(){
   }
   qsort(ans,n,sizeof(ll),upll);
   for(i=0;i<n;i++)printf("%lld\n",ans[(i-cnt+n)%n]);
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",&n,&L,&T);
-   ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld",&x,&w);
-     ^
+} 

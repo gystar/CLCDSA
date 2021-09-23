@@ -18,11 +18,4 @@ int main(){
 	else printf("Yes");
 	
 	return 0;
-} ./Main.c: In function ‘digit_sum’:
-./Main.c:3:5: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
- int digit_sum(n){
-     ^
-./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
+} 

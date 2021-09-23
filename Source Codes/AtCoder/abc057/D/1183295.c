@@ -69,10 +69,4 @@ int main(void) {
   printf("%.7f\n%llu\n", (double)p / q, tot);
   
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%i %i %i", &n, &l, &r);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%llu", &a[i]);
-     ^
+} 

@@ -22,7 +22,4 @@ int main()
   int dy = y_2 - y_1;
   printf("%d %d %d %d\n", x_2 - dy, y_2 + dx, x_2 - dx - dy, y_2 + dx - dy);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d", &x_1, &y_1, &x_2, &y_2);
-   ^
+} 

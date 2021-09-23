@@ -18,10 +18,4 @@ int main(){
 	}
 	rep(i,0,45)rep(f,0,2)rep(j,0,2)chmax(dp[i+1][j<bit(k,i)||(j==bit(k,i)&&f)],dp[i][f]+((j?n-s[i]:s[i])<<i));
 	printf("%lld",dp[42][1]);
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&k);
-  ^
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
+} 

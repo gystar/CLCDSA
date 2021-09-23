@@ -31,13 +31,4 @@ int main(){
 		--x1,--y1,--x2,--y2;
 		printf("%d\n",f(cumv,x1,y1,x2+1,y2+1)-f(cume,2*x1+1,2*y1+1,2*x2+2,2*y2+2));
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d\n",&n,&m,&q);
-  ^
-./Main.c:16:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%s\n",s[i]);
-            ^
-./Main.c:30:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d\n",&x1,&y1,&x2,&y2);
-   ^
+} 

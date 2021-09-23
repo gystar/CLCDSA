@@ -91,10 +91,4 @@ int comp_b(const void *c1, const void *c2){
   ll t2 = p2.b;
 
   return t2-t1;
-} ./Main.c: In function ‘main’:
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:27:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&a,&b);
-     ^
+} 

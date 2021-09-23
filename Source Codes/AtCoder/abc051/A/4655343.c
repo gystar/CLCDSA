@@ -13,10 +13,4 @@ int main(int argc, char const *argv[]){
 	str[6 - 1] = ' ';
   	str[14 - 1] = ' ';
   	printf("%s",&str);
-} ./Main.c: In function ‘main’:
-./Main.c:15:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[24]’ [-Wformat=]
-    printf("%s",&str);
-           ^
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",str);
-  ^
+} 

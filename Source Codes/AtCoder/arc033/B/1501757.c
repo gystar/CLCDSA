@@ -40,13 +40,4 @@ int main(void)
 	}
 	printf("%.10lf\n",(double)s1/(na+nb-s1));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&na,&nb);
-  ^
-./Main.c:35:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,na) scanf("%d",&a[i]);
-              ^
-./Main.c:38:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&b);
-   ^
+} 

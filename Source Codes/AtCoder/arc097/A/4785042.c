@@ -43,10 +43,4 @@ int main()
 	printf("%s\n", dict[ans_indx]);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", str);
-  ^
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &k);
-  ^
+} 

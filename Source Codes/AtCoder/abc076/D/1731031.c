@@ -42,13 +42,4 @@ int main() {
 	}
 	printf("%f\n", area);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:30:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
-./Main.c:33:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &t[i]);
-   ^
-./Main.c:37:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &vs[i]);
-   ^
+} 

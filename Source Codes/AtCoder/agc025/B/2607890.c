@@ -77,11 +77,4 @@ int main(void){
     //qsort(a,n,sizeof(int),sortfncsj);
     printf("%lld\n",r);
     return 0;
-} ./Main.c: In function ‘shuffledget’:
-./Main.c:23:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&x[b[i]]);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:64:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld%lld%lld",&n,&a,&b,&k);
-     ^
+} 

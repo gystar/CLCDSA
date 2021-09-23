@@ -25,7 +25,4 @@ int main(void)
 	t=k-(s-1)*l;
 	printf("%lld\n",MIN(s*b,t*a+(s-1)*b));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld",&a,&b,&k,&l);
-  ^
+} 

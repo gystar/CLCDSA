@@ -22,7 +22,4 @@ int main(void){
 s[count]='\0';
     printf("%s\n",s);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%c",&p[0]);
-         ^
+} 

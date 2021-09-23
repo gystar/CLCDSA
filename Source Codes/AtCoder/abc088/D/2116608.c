@@ -120,24 +120,4 @@ int main(void){
 	if(f[r][c]==-1)print(-1);
 	else 	printf("%d\n",w-f[r][c]);
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:21:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i;scanf("%d",&i);
-        ^
-./Main.c: In function ‘llin’:
-./Main.c:25:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i;scanf("%lld",&i);
-              ^
-./Main.c: In function ‘din’:
-./Main.c:29:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i;scanf("%lf",&i);
-           ^
-./Main.c: In function ‘chin’:
-./Main.c:33:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
-./Main.c: In function ‘main’:
-./Main.c:93:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&r,&c);
-  ^
-./Main.c:95:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-...
+} 

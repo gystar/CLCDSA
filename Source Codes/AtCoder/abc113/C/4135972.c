@@ -74,13 +74,4 @@ int main() {
 		printf("%06d%06d\n", city[i].P, city[i].ans);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:52:2: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-  qsort(city, M, sizeof(CITY), Comp1);
-  ^
-./Main.c:39:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &N, &M);
-  ^
-./Main.c:44:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &city[i].P, &city[i].Y);
-   ^
+} 

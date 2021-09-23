@@ -9,7 +9,4 @@ int main(){
     else if(n<195) printf("%d",4);
     else printf("%d",5);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int n;scanf("%d",&n);
-           ^
+} 

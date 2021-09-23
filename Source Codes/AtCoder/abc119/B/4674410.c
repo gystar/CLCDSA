@@ -31,10 +31,4 @@ int main(int argc, char *argv[]){
 /////////////////////////////////////////////////////////////////////////
 
 void input(int *n, double x[], int u[]){
-} ./Main.c: In function ‘main’:
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &n);
-   ^
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s %s", cx, cu);
-     ^
+} 

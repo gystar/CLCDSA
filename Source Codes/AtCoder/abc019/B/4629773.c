@@ -9,9 +9,3 @@ n;b;main(a){for(;~(a=getchar());b=a)b&&a-b?printf("%c%d",b,n),n=1:++n;puts("");}
 ./Main.c:1:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  n;b;main(a){for(;~(a=getchar());b=a)b&&a-b?printf("%c%d",b,n),n=1:++n;puts("");}
      ^
-./Main.c: In function ‘main’:
-./Main.c:1:5: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:22: warning: implicit declaration of function ‘getchar’ [-Wimplicit-function-declaration]
- n;b;main(a){for(;~(a=getchar());b=a)b&&a-b?printf("%c%d",b,n),n=1:++n;puts("");}
-                      ^
-./Main.c:1:44: warning: implicit declaration of function ‘printf’ [-Wimplicit-fu...

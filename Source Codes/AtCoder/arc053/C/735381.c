@@ -57,10 +57,4 @@ int up_comp(const void *p1,const void *p2){
   n2=*(const struct mag *)p2;
   if(n1.b<n2.b) return 1;
   return -1;
-} ./Main.c: In function ‘main’:
-./Main.c:17:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&a,&b);
-     ^
+} 

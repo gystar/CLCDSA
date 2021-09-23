@@ -25,18 +25,4 @@ int main(){
     printf("NO\n");
   }
   
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   scanf("%d%d%d", &a, &b, &c);
-   ^
-./Main.c:6:3: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:6:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:23:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-     printf("YES\n");
-     ^
-./Main.c:23:5: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:23:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-./Main.c:25:5: warning: incompatible implicit declaration of built-in function ‘printf’
-     printf("NO\n");
-     ^
-./Main.c:25:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

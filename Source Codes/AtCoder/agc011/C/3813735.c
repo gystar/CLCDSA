@@ -93,10 +93,4 @@ long long main(void){
     w+=(hs*hs);
     printf("%lld\n",res+w);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:72:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lld",&n,&m);
-     ^
-./Main.c:74:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%lld%lld",&gr[2*i].st,&gr[2*i].fi);
-       ^
+} 

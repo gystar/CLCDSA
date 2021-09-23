@@ -46,7 +46,4 @@ int saijoui(long long n, int keta)
     int i;
     for(i = 0; i < keta-1; i++) n /= 10;
     return (int)n;
-} ./Main.c: In function ‘main’:
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld", &n);
-     ^
+} 

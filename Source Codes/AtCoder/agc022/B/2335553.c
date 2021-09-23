@@ -39,14 +39,4 @@ int main(){
 		}
 		ss+=2;
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:36:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-    rep(i,0,n-2)printf("%d ",a[i]);
-                       ^
-./Main.c:37:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-    printf("%d %d\n",a[cnt-1]+(ss-s),k);
-           ^
-./Main.c:37:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

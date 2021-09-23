@@ -108,10 +108,4 @@ signed main(){
 	}
 	printf("%.10lf\n%.10lf\n", ans_min, ans_max);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &N, &M);
-  ^
-./Main.c:51:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lf%lf", &p[i], &a[i], &b[i]);
-   ^
+} 

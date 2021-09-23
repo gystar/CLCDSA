@@ -37,14 +37,4 @@ int main(){
 	printf("IMPOSSIBLE\n");
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:9: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%ld %ld", &buf1, &buf2);
-         ^
-./Main.c:16:9: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld %ld",&N, &M);
-  ^
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld %ld", &buf1, &buf2);
-   ^
+} 

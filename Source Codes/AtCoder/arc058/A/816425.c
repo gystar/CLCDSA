@@ -28,10 +28,4 @@ bool check(int checks,int *D,int K){
   int i;
   for(i=0;i<K;i++) if(checks==D[i]) return true;
   return false;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&N,&K);
-   ^
-./Main.c:12:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<K;i++) scanf("%d",D+i);
-                    ^
+} 

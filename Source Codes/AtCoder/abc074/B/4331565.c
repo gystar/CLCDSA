@@ -23,16 +23,4 @@ int main(){
   
   printf("%d\n",k);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:15: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-     if(A[i] > abs(A[i]-K)){
-               ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&K);
-   ^
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d ",&A[i]);
-     ^
+} 

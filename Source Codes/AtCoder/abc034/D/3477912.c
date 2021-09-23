@@ -34,10 +34,4 @@ int concentrate(double x)
   qsort(c, n, sizeof(double), compare);
   for (i = 0; i < k; i++) sum += c[n-1-i];
   return sum >= 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &n, &k);
-   ^
-./Main.c:14:27: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (i = 0; i < n; i++) scanf("%lf%lf", &w[i], &p[i]);
-                           ^
+} 

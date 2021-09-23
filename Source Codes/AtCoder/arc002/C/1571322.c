@@ -61,12 +61,4 @@ int main()
 	printf("%d\n", min);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:52:14: warning: implicit declaration of function ‘calloc’ [-Wimplicit-function-declaration]
-  p = (char *)calloc(n + 1, sizeof(char));
-              ^
-./Main.c:52:14: warning: incompatible implicit declaration of built-in function ‘calloc’
-./Main.c:52:14: note: include ‘<stdlib.h>’ or provide a declaration of ‘calloc’
-./Main.c:47:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
+} 

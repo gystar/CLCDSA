@@ -28,10 +28,4 @@ int main(void){
 	}
 	printf("%d\n", max(ey - sy, 0) * max(ex - sx, 0));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d", &w, &h, &n);
-  ^
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d", &x, &y, &a);
-   ^
+} 

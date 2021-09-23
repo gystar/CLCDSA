@@ -51,10 +51,4 @@ int main(void) {
 	res += combination(before, 2);
 	printf("%ld\n", res);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld", &N);
-  ^
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld", &temp);
-   ^
+} 

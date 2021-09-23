@@ -44,10 +44,4 @@ int main(void){
         }
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:36:24: warning: type defaults to ‘int’ in declaration of ‘b’ [-Wimplicit-int]
-             const auto b = v[x];
-                        ^
-./Main.c:37:24: warning: type defaults to ‘int’ in declaration of ‘r’ [-Wimplicit-int]
-             const auto r = right+1;
-                        ^
+} 

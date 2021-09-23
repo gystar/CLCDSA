@@ -24,10 +24,3 @@ int main()
 } ./Main.c:1:18: warning: extra tokens at end of #include directive
  #include<stdio.h>>
                   ^
-./Main.c: In function ‘main’:
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:18:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&x[i],&y[i]);
-     ^

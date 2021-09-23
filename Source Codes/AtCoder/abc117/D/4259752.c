@@ -50,10 +50,4 @@ int main()
 	printf("%llu", sum_max);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %llu ", &n, &k);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu ", &a);
-   ^
+} 

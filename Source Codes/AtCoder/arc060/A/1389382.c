@@ -20,10 +20,4 @@ int main(void){
     for(int i=1;i<=N;i++)ans+=kotaekazu[i][A*i];
     printf("%lld",ans);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&N,&A);
-     ^
-./Main.c:12:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&kari);
-         ^
+} 

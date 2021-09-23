@@ -37,13 +37,4 @@ int main()
         if(kari<ans)ans=kari;
     }
     printf("%d",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&n,&c);
-     ^
-./Main.c:11:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d ",&(iwakan[i/c][i%c]));
-         ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&(board[j/n][j%n]));
-         ^
+} 

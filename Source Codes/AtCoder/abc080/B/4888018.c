@@ -29,7 +29,4 @@ int main(int argc, char const *argv[])
 	if(n % ans == 0)	puts("Yes");
 	else puts("No");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
+} 

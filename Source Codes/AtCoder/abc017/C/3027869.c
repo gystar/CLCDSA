@@ -21,10 +21,4 @@ int main() {
         sub = sub > sum[i] ? sum[i] : sub;
     }
     printf("%lld\n", all - sub);
-} ./Main.c: In function ‘main’:
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &n, &m);
-     ^
-./Main.c:13:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d%d", l + i, r + i, s + i);
-         ^
+} 

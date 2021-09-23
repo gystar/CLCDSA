@@ -13,10 +13,4 @@ int main()
         else dp[i]=min((dp[i-2]+(abs(h[i]-h[i-2]))),(dp[i-1]+(abs(h[i]-h[i-1]))));
     }
     printf("%d",dp[n-1]);
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:10:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",(h+i));
-         ^
+} 

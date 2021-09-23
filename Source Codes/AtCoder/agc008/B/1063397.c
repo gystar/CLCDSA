@@ -65,10 +65,3 @@ int main (void) {
 } ./Main.c:22:5: warning: conflicting types for built-in function ‘abs’
  ull abs(dll n){
      ^
-./Main.c: In function ‘main’:
-./Main.c:58:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &n, &k);
-  ^
-./Main.c:59:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < n; i++) scanf("%lld", &a[i]);
-                          ^

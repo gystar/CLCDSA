@@ -21,7 +21,4 @@ int main(){
 		dp[i+1][max(0,j-1)]=(dp[i+1][max(0,j-1)]+dp[i][j])%MOD;
 	}
 	printf("%lld",dp[n][m]*invp(pom(2,m,MOD),MOD)%MOD);
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %s",&n,s);
-  ^
+} 

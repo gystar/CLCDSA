@@ -53,7 +53,4 @@ int main(void)
 	printf("%lld\n",(one_mod(a,1) * one_mod(b / div,div)) % m);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:49:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld %lld",&a,&b,&m);
-  ^
+} 

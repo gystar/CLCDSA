@@ -22,15 +22,4 @@ int main() {
 	printf("%lld\n", ans);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:30: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-  long long *A = (long long *)malloc(sizeof(long long)*N);
-                              ^
-./Main.c:6:30: warning: incompatible implicit declaration of built-in function ‘malloc’
-./Main.c:6:30: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &A[i], &B[i]);
-   ^
+} 

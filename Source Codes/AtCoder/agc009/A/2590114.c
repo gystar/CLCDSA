@@ -16,10 +16,4 @@ int main(){
 	rep(i,0,n)scanf("%lld%lld",a+i,b+i);
 	for(ll i=n-1;i>=0;i--)if((a[i]+ans)%b[i])ans+=b[i]-(a[i]+ans)%b[i];
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:16:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld%lld",a+i,b+i);
-            ^
+} 

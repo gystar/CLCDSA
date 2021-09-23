@@ -71,10 +71,4 @@ int main(){
 	ll ans=0;
 	rep(j,0,n+1)rep(k,0,n+1)add(ans,dp[n][j][k]);
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:37:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",&l,&r,&x);
-   ^
+} 

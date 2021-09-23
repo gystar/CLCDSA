@@ -61,17 +61,4 @@ int main(){
 	for(int i=q-1;i>=0;i--)dfs(v[i],d[i],c[i]);
 	rep(i,0,n)printf("%lld\n",dp[i][0]);
 	
-} ./Main.c: In function ‘readgraph’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld",&x,&y);
-   ^
-./Main.c: In function ‘main’:
-./Main.c:56:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&q);
-  ^
-./Main.c:58:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",v+i,d+i,c+i);
-   ^
+} 

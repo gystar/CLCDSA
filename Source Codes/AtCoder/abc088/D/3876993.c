@@ -96,18 +96,4 @@ int main() {
   tmp=start(n, m);
   	if(tmp==-1){printf("-1");return 0;}
 	printf("%d\n", result-tmp-1);
-} ./Main.c: In function ‘main’:
-./Main.c:85:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d", &m, &n);
-  ^
-./Main.c:85:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:85:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:97:16: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-    if(tmp==-1){printf("-1");return 0;}
-                ^
-./Main.c:97:16: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:97:16: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-./Main.c:98:2: warning: incompatible implicit declaration of built-in function ‘printf’
-  printf("%d\n", result-tmp-1);
-  ^
-./Main.c:98:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

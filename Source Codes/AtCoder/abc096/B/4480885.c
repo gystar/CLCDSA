@@ -25,7 +25,4 @@ int main(void) {
   printf("%d", a + b + c);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:12: warning: format ‘%d’ expects a matching ‘int *’ argument [-Wformat=]
-   if(scanf("%d %d %d %d %d", &a, &b, &c, &k) == 1);
-            ^
+} 

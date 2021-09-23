@@ -29,10 +29,4 @@ int main(){
     d=euclid(d,abs(x[i]-X));
   }
   printf("%d\n",d );
-  } ./Main.c: In function ‘main’:
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&X);
-   ^
-./Main.c:26:24: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(int i=0;i<N;i++) scanf("%d",&x[i]);
-                        ^
+  } 

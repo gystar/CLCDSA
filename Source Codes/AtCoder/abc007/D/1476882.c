@@ -21,7 +21,4 @@ int main(void){
     scanf("%lld %lld",&A,&B);
    printf("%lld\n",B-A+1-(kinsijanai(B)-kinsijanai(A-1)));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&A,&B);
-     ^
+} 

@@ -127,10 +127,4 @@ int main(void)
 //	printf("???????\n");
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:38:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %ld",&n,&weight);
-  ^
-./Main.c:41:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&item[i].w,&item[i].v);
-   ^
+} 

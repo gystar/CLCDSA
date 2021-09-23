@@ -24,10 +24,4 @@ int main(void) {
   else if(ans<0) printf("West %d\n",ans*(-1));
   else printf("%d\n",0);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&N,&A,&B);
-   ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s%d",whichway,&distance);
-     ^
+} 

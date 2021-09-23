@@ -23,7 +23,4 @@ int main(){
 		}
 	}
 	printf("%.10lf\n", f((l + r) / 2, P));
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf", &P);
-  ^
+} 

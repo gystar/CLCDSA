@@ -39,13 +39,4 @@ int main(void){
     if(pat(te)<k){fi=te-1;}else{st=te+1;}
   }
   printf("%lld\n",fi);
-} ./Main.c: In function ‘main’:
-./Main.c:30:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&n,&k);
-   ^
-./Main.c:32:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++){scanf("%lld",&a[i]);}
-                    ^
-./Main.c:33:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++){scanf("%lld",&b[i]);}
-                    ^
+} 

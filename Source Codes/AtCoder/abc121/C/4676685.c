@@ -32,10 +32,4 @@ int main() {
   }
   printf("%ld\n",ab.a);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&M);
-   ^
-./Main.c:18:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %d",&AB[i].a,&AB[i].b);
-     ^
+} 

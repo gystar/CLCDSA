@@ -31,13 +31,4 @@ int main() {
 	else { printf("NO\n"); }
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:23:15: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
-  int dx = max(abs(x2 - x1), abs(x3 - x1));
-               ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d", &x1, &y1, &r);
-  ^
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d %d", &x2, &y2, &x3, &y3);
-  ^
+} 

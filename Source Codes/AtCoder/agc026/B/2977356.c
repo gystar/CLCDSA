@@ -21,10 +21,4 @@
                 printf("No\n");
             }
         }
-    } ./Main.c: In function ‘main’:
-./Main.c:14:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&t);
-         ^
-./Main.c:16:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%lld%lld%lld%lld",&a,&b,&c,&d);
-             ^
+    } 

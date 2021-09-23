@@ -58,7 +58,4 @@ int main(){
 		}
 
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(inputline,sizeof(inputline),stdin);
-  ^
+} 

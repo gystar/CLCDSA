@@ -61,19 +61,4 @@ int main(){
 	puts("POSSIBLE");
 //	rep(i,0,n)printf("%lld ",y[i]);
 	return 0;
-} ./Main.c: In function ‘f’:
-./Main.c:38:3: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
-   exit(0);
-   ^
-./Main.c:38:3: warning: incompatible implicit declaration of built-in function ‘exit’
-./Main.c:38:3: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
-./Main.c: In function ‘main’:
-./Main.c:51:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:55:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
-./Main.c:58:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",x+i);
-            ^
+} 

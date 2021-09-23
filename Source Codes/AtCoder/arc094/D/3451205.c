@@ -92,10 +92,4 @@ int main(){
 	ll ans=0;
 	rep(i,0,3)ans+=dp[N][i][(ss[1]+2*ss[2])%3][1];
 	printf("%d\n",(ans+!con)%MOD);
-} ./Main.c: In function ‘main’:
-./Main.c:94:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n",(ans+!con)%MOD);
-         ^
-./Main.c:60:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

@@ -26,4 +26,3 @@ main(s){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(s){
  ^
-./Main.c: In function...

@@ -37,10 +37,4 @@ int main (void)
     }
     printf("%lld",money);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&n,&m);
-     ^
-./Main.c:22:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld %lld",&abx[i].a,&abx[i].b);   //b ... how many bottles a... money / bottle //
-         ^
+} 

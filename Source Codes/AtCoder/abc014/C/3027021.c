@@ -54,10 +54,4 @@ int main() {
         res = res < s[i] ? s[i] : res;
     }
     printf("%d\n", res);
-} ./Main.c: In function ‘main’:
-./Main.c:45:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:47:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d", &a, &b);
-         ^
+} 

@@ -103,7 +103,4 @@ int main(void){
     scanf("%d%d%d%d",&h,&w,&h2,&w2);
     printf("%d\n",(h-h2)*(w-w2));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:103:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d%d%d",&h,&w,&h2,&w2);
-     ^
+} 

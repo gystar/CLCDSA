@@ -257,13 +257,4 @@ int main(){
 		output(prev, N + 1, s);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:200:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s", first, last);
-  ^
-./Main.c:202:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:207:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s", s[i]);
-    ^
+} 

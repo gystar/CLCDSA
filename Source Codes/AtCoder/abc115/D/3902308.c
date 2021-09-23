@@ -33,10 +33,4 @@ long long multiDimBurger(int n, long long x){
 			return 2 * multiDimBurger(n-1, x-2) + 1;
 		}
     }
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &X);
-  ^
+} 

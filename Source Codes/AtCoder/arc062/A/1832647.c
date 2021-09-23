@@ -31,10 +31,4 @@ ulli main() {
 
 	printf("%llu\n", a[n - 1] + t[n - 1]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu %llu", &t[i], &a[i]);
-   ^
+} 

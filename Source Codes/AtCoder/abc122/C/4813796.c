@@ -20,13 +20,4 @@ int main(void) {
       scanf("%d%d", &l1, &l2);
       printf("%d\n",accumulate[l2 - 1] - accumulate[l1 - 1]);
    }
-} ./Main.c: In function ‘main’:
-./Main.c:5:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d%d", &N, &Q);
-    ^
-./Main.c:8:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s", S);
-    ^
-./Main.c:20:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d%d", &l1, &l2);
-       ^
+} 

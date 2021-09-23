@@ -22,9 +22,3 @@ main(){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
-  read(0,s,100100);
-  ^
-./Main.c:4:4: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  n=strlen(s)-1;...

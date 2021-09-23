@@ -16,7 +16,4 @@ int main(void){
     printf("%lld\n",ans);
     return 0;
     //ans=(n+k-1)C(k)
-} ./Main.c: In function ‘main’:
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&n,&k);
-     ^
+} 

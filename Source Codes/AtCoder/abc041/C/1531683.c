@@ -55,10 +55,4 @@ void sort(struct data a[], long l, long r){
             sort(a, i, r);
     }
     
-} ./Main.c: In function ‘main’:
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&N);
-     ^
-./Main.c:19:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lu",&d[i].h);
-         ^
+} 

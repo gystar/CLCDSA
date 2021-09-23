@@ -16,10 +16,4 @@ int main(){
   for(i=j=1;i<=n;i++)j+=d[n][i][i*m];
   printf("%lld\n",j-1);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld",&n,&m);
-   ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld",&a);
-     ^
+} 

@@ -16,20 +16,3 @@ main()
 } ./Main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  cross(a,b,c,d){return a*d-b*c>0;}
  ^
-./Main.c: In function ‘cross’:
-./Main.c:1:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:1: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:1: warning: type of ‘c’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:1: warning: type of ‘d’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: At top level:
-./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
- f(a,b,c,d,e,f,g,h){
- ^
-./Main.c: In function ‘f’:
-./Main.c:2:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘c’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘d’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘e’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘f’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘g’ def...

@@ -28,7 +28,4 @@ int main(void)
 	t2=(double)(l-dist)/(y-x);
 	printf("%.10lf\n",x<y?MIN(t1,t2):t1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d%d",&l,&x,&y,&s,&d);
-  ^
+} 

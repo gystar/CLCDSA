@@ -42,10 +42,4 @@ int main(void){
         // printf("r %d i %d\n",r[i],i);
     }
     printf("%f\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d\n",&n,&k);
-     ^
-./Main.c:12:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(str,sizeof(str), stdin);
-     ^
+} 

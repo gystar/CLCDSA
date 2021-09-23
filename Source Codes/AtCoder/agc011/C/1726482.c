@@ -237,10 +237,4 @@ signed main(){
 	printf("(x, y, z) = (%lld, %lld, %lld)\n", x, y, z);
 */	printf("%lld\n", 2 * (N * x + y * y + y * z) - x * x + z * z);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:188:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &N, &M);
-  ^
-./Main.c:191:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &u, &v);
-   ^
+} 

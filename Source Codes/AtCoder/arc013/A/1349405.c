@@ -49,19 +49,4 @@ int main(void){
 	int n=in(),m=in(),l=in(),p=in(),q=in(),r=in();
 	print(max((n/p)*(m/q)*(l/r),max((n/p)*(m/r)*(l/q),max((n/q)*(m/p)*(l/r),max((n/q)*(m/r)*(l/p),max((n/r)*(m/p)*(l/q),(n/r)*(m/q)*(l/p)))))));
 	return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:12:8: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  int i;scanf("%d",&i);
-        ^
-./Main.c: In function ‘llin’:
-./Main.c:16:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  long long i;scanf("%lld",&i);
-              ^
-./Main.c: In function ‘din’:
-./Main.c:20:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  double i;scanf("%lf",&i);
-           ^
-./Main.c: In function ‘chin’:
-./Main.c:24:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

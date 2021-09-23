@@ -21,7 +21,4 @@ int main(int argc, char const *argv[]) {
         printf("%d\n", No[i]);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &num[i]);
-         ^
+} 

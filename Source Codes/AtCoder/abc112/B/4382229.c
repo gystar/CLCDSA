@@ -25,10 +25,4 @@ int n,t,i,x[102]={0},k,min=1003,ya=0;
 	printf("%d",min);	
 	}
 	return 0;
-	} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&t);
-  ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf ("%d %d",&x[i],&k);
-  ^
+	} 

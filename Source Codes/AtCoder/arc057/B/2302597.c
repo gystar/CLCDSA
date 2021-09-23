@@ -38,17 +38,3 @@ main(){
 } ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:5:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d",&N,&K);
-  ^
-./Main.c:5:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:5:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:31:10: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-   return!puts("1");
-          ^
-./Main.c:35:11: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-    return!printf("%d\n",i);
-           ^
-./Main.c:35:11: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:35:11: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

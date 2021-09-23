@@ -30,10 +30,4 @@ double zettaichi(double f){
         f = -f;
     }
     return f;
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&N);
-     ^
-./Main.c:8:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lf%lf%lf",&x[i],&y[i],&c[i]);
-         ^
+} 

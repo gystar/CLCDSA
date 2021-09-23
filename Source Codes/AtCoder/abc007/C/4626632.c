@@ -65,10 +65,4 @@ int main(void){
   printf("%d\n",visited[gx][gy]);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d%d%d",&R,&C,&sx,&sy,&gx,&gy);
-   ^
-./Main.c:29:28: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(int i = 0;i < R;i++) scanf("%s",c[i]);
-                            ^
+} 

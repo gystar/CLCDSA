@@ -8,10 +8,3 @@ a,b;main(n){scanf("%d%d%d",&n,&a,&b);puts(n<=a||a==b&&n%-~a||a>b?"Takahashi":"Ao
 ./Main.c:1:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  a,b;main(n){scanf("%d%d%d",&n,&a,&b);puts(n<=a||a==b&&n%-~a||a>b?"Takahashi":"Aoki");}
      ^
-./Main.c: In function ‘main’:
-./Main.c:1:5: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
- a,b;main(n){scanf("%d%d%d",&n,&a,&b);puts(n<=a||a==b&&n%-~a||a>b?"Takahashi":"Aoki");}
-             ^
-./Main.c:1:13: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:1:13: note: include ‘<stdio.h>’ or prov...

@@ -38,7 +38,4 @@ int main() {
 }
 double function(double a) {
 	return 1.0 - ((P*(log(2.0)) / 1.5)*(pow(exp(1.0), -a*((log(2.0)) / 1.5))));
-} ./Main.c: In function ‘main’:
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf", &P);
-  ^
+} 

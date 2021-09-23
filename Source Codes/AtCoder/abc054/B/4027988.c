@@ -62,13 +62,4 @@ int main(void) {
   if(flag) puts("Yes");
   else puts("No");  
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:51:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&M);
-   ^
-./Main.c:53:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i = 0; i < N; ++i) scanf("%s", board[i]);
-                          ^
-./Main.c:54:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i = 0; i < M; ++i) scanf("%s", pattern[i]);
-                          ^
+} 

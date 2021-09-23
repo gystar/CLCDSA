@@ -45,10 +45,4 @@ int main(){
 		nexp(a+1,n-1);
 	}
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:36:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:39:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&p,&q);
-   ^
+} 

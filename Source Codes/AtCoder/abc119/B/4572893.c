@@ -16,13 +16,4 @@
     }
     printf("%f",en);
     return 0;
-    } ./Main.c: In function ‘main’:
-./Main.c:10:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[100]’ [-Wformat=]
-         scanf("%lf %s",&v[i],&S[i]);
-               ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&A);
-     ^
-./Main.c:10:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lf %s",&v[i],&S[i]);
-         ^
+    } 

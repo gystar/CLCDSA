@@ -141,16 +141,4 @@ int main(int argc, char const *argv[]) {
     free(node);
     free(tree);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:113:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:123:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &node1, &node2);
-         ^
-./Main.c:131:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &Q);
-     ^
-./Main.c:134:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &a, &b);
-         ^
+} 

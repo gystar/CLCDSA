@@ -34,10 +34,4 @@ int main (void)
 
 	// STEP.END
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
-  rtvl_scanf = scanf ("%d", &num_takoyaki);
-                      ^
-./Main.c:26:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
-   rtvl_scanf = scanf ("%d", &seconds_buf);
-                       ^
+} 

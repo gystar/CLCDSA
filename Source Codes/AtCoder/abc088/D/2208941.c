@@ -51,10 +51,4 @@ int main(){
   if(b!=-1)
     printf("%d\n",w*h-b-cnt);
   else printf("-1\n");
-} ./Main.c: In function ‘main’:
-./Main.c:39:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&h,&w);
-   ^
-./Main.c:41:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
+} 

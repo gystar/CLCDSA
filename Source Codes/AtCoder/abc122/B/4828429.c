@@ -31,14 +31,4 @@ for(i=0;i<len;i++){
 }
 
 printf("%d",result);
-} ./Main.c: In function ‘main’:
-./Main.c:17:1: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
- gets(s);
- ^
-./Main.c:18:5: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
- len=strlen(s);
-     ^
-./Main.c:18:5: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:18:5: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-/tmp/ccGg7j2t.o: In function `main':
-Main.c:(.text.startup+0x21): warning: the `gets' function is dangerous and should not be used.
+} 

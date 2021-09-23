@@ -25,7 +25,4 @@ int main()
     return 0;
   }
   printf("%lld\n", (MIN(llabs(b - a + w), llabs(a - b + w))));
-} ./Main.c: In function ‘main’:
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &w, &a, &b);
-   ^
+} 

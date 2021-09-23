@@ -16,12 +16,4 @@ void swap(tmp,w){
     x = num[tmp];
     num[tmp] = num[w];
     num[w] = x;
-} ./Main.c: In function ‘swap’:
-./Main.c:14:6: warning: type of ‘tmp’ defaults to ‘int’ [-Wimplicit-int]
- void swap(tmp,w){
-      ^
-./Main.c:14:6: warning: type of ‘w’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
+} 

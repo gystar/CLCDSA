@@ -78,18 +78,4 @@ int main(int argc, char **argv) {
   }
 
   return 0;
-} ./Main.c: In function ‘solv’:
-./Main.c:39:11: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-     scanf("%lld %lld", &sushis[i].t, &sushis[i].d);
-           ^
-./Main.c:39:11: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-./Main.c: In function ‘main’:
-./Main.c:76:16: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-   while (scanf("%lld %lld", &n, &k) != EOF) {
-                ^
-./Main.c:76:16: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-./Main.c:77:12: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int64_t {aka long int}’ [-Wformat=]
-     printf("%lld\n", solv(n, k));
-            ^
-./Main.c: In function ‘solv’:
-./Main.c:39:5: wa...
+} 

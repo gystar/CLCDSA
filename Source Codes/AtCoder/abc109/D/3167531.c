@@ -105,10 +105,4 @@ int main(void){
     //fwrite(buffer, 1, p, stdout);
     write(1, buffer, p);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:57:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
-     fread(a, 1, 2*w*h, stdin);
-     ^
-./Main.c:106:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
-     write(1, buffer, p);
-     ^
+} 

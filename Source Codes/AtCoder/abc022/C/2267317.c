@@ -28,26 +28,3 @@ main(){
 } ./Main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  min(a,b){return a<b?a:b;}
  ^
-./Main.c: In function ‘min’:
-./Main.c:1:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:1: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c: At top level:
-./Main.c:2:1: warning: data definition has no type or storage class
- A[300],a;
- ^
-./Main.c:2:1: warning: type defaults to ‘int’ in declaration of ‘A’ [-Wimplicit-int]
-./Main.c:2:8: warning: type defaults to ‘int’ in declaration of ‘a’ [-Wimplicit-int]
- A[300],a;
-        ^
-./Main.c:3:1: warning: data definition has no type or storage class
- c[301][301];
- ^
-./Main.c:3:1: warning: type defaults to ‘int’ in declaration of ‘c’ [-Wimplicit-int]
-./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
- main(){
- ^
-./Main.c: In function ‘main’:
-./Main.c:6:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d%*c",&N,&M);
-  ^
-./Main.c:6:2: warning: incompatible implic...

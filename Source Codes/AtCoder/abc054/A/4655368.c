@@ -64,19 +64,4 @@ int main(int argc, char const *argv[]){
 	if(a == 1)	a += 13;
 	if(b == 1)	b += 13;
 	printf("%s\n", a > b ? "Alice" : (a == b ? "Draw" : "Bob"));
-} ./Main.c: In function ‘append’:
-./Main.c:43:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘pop’:
-./Main.c:51:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:57:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:63:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&a,&b);
-  ^
+} 

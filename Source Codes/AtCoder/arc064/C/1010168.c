@@ -18,10 +18,4 @@ int main(){
   }
   printf("%.10lf\n",d[0][1]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d %d %d",&a[0],&b[0],&a[1],&b[1],&n);
-   ^
-./Main.c:10:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=2;i<n;i++)scanf("%d %d %d",&a[i],&b[i],&c[i]);
-                   ^
+} 

@@ -30,7 +30,4 @@ int main(void)
 	scanf("%lld%lld",&n,&x);
 	printf("%lld\n",n+dfs(x,n-x));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:30:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&x);
-  ^
+} 

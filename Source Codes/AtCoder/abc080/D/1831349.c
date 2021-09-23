@@ -70,10 +70,4 @@ int main() {
 		if (max < cnt[i])max = cnt[i];
 	}
 	printf("%d\n", max);
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &N, &C);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d", &s[i], &t[i], &c[i]);
-   ^
+} 

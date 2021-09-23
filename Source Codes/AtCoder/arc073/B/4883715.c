@@ -83,10 +83,4 @@ int main(void) {
     printf("%lld\n", dp[j][k][l][m]);
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:32:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%lld", &N, &W);
-     ^
-./Main.c:33:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for (i=0;i<N;i++) scanf("%lld%d", &w[i], &v[i]);
-                       ^
+} 

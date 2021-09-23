@@ -69,19 +69,4 @@ int main(int argc, char const *argv[])
 	}
 	puts("yes");
 	return 0;
-} ./Main.c: In function ‘pop’:
-./Main.c:49:2: warning: implicit declaration of function ‘nongetpop’ [-Wimplicit-function-declaration]
-  nongetpop(array,&(*size));
-  ^
-./Main.c: In function ‘append’:
-./Main.c:41:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:54:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:62:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",str);
-  ^
+} 

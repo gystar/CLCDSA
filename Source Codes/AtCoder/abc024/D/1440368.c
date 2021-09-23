@@ -36,13 +36,4 @@ signed main(){
 	int denom = inverse(MOD(A * (B + C) - B * C));
 	printf("%lld %lld\n", MOD(MOD(C * (B - A)) * denom), MOD(MOD(B * (C - A)) * denom));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:33:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &A);
-  ^
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &B);
-  ^
-./Main.c:35:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &C);
-  ^
+} 

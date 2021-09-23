@@ -45,10 +45,4 @@ int main(void){
 	printf("%.13llf", ans);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:9: warning: use of ‘ll’ length modifier with ‘f’ type character [-Wformat=]
-  printf("%.13llf", ans);
-         ^
-./Main.c:38:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d %d", &A, &B, &C );
-  ^
+} 

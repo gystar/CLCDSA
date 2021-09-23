@@ -35,13 +35,4 @@ int main(void){
 	}
 				
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:34:10: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘long int’ [-Wformat=]
-   printf("%lld", sum);
-          ^
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n );
-  ^
-./Main.c:21:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(int i=0;i<n;i++) scanf("%d", &a[i]);
-                       ^
+} 

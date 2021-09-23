@@ -24,10 +24,4 @@ int main(void){
       putchar(10);
     }
   }
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%hd%hd", &h, &w);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", m[i]);
-     ^
+} 

@@ -29,10 +29,4 @@ int main(){
     }
     int ans=sol2(0,0,0);
     printf("%d\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:25:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&w,&n,&k);
-     ^
-./Main.c:28:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&a[i][0],&a[i][1]);
-         ^
+} 

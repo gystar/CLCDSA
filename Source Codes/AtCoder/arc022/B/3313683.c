@@ -22,10 +22,3 @@ main(m){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(m){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘m’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%*d");~scanf("%d",a+f);f++){
-      ^
-./Main.c:3:6: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:6: note: include ‘<stdio.h>’ or provide a declaration ...

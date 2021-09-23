@@ -140,10 +140,4 @@ int main(void)
 	dijkstra(edge,2*m+n,d,2*m);
 	printf("%d\n",d[2*m+n-1]==INF?-1:d[2*m+n-1]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:125:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:128:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d",&p,&q,&c);
-   ^
+} 

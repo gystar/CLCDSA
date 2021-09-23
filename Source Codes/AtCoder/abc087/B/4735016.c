@@ -32,16 +32,4 @@ int main() {
   printf("%d\n", n);
   
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(a, 4, stdin);
-   ^
-./Main.c:12:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(b, 4, stdin);
-   ^
-./Main.c:13:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(c, 5, stdin);
-   ^
-./Main.c:14:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(x, 6, stdin);
-   ^
+} 

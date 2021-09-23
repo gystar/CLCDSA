@@ -26,7 +26,4 @@ int main(){
 	ans[0]='W';ans[1]='W';f();
 	puts("-1");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%s",&n,s);
-  ^
+} 

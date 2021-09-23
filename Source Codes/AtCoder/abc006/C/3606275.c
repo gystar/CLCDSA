@@ -26,7 +26,4 @@ void solve() {
 int main() {
     input();
     solve();
-} ./Main.c: In function ‘input’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d", &N, &M);
-     ^
+} 

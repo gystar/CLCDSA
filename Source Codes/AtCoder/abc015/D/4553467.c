@@ -46,13 +46,4 @@ int main() {
 	}
 
 	printf("%d\n", map[width][num_screen_shots][num_lines]);
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &width);
-  ^
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &num_lines, &num_screen_shots);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d", &data[i][0], &data[i][1]);
-   ^
+} 

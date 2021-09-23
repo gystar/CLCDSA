@@ -12,7 +12,4 @@ int main()
     if(srx>sry)
     printf("TAKAHASHI\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lf%lf%lf%lf",&mzy,&zjq,&lhy,&lgx);
-     ^
+} 

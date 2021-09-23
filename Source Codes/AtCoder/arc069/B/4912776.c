@@ -54,10 +54,4 @@ int main(void) {
     if (!res) printf("%s\n", T);
     else printf("-1\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[100010]’ [-Wformat=]
-     scanf("%d%s", &N, &S);
-           ^
-./Main.c:45:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%s", &N, &S);
-     ^
+} 

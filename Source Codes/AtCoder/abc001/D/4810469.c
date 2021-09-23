@@ -93,10 +93,4 @@ printRainedTime(int init, int fin){
   finMin = (fin * 5) % 60;
   finHour = ((fin * 5) - finMin) / 60 ;
   printf("%02d%02d-%02d%02d\n",initHour, initMin, finHour, finMin);
-} ./Main.c: In function ‘main’:
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d-%d",&S[i], &E[i]);
-     ^
+} 

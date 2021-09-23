@@ -28,10 +28,4 @@ int main(void){
 	water(height, 0, N-1);
 	printf("%d\n", Num);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:27:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &height[i]);
-   ^
+} 

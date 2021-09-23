@@ -42,10 +42,4 @@ int main(){
 			printf("%d %d %d %d\n",ans[i][0],ans[i][1],ans[i][2],ans[i][3]);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&h,&w);
-  ^
-./Main.c:9:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d",&a[i][j]);
-    ^
+} 

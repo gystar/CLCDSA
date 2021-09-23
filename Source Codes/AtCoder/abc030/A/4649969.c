@@ -6,7 +6,4 @@ int main(void){
 	else if(b/a<d/c) printf("AOKI\n");
 	else printf("DRAW\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf%lf%lf%lf",&a,&b,&c,&d);
-  ^
+} 

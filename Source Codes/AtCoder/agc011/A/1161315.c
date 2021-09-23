@@ -43,10 +43,4 @@ int main()
     printf( "%lu", b);
     free( t );
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lu %lu %lu", &n, &c, &k);
-     ^
-./Main.c:23:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf( "%lu", &t[i] );
-         ^
+} 

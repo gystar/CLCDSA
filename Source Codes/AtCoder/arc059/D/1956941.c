@@ -593,20 +593,4 @@ int32_t main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘printUquotient’:
-./Main.c:396:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘ull {aka long unsigned int}’ [-Wformat=]
-  printf("%llu.", left / right);
-         ^
-./Main.c:400:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘ull {aka long unsigned int}’ [-Wformat=]
-   printf("%1d", left / right);
-          ^
-./Main.c: In function ‘solve’:
-./Main.c:514:9: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘ull {aka long unsigned int}’ [-Wformat=]
-  printf("%llu\n", result);
-         ^
-./Main.c: In function ‘main’:
-./Main.c:544:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 2 has type ‘ull * {aka long unsigned int *}’ [-Wformat=]
-  scanf("%llu", &n, &m);
-        ^
-./Main.c:544:8: warning: too many arguments for format [-Wformat-extra-args]
-./Main.c:544:2: warning: ignoring return value of ‘scanf’, declared wi...
+} 

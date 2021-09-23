@@ -82,12 +82,3 @@ int main(void){
 ./Main.c:24:11: warning: conflicting types for built-in function ‘llround’
  long long llround(long long a,long long b){if((a%b)*2 >= b){return (a/b)+1;}return a/b;}
            ^
-./Main.c: In function ‘sortfnc’:
-./Main.c:52:11: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
-         x=(char *)a[i];
-           ^
-./Main.c:52:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
-         x=(char *)a[i];
-          ^
-./Main.c:53:11: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
-         ...

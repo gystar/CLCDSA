@@ -36,13 +36,4 @@ int main(){
         cnt++;
     }
     printf("%d\n",cnt/2+1);
-} ./Main.c: In function ‘main’:
-./Main.c:15:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d %d",&ax,&ay,&bx,&by);
-     ^
-./Main.c:16:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:20:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&ab[i][0],&ab[i][1]);
-         ^
+} 

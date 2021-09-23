@@ -65,16 +65,4 @@ int main(void)
    
   return 0;
  
-} ./Main.c: In function ‘main’:
-./Main.c:13:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100000]’ [-Wformat=]
-   scanf("%s", &S);
-         ^
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", &S);
-   ^
-./Main.c:10:10: warning: iteration 100000u invokes undefined behavior [-Waggressive-loop-optimizations]
-     S[i] = '\0';
-          ^
-./Main.c:9:3: note: containing loop
-   for( i = 0; i < 100001; i++ ){
-   ^
+} 

@@ -72,16 +72,4 @@ int main(){
 	
 	rep(i,1,n+1)printf("%d%c",cnt[bserch(i)],i==n?'\n':' ');
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:73:21: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  rep(i,1,n+1)printf("%d%c",cnt[bserch(i)],i==n?'\n':' ');
-                     ^
-./Main.c:38:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&k,&l);
-  ^
-./Main.c:43:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&a,&b);
-   ^
-./Main.c:51:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&a,&b);
-   ^
+} 

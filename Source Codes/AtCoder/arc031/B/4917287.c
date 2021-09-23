@@ -40,7 +40,4 @@ int main(){
        } 
     }
     printf("NO\n");
-} ./Main.c: In function ‘main’:
-./Main.c:29:16: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     rep(i,0,10)scanf("%s",buf[i]);
-                ^
+} 

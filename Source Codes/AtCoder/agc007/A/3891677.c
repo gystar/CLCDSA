@@ -22,10 +22,4 @@ int main() {
 	}
 	if(result==h+w-1){ printf("Possible"); }else{ printf("Impossible"); }
 	
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &h,&w);
-  ^
-./Main.c:10:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf(" %c", &str[i][j]);
-    ^
+} 

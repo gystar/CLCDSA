@@ -24,10 +24,4 @@ int main(){
 
 short min(short a, short b, short c){
 	return (b>c?(a>c?c:a):(a>b?b:a));
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%hd", &N);
-  ^
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%hd%hd%hd", &NG[0], &NG[1], &NG[2]);
-  ^
+} 

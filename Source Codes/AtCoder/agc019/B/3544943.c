@@ -45,15 +45,4 @@ int main(void)
 //	printf("???????\n");
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[200010]’ [-Wformat=]
-  scanf("%s",&a);
-        ^
-./Main.c:28:6: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  len=strlen(a);
-      ^
-./Main.c:28:6: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:28:6: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",&a);
-  ^
+} 

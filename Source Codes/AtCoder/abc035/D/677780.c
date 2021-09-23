@@ -52,13 +52,4 @@ int main(){
   for(i=0;i<n;i++)max=MAX(max,e[i]*(t-CO[i]-go[i]));
   printf("%lld\n",max);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:42:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %lld",&n,&m,&t);
-   ^
-./Main.c:43:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++)scanf("%lld",&e[i]);
-                   ^
-./Main.c:45:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&a,&b,&co[i]);
-     ^
+} 

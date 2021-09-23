@@ -33,13 +33,4 @@ int main(void){
   ans += num(5)*(num(5)-1)*(num(3)-2)/2;
   printf("%d\n",ans);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&N);
-   ^
-./Main.c:18:39: warning: iteration 101u invokes undefined behavior [-Waggressive-loop-optimizations]
-   for(int i = 0;i <= 101;i++) insu[i] = 0;
-                                       ^
-./Main.c:18:3: note: containing loop
-   for(int i = 0;i <= 101;i++) insu[i] = 0;
-   ^
+} 

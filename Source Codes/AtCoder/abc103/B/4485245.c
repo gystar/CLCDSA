@@ -40,9 +40,3 @@ int main(){
 } ./Main.c:2:19: warning: extra tokens at end of #include directive
  #include<string.h>>
                    ^
-./Main.c: In function ‘main’:
-./Main.c:7:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(S);
-  ^
-/tmp/ccEqwAbB.o: In function `main':
-Main.c:(.text.startup+0x35): warning: the `gets' function is dangerous and should not be used.

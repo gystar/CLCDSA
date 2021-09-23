@@ -15,7 +15,4 @@ int main(){
 		temp/=10;
 	}
 	puts(n%s==0?"Yes":"No");
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
+} 

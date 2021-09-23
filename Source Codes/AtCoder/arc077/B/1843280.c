@@ -443,13 +443,4 @@ int main (void) {
 	// }
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:419:8: warning: too many arguments for format [-Wformat-extra-args]
-  scanf("%llu", &n, &k);
-        ^
-./Main.c:419:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n, &k);
-  ^
-./Main.c:427:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%llu", &a[i]);
-   ^
+} 

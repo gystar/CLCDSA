@@ -46,19 +46,4 @@ int main(){
     }else{
         printf("%d\n",cnt-dis);
     }
-} ./Main.c: In function ‘bfs’:
-./Main.c:9:5: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-     memset(q,-1,sizeof(q));
-     ^
-./Main.c:9:5: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:9:5: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c: In function ‘main’:
-./Main.c:38:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[51]’ [-Wformat=]
-         scanf("%s",&s[i]);
-               ^
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&h,&w);
-     ^
-./Main.c:38:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",&s[i]);
-         ^
+} 

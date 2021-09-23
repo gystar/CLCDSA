@@ -13,6 +13,3 @@ s;r;n;main(c){for(gets(&c);c=getchar()-10;s+=r-!!r)r=60-c,n++;printf("%.9f\n",1.
 ./Main.c:1:7: warning: return type defaults to ‘int’ [-Wimplicit-int]
  s;r;n;main(c){for(gets(&c);c=getchar()-10;s+=r-!!r)r=60-c,n++;printf("%.9f\n",1.*s/n);}
        ^
-./Main.c: In function ‘main’:
-./Main.c:1:7: warning: type of ‘c’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:19: ...

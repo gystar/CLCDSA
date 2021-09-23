@@ -93,10 +93,4 @@ int main(void)
 	FOR(i,0,n-1) edge[i+n-1].s=a[i].num,edge[i+n-1].t=a[i+1].num,edge[i+n-1].cost=a[i+1].y-a[i].y;
 	printf("%lld\n",kruscal(edge,n,2*(n-1)));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:85:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:87:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a[i].x,&a[i].y);
-   ^
+} 

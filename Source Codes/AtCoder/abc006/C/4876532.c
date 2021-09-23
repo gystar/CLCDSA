@@ -43,7 +43,4 @@ int main(void){
     else if(m>=2*n && m<=4*n && m%2==0) printf("%d 0 %d\n",(4*n-m)/2,(m-2*n)/2);
     else printf("-1 -1 -1\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:41:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&n,&m);
-     ^
+} 

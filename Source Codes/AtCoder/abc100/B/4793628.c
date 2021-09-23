@@ -24,7 +24,4 @@ int main()
     ans += pow(100, d);
   printf("%lld\n", ans);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &d, &n);
-   ^
+} 

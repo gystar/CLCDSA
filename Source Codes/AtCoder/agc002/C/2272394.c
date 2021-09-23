@@ -19,16 +19,4 @@ int main(){
 		puts("Impossible");
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:10:18: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  rep(i,0,n)scanf("%d",a+i);
-                  ^
-./Main.c:15:24: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   rep(i,1,index)printf("%d\n",i);
-                        ^
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&l);
-  ^
-./Main.c:10:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%d",a+i);
-            ^
+} 

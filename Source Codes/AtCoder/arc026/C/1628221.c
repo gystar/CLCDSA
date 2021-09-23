@@ -262,10 +262,4 @@ signed main(){
 	}
 	printf("%lld\n", query(L, L + 1, t));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:249:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &N, &L);
-  ^
-./Main.c:252:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld", &lights[i].l, &lights[i].r, &lights[i].c);
-   ^
+} 

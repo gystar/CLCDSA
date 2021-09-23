@@ -64,24 +64,4 @@ int main()
 		printf("%ld",bs);
 	return 0;
 	 
-} ./Main.c: In function ‘main’:
-./Main.c:27:8: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  scanf("%ld",&n);
-        ^
-./Main.c:28:8: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  scanf("%ld",&m);
-        ^
-./Main.c:30:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(s);
-  ^
-./Main.c:64:10: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("%ld",bs);
-          ^
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld",&n);
-  ^
-./Main.c:28:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld",&m);
-  ^
-/tmp/cc8qmwxT.o: In function `main':
-Main.c:(.text.startup+0x4d): warning: the `gets' function is dangerous and s...
+} 

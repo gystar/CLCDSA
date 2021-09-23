@@ -90,10 +90,4 @@ int main(){
     rmi=dbmin(rmi,fseg[1].a+fseg[1].b);
   }
   printf("%.12lf\n%.12lf\n",rmi,rma);
-} ./Main.c: In function ‘main’:
-./Main.c:85:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&n,&m);
-   ^
-./Main.c:87:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld%lf%lf",&p,&av,&bv);
-     ^
+} 

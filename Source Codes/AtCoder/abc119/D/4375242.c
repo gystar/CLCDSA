@@ -67,16 +67,4 @@ int main(){
 		now = dif(x, t[d]) + dif(t[d], s[searchA(t[d])-1]);	Min=min(Min, now);
 		printf("%lld\n", Min);
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:45:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d", &A, &B, &Q);
-  ^
-./Main.c:48:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", s+i);
-   ^
-./Main.c:52:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", t+i);
-   ^
-./Main.c:55:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &x);
-   ^
+} 

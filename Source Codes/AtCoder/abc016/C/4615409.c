@@ -53,10 +53,4 @@ int main(int argc, char const *argv[]) {
     // ?????????
     WFmethod(N);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:43:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &N, &M);
-     ^
-./Main.c:47:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &a, &b);
-         ^
+} 

@@ -63,14 +63,4 @@ int main(){
 	}else if(ret == 3){
 		printf("C\n");
 	}
-} ./Main.c: In function ‘turna’:
-./Main.c:16:10: warning: implicit declaration of function ‘turnb’ [-Wimplicit-function-declaration]
-   return turnb();
-          ^
-./Main.c:19:10: warning: implicit declaration of function ‘turnc’ [-Wimplicit-function-declaration]
-   return turnc();
-          ^
-./Main.c: In function ‘main’:
-./Main.c:54:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s %s %s",Sa,Sb,Sc);
-  ^
+} 

@@ -13,10 +13,4 @@ int main(void){
             cnt += num[i]-num[i-1];
     }
     printf("%d\n",cnt);
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&n,&t);
-     ^
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&num[i]);
-         ^
+} 

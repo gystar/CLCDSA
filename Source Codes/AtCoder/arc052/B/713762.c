@@ -80,13 +80,3 @@ double solve(double A, double B) {
 } ./Main.c:12:13: warning: initializer element is not a constant expression
  double PI = 4.0*atan(1.0);
              ^
-./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&Q);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf %lf",&X[i],&R[i],&H[i]);
-   ^
-./Main.c:27:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf",&A,&B);
-   ^

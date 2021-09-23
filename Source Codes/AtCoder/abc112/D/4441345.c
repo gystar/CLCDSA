@@ -19,7 +19,4 @@ int main(){
   else cd[j]=0;
   for(i=0;i<=j;i++) if(cd[i]<=m/n)ans=max(ans,cd[i]);
   printf("%ld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld%ld",&n,&m);
-   ^
+} 

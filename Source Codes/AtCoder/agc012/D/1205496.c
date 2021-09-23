@@ -171,7 +171,4 @@ if(0)
 		printf("%d\n", (int)calc(c_num+1, N));
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:120:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d%d", &ball[i].c, &ball[i].w);
-    ^
+} 

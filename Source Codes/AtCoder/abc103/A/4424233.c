@@ -9,14 +9,4 @@ int main(){
   scanf("%d%d%d", &A1, &A2, &A3);
   ans = max3(A1, A2, A3) - min3(A1, A2, A3);
   printf("%d\n", ans); 
-} ./Main.c: In function ‘main’:
-./Main.c:9:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   scanf("%d%d%d", &A1, &A2, &A3);
-   ^
-./Main.c:9:3: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:9:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:11:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   printf("%d\n", ans); 
-   ^
-./Main.c:11:3: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:11:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+} 

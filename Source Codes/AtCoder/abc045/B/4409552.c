@@ -32,7 +32,4 @@ int main(void){
 	else if(t == 1)printf("B\n");
 	else printf("C\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s %s %s",s[0],s[1],s[2]);
-  ^
+} 

@@ -102,19 +102,4 @@ int main(void){
     }
     print(dp[gy-1][gx-1]);
     return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:22:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int i;scanf("%d",&i);
-           ^
-./Main.c: In function ‘din’:
-./Main.c:26:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     double i;scanf("%lf",&i);
-              ^
-./Main.c: In function ‘chin’:
-./Main.c:30:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
-./Main.c: In function ‘main’:
-./Main.c:78:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%s",c_0);
-         ^
+} 

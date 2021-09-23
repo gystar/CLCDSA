@@ -15,15 +15,4 @@ int main(void){
   }
   printf("%s\n",s);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(s);
-   ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&l,&r);
-     ^
-/tmp/ccT2nLdF.o: In function `main':
-Main.c:(.text.startup+0x23): warning: the `gets' function is dangerous and should not be used.
+} 

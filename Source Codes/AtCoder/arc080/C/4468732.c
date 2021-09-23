@@ -144,10 +144,4 @@ int main(){
 			if(y.ei+1!=r)PQpush(heap,y.ei+1,r);
 		}
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:109:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:113:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&t);
-   ^
+} 

@@ -91,13 +91,4 @@ int main() {
 	map[stx][sty] = 'S';
 	map[gox][goy] = 'G';
 	printf("%d\n", start(n, m));
-} ./Main.c: In function ‘main’:
-./Main.c:84:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &m, &n);
-  ^
-./Main.c:85:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d", &sty, &stx, &goy, &gox);
-  ^
-./Main.c:88:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf(" %c", &map[j][i]);
-    ^
+} 

@@ -90,19 +90,4 @@ int main(void){
 	}
 	puts("");
 	return 0;
-} ./Main.c: In function ‘add’:
-./Main.c:14:19: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-  Item *p = (Item*)malloc(sizeof(Item));
-                   ^
-./Main.c:14:19: warning: incompatible implicit declaration of built-in function ‘malloc’
-./Main.c:14:19: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-./Main.c: In function ‘main’:
-./Main.c:65:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d", &N, &K, &L);
-  ^
-./Main.c:70:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &from, &to); from--; to--;
-   ^
-./Main.c:77:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &from, &to); from--; to--;
-   ^
+} 

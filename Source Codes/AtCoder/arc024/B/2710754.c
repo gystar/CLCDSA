@@ -122,22 +122,4 @@ int main() {
 	getch();
 #endif
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:70:9: warning: type defaults to ‘int’ in declaration of ‘max’ [-Wimplicit-int]
-  static max = 0;
-         ^
-./Main.c:74:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  scanf("%d", &N);
-        ^
-./Main.c:76:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%d", &a[i]);
-         ^
-./Main.c:118:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n", ans);
-         ^
-./Main.c:74:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:76:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &a[i]);
-   ^
+} 

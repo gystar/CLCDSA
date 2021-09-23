@@ -30,7 +30,4 @@ int main(void) {
 
 double f(double p, double x) {
 	return x + p * pow(2.0, -x / 1.5);
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf", &p);
-  ^
+} 

@@ -15,7 +15,4 @@ int main(){
 	ll ans=0;
 	rep(i,0,105)if(a[i]==2)ans++;
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld",&x,&y,&z,&w);
-  ^
+} 

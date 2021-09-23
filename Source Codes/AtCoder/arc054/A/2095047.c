@@ -14,7 +14,4 @@ int main(){
 		printf("%.12lf\n", min((double)((D - S + L) % L) / (X + Y), (double)((S - D + L) % L) / (Y - X)));
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d%d", &L, &X, &Y, &S, &D);
-  ^
+} 

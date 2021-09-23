@@ -34,6 +34,3 @@ main(){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:4:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
-  read(0...

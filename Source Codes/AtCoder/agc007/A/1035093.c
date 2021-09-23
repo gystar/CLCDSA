@@ -17,13 +17,4 @@ int main (void){
     else printf("Impossible\n");
     //printf("%d",count);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d\n",&h,&w);
-     ^
-./Main.c:10:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%c",&temp);
-             ^
-./Main.c:14:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("\n");
-         ^
+} 

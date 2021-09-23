@@ -37,13 +37,4 @@ int main(){
   printf("%d\n", d);
   
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100000]’ [-Wformat=]
-   scanf("%s", &s);
-         ^
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", &s);
-   ^
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &T);
-   ^
+} 

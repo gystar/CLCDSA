@@ -84,10 +84,4 @@ bool Uru(int y){
 	}
 
 	return uru;
-} ./Main.c: In function ‘main’:
-./Main.c:14:10: warning: too many arguments for format [-Wformat-extra-args]
-    scanf("%*s", &y, &m, &d);
-          ^
-./Main.c:14:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%*s", &y, &m, &d);
-    ^
+} 

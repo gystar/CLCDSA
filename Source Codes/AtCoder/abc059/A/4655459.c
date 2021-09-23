@@ -63,19 +63,4 @@ int main(int argc, char const *argv[]){
 	scanf("%s %s %s",s1,s2,s3);
 	printf("%c%c%c\n", (s1[0] - 0x20),(s2[0] - 0x20),(s3[0] - 0x20));
 	return 0;
-} ./Main.c: In function ‘append’:
-./Main.c:43:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘pop’:
-./Main.c:51:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:57:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:63:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s %s %s",s1,s2,s3);
-  ^
+} 

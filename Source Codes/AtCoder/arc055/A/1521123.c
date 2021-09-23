@@ -26,7 +26,4 @@ int main(void)
 	FOR(i,0,n-1) putchar('0');
 	puts("7");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
+} 

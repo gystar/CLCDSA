@@ -11,10 +11,4 @@ int main(){
   }
   printf("%d\n",MAX(abs(d[n-1]-b),abs(d[n-2]-d[n-1])));
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d %d",&n,&a,&b);
-   ^
-./Main.c:7:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<n;i++)scanf("%d",&d[i]);
-                   ^
+} 

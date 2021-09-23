@@ -31,7 +31,4 @@ int main(void)
 	FOR(i,0,26) ans-=(ll)cnt[i]*(cnt[i]-1)/2;
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:27:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",str);
-  ^
+} 

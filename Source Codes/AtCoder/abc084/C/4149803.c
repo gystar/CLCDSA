@@ -25,10 +25,4 @@ int main()
         printf("%d\n",t[i]);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:10:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d",&train[i][1],&train[i][2],&train[i][3]);
-         ^
+} 

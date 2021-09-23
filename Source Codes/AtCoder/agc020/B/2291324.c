@@ -15,10 +15,4 @@ int main() {
 	}
 	printf("%lld %lld\n",l,r);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:8:23: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(int i=0;i<n;++i) scanf("%lld",a+i);
-                       ^
+} 

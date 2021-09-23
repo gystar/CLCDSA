@@ -14,10 +14,4 @@ int main(void){
     }
     if(flag==1)printf("POSSIBLE");
     else printf("IMPOSSIBLE");
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&N,&M);
-     ^
-./Main.c:9:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&kari1,&kari2);
-         ^
+} 

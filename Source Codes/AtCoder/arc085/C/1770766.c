@@ -157,10 +157,4 @@ int main(){
 	}
 	printf("%lld\n", sum - Edmonds_Karp(N + 2, 0, N + 1, e));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:135:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:144:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld", &a);
-   ^
+} 

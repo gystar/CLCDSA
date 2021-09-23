@@ -212,14 +212,4 @@ main()
 #endif
 
 	return 0;
-} ./Main.c: In function ‘fMain’:
-./Main.c:159:18: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[32]’ [-Wformat=]
-   sscanf(lc1Buf, "%s%s", &sz1Cmb[i].mzNum.mc1Str, &sz1Cmb[i].mzStr.mc1Str);
-                  ^
-./Main.c:159:18: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘char (*)[32]’ [-Wformat=]
-./Main.c:148:2: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-  fgets(lc1Buf, sizeof(lc1Buf), stdin);
-  ^
-./Main.c:157:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(lc1Buf, sizeof(lc1Buf), stdin);
-   ^
+} 

@@ -11,7 +11,4 @@ char c[10];
   c[0]=c[0]+add;
   printf("%c%c%c",a[0],b[0],c[0]);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s %s %s",a,b,c);
-   ^
+} 

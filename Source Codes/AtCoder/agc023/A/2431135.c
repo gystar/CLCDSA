@@ -51,17 +51,4 @@ int main(void)
         num=1;
     }
     printf("%ld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:37:32: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [-Wincompatible-pointer-types]
-     qsort(sum,n,sizeof(sum[0]),int_sort);
-                                ^
-In file included from ./Main.c:2:0:
-/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t {aka int (*)(const void *, const void *)}’ but argument is of type ‘long long int (*)(const void *, const void *)’
- extern void qsort (void *__base, size_t __nmemb, size_t __size,
-             ^
-./Main.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&n);
-     ^
-./Main.c:21:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(long int p=0;p<n;p++)scanf("%lld ",&a[p]);
-                              ^
+} 

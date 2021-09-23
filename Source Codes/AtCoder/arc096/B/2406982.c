@@ -66,20 +66,4 @@ int main(){
     }
   }
   printf("%ld\n",max);
-} ./Main.c: In function ‘main’:
-./Main.c:11:9: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-   scanf("%d %ld",&n,&c);
-         ^
-./Main.c:13:11: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-     scanf("%ld %ld",&x[i],&v[i]);
-           ^
-./Main.c:13:11: warning: format ‘%ld’ expects argument of type ‘long int *’, but argument 3 has type ‘long long int *’ [-Wformat=]
-./Main.c:68:10: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("%ld\n",max);
-          ^
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %ld",&n,&c);
-   ^
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld",&x[i],&v[i]);
-     ^
+} 

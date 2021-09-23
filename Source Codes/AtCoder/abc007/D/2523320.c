@@ -57,7 +57,4 @@ signed main(){
 //	printf("solve(%lld) = %lld\n", A, solve(A));
 	printf("%lld\n", solve(B + 1) - solve(A));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:55:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &A, &B);
-  ^
+} 

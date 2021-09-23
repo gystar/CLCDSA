@@ -30,17 +30,3 @@ main()
 } ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main()
  ^
-./Main.c: In function ‘main’:
-./Main.c:6:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%ld",&n,&c);
-  ^
-./Main.c:6:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:6:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:10:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘long int *’ [-Wformat=]
-   scanf("%ld%d",x+i,v+i);
-         ^
-./Main.c:29:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-  printf("%ld",ans);
-  ^
-./Main.c:29:2: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:29:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

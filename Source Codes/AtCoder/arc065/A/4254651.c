@@ -58,9 +58,4 @@ int main()
             printf("NO");
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(str);
-     ^
-/tmp/cc5uppa2.o: In function `main':
-Main.c:(.text.startup+0xc): warning: the `gets' function is dangerous and should not be used.
+} 

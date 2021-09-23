@@ -30,6 +30,3 @@ main(n){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declarati...

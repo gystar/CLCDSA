@@ -42,10 +42,4 @@ long long calc(int p0,int p1,int p2,int p3){
 
   if(k<K) return LLONG_MAX;
   return (long long)(xmax-xmin)*(long long)(ymax-ymin);  
-} ./Main.c: In function ‘main’:
-./Main.c:16:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&N,&K);
-   ^
-./Main.c:17:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(j=0;j<N;j++) scanf("%d%d",&x[j],&y[j]);
-                    ^
+} 

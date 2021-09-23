@@ -65,10 +65,4 @@ F=T[i];
 printf("%d",B);
 free(T);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:41:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d %d %d",&N,&C,&K);
- ^
-./Main.c:49:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d",&T[i]);
- ^
+} 

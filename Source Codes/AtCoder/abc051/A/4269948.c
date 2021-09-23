@@ -9,9 +9,4 @@ int main(){
 		}
 	}
 	puts(s);
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  gets(s);
-  ^
-/tmp/cctl1joj.o: In function `main':
-Main.c:(.text.startup+0x1c): warning: the `gets' function is dangerous and should not be used.
+} 

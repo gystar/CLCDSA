@@ -38,10 +38,4 @@ int main(void) {
   qsort(points, n, sizeof(int), asc);
   printf("%d\n", points[n-1] - points[0]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:36:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &n);
-   ^
-./Main.c:37:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(int i=0; i<n; ++i) scanf("%d", &points[i]);
-                          ^
+} 

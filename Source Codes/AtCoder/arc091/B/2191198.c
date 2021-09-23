@@ -22,7 +22,4 @@ int main(void)
         if(n%p>k-1)ans+=n%p-k+1;
     }
     printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld",&n,&k);
-     ^
+} 

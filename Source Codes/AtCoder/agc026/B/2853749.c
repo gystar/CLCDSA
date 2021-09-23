@@ -46,21 +46,4 @@ int  t, i;
  
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d", &t);
-  ^
-./Main.c:4:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:15:20: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   if (a[i] < b[i]) printf("No\n");
-                    ^
-./Main.c:15:20: warning: incompatible implicit declaration of built-in function ‘printf’
-./Main.c:15:20: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-./Main.c:16:25: warning: incompatible implicit declaration of built-in function ‘printf’
-   else if (b[i] > d[i]) printf("No\n");
-                         ^
-./Main.c:16:25: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-./Main.c:17:28: warning: incompatible implicit declaration of built-in function ‘printf’
-   else if (b[i]-1 <= c[i]) printf("Yes\n");
-          ...
+} 

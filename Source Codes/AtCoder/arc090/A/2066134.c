@@ -19,13 +19,4 @@ rsum -= a[1][i];
 }
 printf("%d\n", max);
 return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d", &n);
- ^
-./Main.c:7:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d", &a[0][i]);
- ^
-./Main.c:10:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%d", &a[1][i]);
- ^
+} 

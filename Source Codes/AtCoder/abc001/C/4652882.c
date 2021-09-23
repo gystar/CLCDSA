@@ -33,7 +33,4 @@ int main(){
   else if (dis<284*6+3) printf("10\n");
   else if (dis<326*6+3) printf("11\n");
   else printf("12\n");
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&deg,&dis);
-   ^
+} 

@@ -45,10 +45,4 @@ long gcd(long a, long b)
 		b = gcd(b, a);
 	}
 	return b;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld%ld", &N, &X);
-  ^
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld", &x[i]);
-   ^
+} 

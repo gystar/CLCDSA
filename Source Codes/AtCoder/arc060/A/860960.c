@@ -45,10 +45,4 @@ int main() {
 	for(i=1;i<=N;i++) for(j=1;j<=N;j++) free(dp[i][j]);
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld %ld", &N, &A);
-  ^
-./Main.c:29:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%ld", &x[i]);
-   ^
+} 

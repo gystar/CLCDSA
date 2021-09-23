@@ -53,10 +53,4 @@ int main(){
   }
   printf("%d\n",maxf(2*n,2*n+1,2*n+2,r,a,b,c));
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:35:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:36:21: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<2*n;i++)scanf("%d %d",&x[i],&y[i]);
-                     ^
+} 

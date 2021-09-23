@@ -16,10 +16,4 @@ int main(){
 	for(i=0;i<2*n;i+=2)ans+=l[i];
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:6:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<2*n;i++)scanf("%d",&l[i]);
-                    ^
+} 

@@ -43,10 +43,4 @@ X = X_p, Y = q/p * X_p
 ????
 X = p/q * Y_q, Y = Y_q
 ????????.
-*/ ./Main.c: In function ‘main’:
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:15:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &T, &A);
-         ^
+*/ 

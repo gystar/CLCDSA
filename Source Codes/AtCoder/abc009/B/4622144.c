@@ -9,9 +9,3 @@ f;s;main(a){for(gets(&a);~scanf("%d",&a);a>f?s=f,f=a:a-f&&a>s?s=a:0);printf("%d\
 ./Main.c:1:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  f;s;main(a){for(gets(&a);~scanf("%d",&a);a>f?s=f,f=a:a-f&&a>s?s=a:0);printf("%d\n",s);}
      ^
-./Main.c: In function ‘main’:
-./Main.c:1:5: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:17: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
- f;s;main(a){for(gets(&a);~scanf("%d",&a);a>f?s=f,f=a:a-f&&a>s?s=a:0);printf("%d\n",s);}
-                 ^
-./Main.c:1:27: warning: implicit declaration of function ‘sc...

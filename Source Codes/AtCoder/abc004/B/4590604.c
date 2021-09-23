@@ -22,21 +22,4 @@ int main(void)
   printf("%c %c %c %c\n",first[3],first[2],first[1],first[0]);
 
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c %c %c %c",&first[0],&first[1],&first[2],&first[3]);
-   ^
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c",&dummy);
-   ^
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c %c %c %c",&second[0],&second[1],&second[2],&second[3]);
-   ^
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c",&dummy);
-   ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%c %c %c %c",&third[0],&third[1],&third[2],&third[3]);
-   ^
-./Main.c:16:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    s...
+} 

@@ -74,17 +74,4 @@ int main()
     printf("%d\n", max_count + 1);
     ;
     return 0;
-} ./Main.c: In function ‘gen_relation’:
-./Main.c:13:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &r.x);
-     ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &r.y);
-     ^
-./Main.c: In function ‘main’:
-./Main.c:31:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &n);
-     ^
-./Main.c:32:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &m);
-     ^
+} 

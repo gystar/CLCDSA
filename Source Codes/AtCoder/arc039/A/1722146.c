@@ -11,7 +11,4 @@ int main(){
 	ans2 = max(A - (100 + B % 100), max(A - ((B / 100) * 100 + B % 10), A - (B / 10) * 10));
 	printf("%d\n", max(ans1, ans2));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &A, &B);
-  ^
+} 

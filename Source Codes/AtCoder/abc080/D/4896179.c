@@ -21,10 +21,4 @@ int main(void){
 	for(i=0;i<200002;i++)ans = ans<S[i]?S[i]:ans;
 	printf("%d",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&N,&C);
-  ^
-./Main.c:7:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<N;i++)scanf("%d%d%d",&s[i],&t[i],&c[i]);
-                  ^
+} 

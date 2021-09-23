@@ -15,7 +15,4 @@ int main(){
 		for(i=k-1-(k*2-b+a-1);i>=0;i--)printf("%ld\n",b-i);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld%ld%ld",&a,&b,&k);
-  ^
+} 

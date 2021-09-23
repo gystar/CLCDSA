@@ -19,7 +19,4 @@ int main(void)
     printf("%.10f\n",ans);
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(str,sizeof(str),stdin);
-   ^
+} 

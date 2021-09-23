@@ -84,7 +84,7 @@ def process_file(full_path: Path, out_file: Path):
                 f.truncate()
                 f.write(content)
     cmd = llvm_cmd_functions[code_type](str(full_path), str(out_file))
-    run_cmd(cmd)
+    run_cmd(cmd)3
 
 
 for dataset in dataset_dirs:

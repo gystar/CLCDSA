@@ -45,10 +45,4 @@ int main(int argc, char** argv)
 		printf("%d\n", a[i].m);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &n);
-  ^
-./Main.c:28:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &k);
-   ^
+} 

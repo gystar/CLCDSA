@@ -78,12 +78,4 @@ int main(void){
     // for(int i = 0;i<9;i++){
     //     printf("%d\n",ab[i]);
     // }
-} ./Main.c: In function ‘main’:
-./Main.c:21:9: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-         memset(&a,0,sizeof(a));
-         ^
-./Main.c:21:9: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:21:9: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c:7:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d",&ab[i][0],&ab[i][1],&ab[i][2]);
-         ^
+} 

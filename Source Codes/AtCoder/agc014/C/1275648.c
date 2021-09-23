@@ -120,10 +120,4 @@ int main(){
 	}
 	printf("%d\n", 2 + (rest - 1) / K);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:74:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d", &H, &W, &K);
-  ^
-./Main.c:81:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", A[i]);
-   ^
+} 

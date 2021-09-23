@@ -84,13 +84,4 @@ int main(void)
 	}
 	printf("%d\n",max_flow(s,t));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:74:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&g,&e);
-  ^
-./Main.c:77:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&a);
-   ^
-./Main.c:81:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

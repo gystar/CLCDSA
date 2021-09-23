@@ -27,5 +27,3 @@ main(){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:4:8: warning: implicit declaration of function ‘atoi’ [-Wi...

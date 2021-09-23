@@ -457,16 +457,4 @@ signed main(){
 //	printf("ans2 = %lld\n", ans2);
 	printf("%lld\n", max(ans1, ans2));
 	return 0;
-} ./Main.c: In function ‘insert_AVL_sub’:
-./Main.c:207:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pair {aka struct <anonymous>}’ [-Wformat=]
-    printf("In function 'insert_AVL_sub':\nkey '%d' already exists\n", key);
-           ^
-./Main.c: In function ‘outall_AVL_sub’:
-./Main.c:270:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘pair {aka struct <anonymous>}’ [-Wformat=]
-   printf("(key, val, ele_num, height) = (%d, %d, %d, %d)\n", r->key, r->val, r->ele_num, r->height);
-          ^
-./Main.c:270:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
-./Main.c:270:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘long long int’ [-Wformat=]
-./Main.c:270:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘long long int’ [-Wformat=]
-./Main.c: In function ‘main’:
-./Main.c:368:2: warning: ignoring return value of ‘scanf’, declare...
+} 

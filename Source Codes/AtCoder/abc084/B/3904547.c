@@ -15,7 +15,4 @@ int main(){
 	if(s[n]!='-')flag=0;
 	rep(i,0,m)if(s[n+1+i]=='-')flag=0;
 	puts(flag?"Yes":"No");
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%s",&n,&m,s);
-  ^
+} 

@@ -109,10 +109,4 @@ int minimize(int a, int b, int k, int l, int r)
     if (vl < vr) return vl;
     else return vr;
   }
-} ./Main.c: In function ‘main’:
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%*c", &n);
-   ^
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s%*c", s);
-   ^
+} 

@@ -11,12 +11,4 @@ int main(void)
   {
     puts("NO");
   }
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(a);
-   ^
-./Main.c:8:5: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-     puts("YES");
-     ^
-/tmp/cczCEDv5.o: In function `main':
-Main.c:(.text.startup+0xa): warning: the `gets' function is dangerous and should not be used.
+} 

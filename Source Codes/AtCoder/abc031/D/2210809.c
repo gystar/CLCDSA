@@ -32,8 +32,3 @@ main(k,n){
 ./Main.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(k,n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:4:1: warning: type of ‘k’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:5:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%d%d",&k,&n);~scanf("%s%s",v+i++,w+...

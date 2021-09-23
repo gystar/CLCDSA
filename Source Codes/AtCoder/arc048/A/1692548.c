@@ -252,11 +252,4 @@ int main(void){
 	printf("%lld\n", y - x - (x * y < 0 ? 1 : 0));
  
 	return 0;
-} ./Main.c: In function ‘solve’:
-./Main.c:206:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", s);
-   ^
-./Main.c: In function ‘main’:
-./Main.c:249:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld", &x, &y);
-  ^
+} 

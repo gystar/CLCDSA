@@ -18,7 +18,4 @@ int main(){
 	}
 	printf("%lu\n",check(A-1)^check(B));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lu %lu",&A, &B);
-  ^
+} 

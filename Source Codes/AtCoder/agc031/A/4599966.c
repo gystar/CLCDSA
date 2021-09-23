@@ -28,10 +28,4 @@ int main(void){
     printf("%llu\n", (count-1) % 1000000007);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &len);
-     ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s", str);
-     ^
+} 

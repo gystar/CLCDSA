@@ -33,10 +33,4 @@ int main(void)
 	if(cnt<2) puts("0");
 	else printf("%lld\n",(ll)t[0]*t[1]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:26:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:27:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  FOR(i,0,n) scanf("%d",&a[i]);
-             ^
+} 

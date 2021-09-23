@@ -77,19 +77,4 @@ int main(void)
     printf("%d",ans);
     
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:40:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&no);
-     ^
-./Main.c:73:13: warning: iteration 24u invokes undefined behavior [-Waggressive-loop-optimizations]
-         if(a[j] >= 74){
-             ^
-./Main.c:55:5: note: containing loop
-     for(j = 0; j <= 24; j++){
-     ^
-./Main.c:43:14: warning: iteration 24u invokes undefined behavior [-Waggressive-loop-optimizations]
-         a[j] = 0;
-              ^
-./Main.c:42:5: note: containing loop
-     for(j = 0; j <= 24; j++){
-     ^
+} 

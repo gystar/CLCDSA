@@ -69,10 +69,3 @@ int main(void){
 ./Main.c:24:11: warning: conflicting types for built-in function ‘llround’
  long long llround(long long a,long long b){if((a%b)*2 >= b){return (a/b)+1;}return a/b;}
            ^
-./Main.c: In function ‘main’:
-./Main.c:58:12: warning: too many arguments for format [-Wformat-extra-args]
-     printf("GAMEOVER\n",r);
-            ^
-./Main.c:50:27: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         for(j=1;j<=4;j++){scanf("%d",&a[i][j]);}
-                           ^

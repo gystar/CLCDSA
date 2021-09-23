@@ -51,10 +51,4 @@ int main(){
   else cnta=h/max;
   cnt=cnta+cntb;
   printf("%ld\n",cnt);
-} ./Main.c: In function ‘main’:
-./Main.c:35:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %ld",&n,&h);
-   ^
-./Main.c:37:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld",&a[i],&b[i]);
-     ^
+} 

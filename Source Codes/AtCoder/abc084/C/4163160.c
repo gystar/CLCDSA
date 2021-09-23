@@ -36,10 +36,4 @@ int main()
     if(i==n)
         printf("0\n");
     
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:11:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d%d%d",&C[i],&S[i],&F[i]);
-         ^
+} 

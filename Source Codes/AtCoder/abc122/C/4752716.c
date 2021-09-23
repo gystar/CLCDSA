@@ -28,13 +28,4 @@ int main(int argc, char const *argv[]) {
     printf("%d\n", ans);
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d", &N,&Q);
-   ^
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", S1);
-   ^
-./Main.c:14:27: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for (i = 0; i <Q; i++) {scanf("%d%d",&l[i],&r[i]);}
-                           ^
+} 

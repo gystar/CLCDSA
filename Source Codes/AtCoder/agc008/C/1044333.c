@@ -15,7 +15,4 @@ int main(){
   ans += (long long int) O+(I&~1)+(J&~1)+(L&~1);
   printf("%lld\n", ans);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d%d%d%d%d%d", &I, &O, &T, &J, &L, &S, &Z);
-   ^
+} 

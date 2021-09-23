@@ -47,17 +47,4 @@ int main(void)
     }
     printf("%lld\n", ans);
   }
-} ./Main.c: In function ‘main’:
-./Main.c:27:38: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-   for (int i = 1; i <= a; i++) scanf("%lld", &s[i]);
-                                      ^
-./Main.c:28:38: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-   for (int i = 1; i <= b; i++) scanf("%lld", &t[i]);
-                                      ^
-./Main.c:29:37: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘int64_t * {aka long int *}’ [-Wformat=]
-   for (int i = 0; i < q; i++) scanf("%lld", &x[i]);
-                                     ^
-./Main.c:48:12: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int64_t {aka long int}’ [-Wformat=]
-     printf("%lld\n", ans);
-            ^
-./Main.c:25:3: warning: ignoring return value of ‘scanf’, declared with attribute ...
+} 

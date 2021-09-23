@@ -27,10 +27,4 @@ int main(){
 		if(unicnt[root(1)]!=n)ans++;
 	}
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:22:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&m);
-  ^
-./Main.c:23:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,m)scanf("%lld%lld",a+i,b+i);
-            ^
+} 

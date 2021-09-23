@@ -26,7 +26,4 @@ int main(void){
         else if(x)printf("0");
     }
     printf("%d\n",n);
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
+} 

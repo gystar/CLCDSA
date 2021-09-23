@@ -172,10 +172,4 @@ int main(){
 		for(int i=0;i<n/7;i++)putchar('8');		
 	}else assert(0);
 	for(int i=9;i>0;i--)while(b[i]--)putchar('0'+i);
-} ./Main.c: In function ‘main’:
-./Main.c:29:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:31:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&t);
-   ^
+} 

@@ -14,16 +14,4 @@ int main()
         }
     }
     return 0 ;
-} ./Main.c: In function ‘main’:
-./Main.c:9:13: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
-             exit (0) ;
-             ^
-./Main.c:9:13: warning: incompatible implicit declaration of built-in function ‘exit’
-./Main.c:9:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
-./Main.c:13:13: warning: incompatible implicit declaration of built-in function ‘exit’
-             exit (0) ;
-             ^
-./Main.c:13:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
-./Main.c:5:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf ("%d%d%d",&a,&b,&c) ;
-     ^
+} 

@@ -80,7 +80,4 @@ int main(void) {
 //
 //if (a*a > b*b) { printf("%s\n", "Ant"); }
 //if (a*a < b*b) { printf("%s\n", "Bug"); }
-//if (a*a == b*b) { printf("%s\n", "Draw"); } ./Main.c: In function ‘main’:
-./Main.c:31:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d", &a, &b);
-  ^
+//if (a*a == b*b) { printf("%s\n", "Draw"); } 

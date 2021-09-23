@@ -65,10 +65,4 @@ void sort(long long* data,int i,int j){
 		sort(data,i,k-1);
 		sort(data,k,j);
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&M);
-  ^
-./Main.c:11:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld %lld",&data[i][0],&data[i][1],&data[i][2]);
-   ^
+} 

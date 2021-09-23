@@ -108,19 +108,4 @@ int main(){
 	}
 	printf("%d ",crr+1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:105:25: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   rep(j,0,ans[i])printf("%d ",crr+1+j+1);
-                         ^
-./Main.c:106:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-   printf("%d ",crr+1);
-          ^
-./Main.c:109:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d ",crr+1);
-         ^
-./Main.c:34:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:39:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld",&a,&b);
-   ^
+} 

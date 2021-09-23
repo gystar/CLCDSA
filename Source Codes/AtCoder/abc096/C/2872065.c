@@ -20,13 +20,4 @@ int main(void){
 	}
 	printf("Yes");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[51]’ [-Wformat=]
-    scanf("%s",&s[i]);
-          ^
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&h,&w);
-  ^
-./Main.c:9:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%s",&s[i]);
-    ^
+} 

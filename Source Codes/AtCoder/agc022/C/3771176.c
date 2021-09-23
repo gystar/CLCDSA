@@ -38,13 +38,4 @@ int main(){
 		if(flag)ans|=1LL<<k;//??????????
 	}
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:25:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:26:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%d",a+i);
-            ^
-./Main.c:27:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%d",b+i);
-            ^
+} 

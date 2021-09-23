@@ -168,10 +168,4 @@ int main(){
 		printf("%d\n", Edmonds_Karp(n, 0, n - 1, e));
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:132:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &H, &W);
-  ^
-./Main.c:144:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", a);
-   ^
+} 

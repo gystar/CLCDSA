@@ -47,16 +47,4 @@ int main(void) {
 	//?????
 	printf(f ? "Yes\n" : "No\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:6: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
-  if (strlen(s) == strlen(t)) f = 1;
-      ^
-./Main.c:17:6: warning: incompatible implicit declaration of built-in function ‘strlen’
-./Main.c:17:6: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-./Main.c:18:8: warning: incompatible implicit declaration of built-in function ‘strlen’
-  len = strlen(s);
-        ^
-./Main.c:18:8: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s%s", s, t);
-  ^
+} 

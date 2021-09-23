@@ -377,20 +377,4 @@ int main(){
 	AVL_tree *t = make_AVL_tree();
 	printf("%d\n", gold(1, W, 1, H, N, X, Y, t));
 	return 0;
-} ./Main.c: In function ‘insert_AVL_sub’:
-./Main.c:212:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘four {aka struct <anonymous>}’ [-Wformat=]
-    printf("In function 'insert_AVL_sub':\nkey '%d' already exists\n", key);
-           ^
-./Main.c: In function ‘erase_AVL_sub’:
-./Main.c:229:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘four {aka struct <anonymous>}’ [-Wformat=]
-   printf("In function 'erase_AVL_sub':\nkey '%d' doesn't exist\n", key);
-          ^
-./Main.c: In function ‘outall_AVL_sub’:
-./Main.c:271:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘four {aka struct <anonymous>}’ [-Wformat=]
-   printf("(key, val, ele_num, height) = (%d, %d, %d, %d)\n", r->key, r->val, r->ele_num, r->height);
-          ^
-./Main.c: In function ‘main’:
-./Main.c:370:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &W, &H);
-  ^
-./Main.c:371:2: wa...
+} 

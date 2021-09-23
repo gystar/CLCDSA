@@ -25,7 +25,4 @@ int main(){
   printf("%lld\n",d[i][2]);
   //for(i=1;s[i-1];i++)printf("%lld %lld %lld\n",d[i][0],d[i][1],d[i][2]);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s",s);
-   ^
+} 

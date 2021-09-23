@@ -108,10 +108,4 @@ int main(void){
 	solve();
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:105:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu", &n);
-  ^
-./Main.c:106:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < n; i++) scanf("%llu", &a[i]);
-                          ^
+} 

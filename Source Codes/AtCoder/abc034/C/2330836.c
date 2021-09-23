@@ -28,7 +28,4 @@ int main(void){
   //printf("p: %lld,  q: %lld, r: %lld\n",p, q, r);
   printf("%lld\n",(p*r)%DIV);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&w,&h);
-   ^
+} 

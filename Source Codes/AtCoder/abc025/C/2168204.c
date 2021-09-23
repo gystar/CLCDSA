@@ -44,6 +44,3 @@ main(){
 ./Main.c:12:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  f(s,m,i){
  ^
-./Main.c: In function ‘f’:
-./Main.c:12:1: warning: type of ‘s’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:12:1: warning: typ...

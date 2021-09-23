@@ -63,22 +63,4 @@ int main(int argc, char const *argv[]){
 	scanf("%c %c",&a,&b);
 	printf("%c\n", a ^ b ? 'D' : 'H');
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:63:8: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-  scanf("%c %c",&a,&b);
-        ^
-./Main.c:63:8: warning: format ‘%c’ expects argument of type ‘char *’, but argument 3 has type ‘int *’ [-Wformat=]
-./Main.c: In function ‘append’:
-./Main.c:43:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘pop’:
-./Main.c:51:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:57:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:63:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unuse...
+} 

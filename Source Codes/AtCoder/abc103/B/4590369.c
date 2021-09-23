@@ -30,13 +30,4 @@ int main()
     else
         printf("No\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:12: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
-         if(strcmp(str_s,str_t)==0)
-            ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",str_s);
-     ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",str_t);
-     ^
+} 

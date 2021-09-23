@@ -167,13 +167,4 @@ int main(){
 	//printf("N = %d\nk = %d\n", N, k);
 	printf("%d\n", N + k - 1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:79:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:86:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &a0[i]);
-   ^
-./Main.c:92:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &b0[i]);
-   ^
+} 

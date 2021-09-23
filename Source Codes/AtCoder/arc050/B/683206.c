@@ -18,7 +18,4 @@ int main(){
   }//printf("%lld %lld %lld %lld\n",f(-1),f(0),f(1),f(2));
   printf("%lld\n",f(l));
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld %lld %lld %lld",&R,&B,&x,&y);
-   ^
+} 

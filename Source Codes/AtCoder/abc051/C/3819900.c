@@ -35,7 +35,4 @@ int main(){
 		printf("D");
       }
       printf("R");
-} ./Main.c: In function ‘main’:
-./Main.c:5:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
-    ^
+} 

@@ -35,13 +35,4 @@ int main (void)
      if (ch[i] == n)	ans ++;
    }
    printf("%d", ans);
-} ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&n,&m);
-  ^
-./Main.c:15:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-       scanf("%d", &k[i]);
-       ^
-./Main.c:17:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-           scanf("%d", &a[i][j]);
-           ^
+} 

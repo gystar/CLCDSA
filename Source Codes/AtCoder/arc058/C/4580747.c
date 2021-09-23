@@ -46,7 +46,3 @@ main(n,x,y,z)
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(n,x,y,z)
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:1: warning: type of ‘x’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:1: warni...

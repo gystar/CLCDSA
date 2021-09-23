@@ -27,10 +27,4 @@ int main(){
 
     rep(i,0,N) ans+=dfs(i,-1);
     printf("%d\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&N,&M);
-     ^
-./Main.c:22:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&u,&v);
-         ^
+} 

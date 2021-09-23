@@ -28,10 +28,4 @@ int main(){
 
   printf("%d\n",(int)(X/A[0])+N);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&X);
-   ^
-./Main.c:12:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d ",&A[i]);
-     ^
+} 

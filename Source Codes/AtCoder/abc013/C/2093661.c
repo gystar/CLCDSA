@@ -23,10 +23,4 @@ int main(){
         if(x*b+h-(e*(n-x))>0)break;
     }
     printf("%lld\n",min);
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld",&n,&h);
-     ^
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%lld %lld %lld %lld %lld",&a,&b,&c,&d,&e);
-     ^
+} 

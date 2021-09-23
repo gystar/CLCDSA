@@ -13,9 +13,4 @@ int main()
   break;}}
   printf("%d\n",sry);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:4: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   {gets(srx);
-    ^
-/tmp/ccm7Sf1i.o: In function `main':
-Main.c:(.text.startup+0x18): warning: the `gets' function is dangerous and should not be used.
+} 

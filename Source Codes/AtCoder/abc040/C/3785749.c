@@ -19,13 +19,4 @@ int dif(int a, int b){
 }
 int min(int a, int b){
   return a>b?b:a;
-} ./Main.c: In function ‘main’:
-./Main.c:8:28: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘short int *’ [-Wformat=]
-   for(i=0; i<N; i++){scanf("%d", H+i);}
-                            ^
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &N);
-   ^
-./Main.c:8:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0; i<N; i++){scanf("%d", H+i);}
-                      ^
+} 

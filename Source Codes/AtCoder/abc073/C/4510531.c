@@ -80,13 +80,4 @@ int main()
 	searchall(root);
 	printf("%d",allxian);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:72:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&allcount);
-  ^
-./Main.c:73:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&now);
-  ^
-./Main.c:77:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&now);
-   ^
+} 

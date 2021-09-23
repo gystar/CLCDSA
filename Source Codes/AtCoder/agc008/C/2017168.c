@@ -12,7 +12,4 @@ int main(void){
 	r2+=(o+(i/2)*2+(j/2)*2+(l/2)*2);
 	printf("%lld\n",llmax(r1,r2));
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld%lld%lld%lld%lld",&i,&o,&t,&j,&l,&s,&z);
-  ^
+} 

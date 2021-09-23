@@ -115,10 +115,4 @@ signed main(){
 	acute_ans = (N * (N - 1) * (N - 2)) / 6 - right_ans - obtuse_ans;
 	printf("%lld %lld %lld\n", acute_ans, right_ans, obtuse_ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:46:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &N);
-  ^
-./Main.c:52:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld", &p[i].x, &p[i].y);
-   ^
+} 

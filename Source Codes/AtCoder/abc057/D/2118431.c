@@ -38,10 +38,4 @@ int main(){
 		printf("%lld\n",choose(r-l+1,a-l+1));
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&a,&b);
-  ^
-./Main.c:20:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,1,n+1)scanf("%lld",v+i);
-              ^
+} 

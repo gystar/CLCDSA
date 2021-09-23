@@ -439,16 +439,4 @@ int32_t main (int argc, char *argv[]) {
 	solve();
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:395:8: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘ull * {aka long unsigned int *}’ [-Wformat=]
-  scanf("%lld", &m);
-        ^
-./Main.c:430:10: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 2 has type ‘sll * {aka long int *}’ [-Wformat=]
-    scanf("%lld", &table[i][j]);
-          ^
-./Main.c:395:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &m);
-  ^
-./Main.c:430:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%lld", &table[i][j]);
-    ^
+} 

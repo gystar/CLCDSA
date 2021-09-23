@@ -38,10 +38,4 @@ int main() {
 	else {
 		printf("DIFFERENT");
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:34:34: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int’ [-Wformat=]
-   if (i%n == 0&&i%m==0) { printf("%lld\n", i); return 0; }
-                                  ^
-./Main.c:32:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld",&n,&m,&k);
-  ^
+} 

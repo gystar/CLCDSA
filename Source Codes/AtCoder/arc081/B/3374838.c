@@ -70,22 +70,4 @@ int main(void)
 //	printf("???????\n");
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[55]’ [-Wformat=]
-  scanf("%s\n",&s1);
-        ^
-./Main.c:20:8: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[55]’ [-Wformat=]
-  scanf("%s",&s2);
-        ^
-./Main.c:68:9: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%ld",count);
-         ^
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s\n",&s1);
-  ^
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",&s2);
-  ^
+} 

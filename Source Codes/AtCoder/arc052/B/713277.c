@@ -71,13 +71,4 @@ int main(void)
     }
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:53:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%u %u", &N, &Q);
-     ^
-./Main.c:57:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%u %u %u", &X[n], &R[n], &H[n]);
-         ^
-./Main.c:66:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%u %u", &A, &B);
-         ^
+} 

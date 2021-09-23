@@ -11,16 +11,3 @@ main(A){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(A){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘A’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%*d");~scanf("%c%d ",&o,&A);)
-      ^
-./Main.c:4:6: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:6: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:4:26: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-  for(scanf("%*d");~scanf("%c%d ",&o,&A);)
-                          ^
-./Main.c:5:14: warning: implicit declaration of function ‘fmax’ [-Wimplicit-function-declaration]
-   b=o%3?a+=A,fmax(b-A,c+=A):(a=fmax(a-A,c=b+A));
-       ...

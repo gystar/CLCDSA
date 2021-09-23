@@ -35,15 +35,3 @@ main()
 } ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main()
  ^
-./Main.c: In function ‘main’:
-./Main.c:5:23: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-  for(int i=0;i<19;i++)gets(b[i]);
-                       ^
-./Main.c:33:85: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
-  for(int i=0;i<19;i++)for(int j=0;j<19;j++)if(cnt[i][j]==(C-1?C==BC?WC:-1:WC?-1:BC))exit(!puts("YES"));
-                                                                                     ^
-./Main.c:33:85: warning: incompatible implicit declaration of built-in function ‘exit’
-./Main.c:33:85: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
-./Main.c:33:91: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-  for(int i=0;i<19;i++)for(int j=0;j<19;j++)if(cnt[i][j]==(C-1?C==BC?WC:-1:WC?-1:BC))exit(!puts("YES"));
-                                                                                           ...

@@ -15,7 +15,4 @@ int main(){
 	}else{
 		puts(a==b?"Draw":a>b?"Alice":"Bob");
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&a,&b);
-  ^
+} 

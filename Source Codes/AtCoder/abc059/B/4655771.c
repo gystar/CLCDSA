@@ -27,10 +27,4 @@ int main()
   else flag = strcmp(s[0], s[1]);
   puts(flag > 0 ? "GREATER" : flag < 0 ? "LESS" : "EQUAL");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", s[0]);
-   ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%s", s[1]);
-   ^
+} 

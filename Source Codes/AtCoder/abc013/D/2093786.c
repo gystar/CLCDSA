@@ -59,10 +59,4 @@ int main(){
         printf("%d\n",h[start+q]);
     }
     //puts("e");
-} ./Main.c: In function ‘main’:
-./Main.c:29:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %lld",&n,&m,&d);
-     ^
-./Main.c:38:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&t);
-         ^
+} 

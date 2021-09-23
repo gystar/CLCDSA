@@ -25,10 +25,4 @@ int main(int argc, char const *argv[])
 	if(xmax < xmin && ymax < ymin) printf("%d\n",(xmin - xmax) * (ymin - ymax));
 	else printf("0\n");
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&w,&h,&n);
-  ^
-./Main.c:19:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf(" %d%d%d",&x[i],&y[i],&a[i]);
-   ^
+} 

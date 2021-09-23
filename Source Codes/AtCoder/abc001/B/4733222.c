@@ -12,7 +12,4 @@ double i,j;
   else if(j>=35 && j<=70)printf("%2.0f\n",(j-30)/5+80);
   else if(j > 70) printf("89\n");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf",&i);
-   ^
+} 

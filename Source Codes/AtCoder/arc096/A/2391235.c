@@ -384,23 +384,4 @@ long get_gcd(long a,long b){//????? ???https://webkaru.net/clang/find-gcd-of-two
         r=a%b;
     }
     return b;
-} ./Main.c: In function ‘main’:
-./Main.c:20:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define In(a) long a;scanf("%ld",&a);
-                      ^
-./Main.c:94:5: note: in expansion of macro ‘In’
-     In(x);In(y);In(xy);In(want_x);In(want_y);
-     ^
-./Main.c:20:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define In(a) long a;scanf("%ld",&a);
-                      ^
-./Main.c:94:11: note: in expansion of macro ‘In’
-     In(x);In(y);In(xy);In(want_x);In(want_y);
-           ^
-./Main.c:20:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- #define In(a) long a;scanf("%ld",&a);
-                      ^
-./Main.c:94:17: note: in expansion of macro ‘In’
-     In(x);In(y);In(xy);In(want_x);In(want_y);
-                 ^
-./Main.c:20:22: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-r...
+} 

@@ -39,7 +39,4 @@ int main(){
     else if(diss<=32.6)printf("11\n");
     else if(diss>=32.7)printf("12\n");
   }
-} ./Main.c: In function ‘main’:
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf",&deg,&dis);
-   ^
+} 

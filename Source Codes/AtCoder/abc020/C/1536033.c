@@ -27,10 +27,4 @@ int main(void){
     for(int i=1;i<19;i++)if((int)(T-keisu[gx][gy][i])/i>ans)ans=(int)(T-keisu[gx][gy][i])/i;
     printf("%d\n",ans);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&H,&W,&T);
-     ^
-./Main.c:10:46: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(int i=0;i<H;i++)for(int j=0;j<W;j++){scanf(" %c",&map[i][j]);if(map[i][j]=='S'){sx=i;sy=j;}if(map[i][j]=='G'){gx=i;gy=j;}}
-                                              ^
+} 

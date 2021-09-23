@@ -24,10 +24,4 @@ int main(){
   
   printf("%lld\n",dp[N][N*X]-1);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:8:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&A);X=A;
-   ^
-./Main.c:10:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&x[i]);
-     ^
+} 

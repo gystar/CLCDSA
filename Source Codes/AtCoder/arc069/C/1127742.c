@@ -76,10 +76,4 @@ void quick(struct stone a[],long left,long right){
 	
 	if(left < i-1) quick(a,left,i-1);
 	if(j+1 < right) quick(a,j+1,right);
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld",&n);
-  ^
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld",&buf);
-   ^
+} 

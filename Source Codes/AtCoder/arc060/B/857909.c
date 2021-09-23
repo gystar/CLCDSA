@@ -14,7 +14,4 @@ long long g(){
 	}
 	return r;
 }
-int main(){printf("%lld\n",g());} ./Main.c: In function ‘g’:
-./Main.c:7:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&s);
-  ^
+int main(){printf("%lld\n",g());} 

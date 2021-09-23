@@ -33,10 +33,4 @@ int main(void)
     for(i = 0; i < n; ++i) { scanf("%d", &a[i]); }
     printf("%d\n", lcm(a, n));
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:31:15: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int n, i; scanf("%d", &n);
-               ^
-./Main.c:33:30: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     for(i = 0; i < n; ++i) { scanf("%d", &a[i]); }
-                              ^
+} 

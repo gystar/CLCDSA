@@ -32,10 +32,4 @@ int main()
     printf("%d %d",grey+brown+green+aqours+blue+yellow+orange+red,
     grey+brown+green+aqours+blue+yellow+orange+red+colour);}
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&n);
-     ^
-./Main.c:8:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&a[i]);
-         ^
+} 

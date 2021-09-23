@@ -10,7 +10,4 @@ int main(void){
  else if(b>=35&&b<=70) printf("%2.0f\n",(b-30)/5+80);
  else if(b>70) printf("89\n");
  return 0;
- } ./Main.c: In function ‘main’:
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf",&a);
-  ^
+ } 

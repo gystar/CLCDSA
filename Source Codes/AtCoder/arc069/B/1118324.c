@@ -56,10 +56,4 @@ int main(int argc, char const *argv[]) {
 	if(i==4) printf("-1\n");
 	else printf("%s\n",l);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:51:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%ld",&n);
-  ^
-./Main.c:52:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

@@ -52,10 +52,4 @@ int main(int argc, char const *argv[]) {
         No ++;
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:39:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N );
-     ^
-./Main.c:41:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &A[i] );
-         ^
+} 

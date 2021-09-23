@@ -98,16 +98,4 @@ int main(int argc, char *argv[])
     }
 
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:78:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d", &a, &b, &q);
-     ^
-./Main.c:81:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld", &s[i]);
-         ^
-./Main.c:87:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld", &t[i]);
-         ^
-./Main.c:93:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%lld", &x[i]);
-         ^
+} 

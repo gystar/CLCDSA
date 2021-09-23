@@ -104,10 +104,4 @@ void merge_sort(int *t1, int *s1, int left, int right){    //?????????
             }
         }
     }
-} ./Main.c: In function ‘main’:
-./Main.c:25:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
-./Main.c:32:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf,sizeof(buf),stdin);
-     ^
+} 

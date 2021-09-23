@@ -153,20 +153,4 @@ int main(void)
 	}
 	printf("%lld\n",res);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:93:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d",&n,&x,&y);
-  ^
-./Main.c:95:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&ball[i].c,&ball[i].w);
-   ^
-./Main.c: In function ‘make_table’:
-./Main.c:65:9: warning: iteration 200003u invokes undefined behavior [-Waggressive-loop-optimizations]
-   inv[i]=MOD-(MOD/i)*inv[MOD%i]%MOD;
-         ^
-./Main.c:14:20: note: containing loop
- #define FOR(i,a,n) for(i=(a);i<(n);i++)
-                    ^
-./Main.c:64:2: note: in expansion of macro ‘FOR’
-  FOR(i,2,SIZE+1){
-  ^
+} 

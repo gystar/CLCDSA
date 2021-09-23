@@ -81,13 +81,4 @@ int main()
     printf("%04d-%04d\n", s_[i], e_[i]);
   
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:61:3: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-   qsort(indices, n, sizeof(int), cmp);
-   ^
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &n);
-   ^
-./Main.c:28:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d-%d", s + i, e + i);
-     ^
+} 

@@ -19,10 +19,4 @@ int main(void){
   M = max(c);
   printf("%d\n",M);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:14:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&a);
-   ^
-./Main.c:15:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&b);
-   ^
+} 

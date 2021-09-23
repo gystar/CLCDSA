@@ -77,10 +77,4 @@ int main(int argc, char **argv)
         printf("%d\n", users[i].ff_cnt);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:45:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d", &num_user, &num_group);
-     ^
-./Main.c:51:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &a, &b);
-         ^
+} 

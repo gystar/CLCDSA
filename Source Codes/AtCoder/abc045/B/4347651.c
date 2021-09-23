@@ -40,13 +40,4 @@ int main(void) {
         printf("%c\n", user+'A');
 
         return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%101s",stra);
-         ^
-./Main.c:21:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%101s",strb);
-         ^
-./Main.c:22:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%101s",strc);
-         ^
+} 

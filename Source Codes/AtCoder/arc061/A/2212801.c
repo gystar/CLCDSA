@@ -92,7 +92,4 @@ int main()
   }
   printf("%" PRIu64 "\n", total);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:76:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf, sizeof(buf), stdin);
-   ^
+} 

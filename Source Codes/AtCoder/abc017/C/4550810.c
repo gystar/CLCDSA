@@ -20,10 +20,4 @@ int main(){
 		if(tmp>ans)ans=tmp;
 	}
 	printf("%lld\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:9:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:10:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++)scanf("%d%d%d",&lrs[i][0],&lrs[i][1],&lrs[i][2]);
-                  ^
+} 

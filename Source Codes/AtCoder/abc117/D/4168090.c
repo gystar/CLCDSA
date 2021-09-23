@@ -16,15 +16,4 @@ int main(void) {
   for(i=39;i>-1;i--)if(sum[i]*2<N)if(pow(2.0,i)+ans<=K)ans+=(long)pow(2.0,i);
   for(i=0;i<N;i++)ans2+=ans^B[i];
   printf("%lld\n",ans2);
-} ./Main.c: In function ‘main’:
-./Main.c:16:38: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
-   for(i=39;i>-1;i--)if(sum[i]*2<N)if(pow(2.0,i)+ans<=K)ans+=(long)pow(2.0,i);
-                                      ^
-./Main.c:16:38: warning: incompatible implicit declaration of built-in function ‘pow’
-./Main.c:16:38: note: include ‘<math.h>’ or provide a declaration of ‘pow’
-./Main.c:7:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %ld",&N,&K);
-   ^
-./Main.c:9:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld",&A[i]);
-     ^
+} 

@@ -18,12 +18,3 @@ j,k,N;main(i){
 ./Main.c:2:7: warning: return type defaults to ‘int’ [-Wimplicit-int]
  j,k,N;main(i){
        ^
-./Main.c: In function ‘main’:
-./Main.c:2:7: warning: type of ‘i’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%lf%lf%lf%lf%d",X,Y,X+1,Y+1,&N);N+=2;
-  ^
-./Main.c:3:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:3:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:5:53: warning: implicit declaration of function ‘hypot’ [-Wimplicit-function-declaration]
-  for(i=0;i<N;i++)for(j=i;j<...

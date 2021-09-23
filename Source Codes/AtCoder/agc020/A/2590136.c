@@ -11,7 +11,4 @@ int main(){
 	ll a,b;
 	scanf("%*d%lld%lld",&a,&b);
 	puts((a-b)%2?"Borys":"Alice");
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%*d%lld%lld",&a,&b);
-  ^
+} 

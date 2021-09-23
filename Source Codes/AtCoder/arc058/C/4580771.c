@@ -30,7 +30,3 @@ main(s,n){
 ./Main.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(s,n){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:1: warning: type of ‘s’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:1: warning: type of ‘n’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:2: warning:...

@@ -11,15 +11,3 @@ main(A){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(A){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘A’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(scanf("%*d%d",&a);~scanf(" %c%d",&o,&A);)
-      ^
-./Main.c:4:6: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:4:6: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:4:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long int *’ [-Wformat=]
-  for(scanf("%*d%d",&a);~scanf(" %c%d",&o,&A);)
-            ^
-./Main.c:4:31: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-  for(scanf("%*d%d",&a);~scanf(" %c%d",&o...

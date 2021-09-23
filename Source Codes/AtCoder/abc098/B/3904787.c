@@ -29,7 +29,4 @@ int main(){
 		ans=max(ans,cnt);
 	}
 	printf("%lld",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%s",&n,s);
-  ^
+} 

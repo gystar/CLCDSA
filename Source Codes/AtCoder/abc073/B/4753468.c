@@ -68,27 +68,4 @@ int main(int argc, char const *argv[]){
 	}
 	printf("%d\n",ans);
 	return 0;
-} ./Main.c: In function ‘pop’:
-./Main.c:48:2: warning: implicit declaration of function ‘nongetpop’ [-Wimplicit-function-declaration]
-  nongetpop(array,&(*size));
-  ^
-./Main.c: At top level:
-./Main.c:52:6: warning: conflicting types for ‘nongetpop’
- void nongetpop(int *array,int *size){
-      ^
-./Main.c:48:2: note: previous implicit declaration of ‘nongetpop’ was here
-  nongetpop(array,&(*size));
-  ^
-./Main.c: In function ‘append’:
-./Main.c:40:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array, sizeof(int) * (*size + 1));
-  ^
-./Main.c: In function ‘nongetpop’:
-./Main.c:53:2: warning: ignoring return value of ‘realloc’, declared with attribute warn_unused_result [-Wunused-result]
-  realloc(array,sizeof(int) * (*size - 1));
-  ^
-./Main.c: In function ‘main’:
-./Main.c:61:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:66:3: warning: ignoring return...
+} 

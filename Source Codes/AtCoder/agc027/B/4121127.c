@@ -31,10 +31,4 @@ int main(){
 		ans=min(ans,temp);
 	}
 	printf("%lld\n",ans+n*X);
-} ./Main.c: In function ‘main’:
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&n,&X);
-  ^
-./Main.c:15:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lld",x+i);
-            ^
+} 

@@ -25,13 +25,4 @@ int main(void){
 	}
 	printf("%.12lf\n",(s+f)/2);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:3: warning: implicit declaration of function ‘qsort’ [-Wimplicit-function-declaration]
-   qsort(mem,n,sizeof(double),sortfnc);
-   ^
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&k,&n);
-  ^
-./Main.c:15:24: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i = 1;i <= n;i++){scanf("%lf%lf",&w[i],&p[i]);}
-                        ^
+} 

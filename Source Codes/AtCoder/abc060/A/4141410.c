@@ -22,7 +22,4 @@ int main(void){
   if(x == y && z == w) printf("YES\n");
   else printf("NO\n");
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(s, 35, stdin);
-   ^
+} 

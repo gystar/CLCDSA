@@ -14,10 +14,4 @@ int main() {
   ave_bug = (sum_bug % counter == 0)? sum_bug / counter : sum_bug / counter + 1;
   printf("%d\n", ave_bug);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &number_of_softwares);
-   ^
-./Main.c:7:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &temp_bug);
-     ^
+} 

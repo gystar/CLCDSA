@@ -85,11 +85,4 @@ int main(void){
     }
     flush_buf();
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:72:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d", &n, &a, &b);
-     ^
-./Main.c: In function ‘flush_buf’:
-./Main.c:10:5: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
-     write(1, buf, len);
-     ^
+} 

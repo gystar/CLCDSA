@@ -20,13 +20,4 @@ int main(){
 		printf("%d\n",ans+1);
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:6:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:9:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++)scanf("%ld%ld",&a[i][0],&a[i][1]);
-                  ^
-./Main.c:10:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<m;i++)scanf("%ld%ld",&c[i][0],&c[i][1]);
-                  ^
+} 

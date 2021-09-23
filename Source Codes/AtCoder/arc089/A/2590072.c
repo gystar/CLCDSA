@@ -28,16 +28,4 @@ int main(){
 		y=r;
 	}
 	puts(flag?"Yes":"No");
-} ./Main.c: In function ‘f’:
-./Main.c:12:8: warning: implicit declaration of function ‘llabs’ [-Wimplicit-function-declaration]
-  ll dx=llabs(x-a);
-        ^
-./Main.c:12:8: warning: incompatible implicit declaration of built-in function ‘llabs’
-./Main.c:12:8: note: include ‘<stdlib.h>’ or provide a declaration of ‘llabs’
-./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld",&n);
-  ^
-./Main.c:24:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lld%lld%lld",&p,&q,&r);
-   ^
+} 

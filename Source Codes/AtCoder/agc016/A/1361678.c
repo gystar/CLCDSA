@@ -64,7 +64,4 @@ static int calc(const char *buf, char al)
         from[len] = '\0';
     } while(len>0);
     return 100;
-} ./Main.c: In function ‘main’:
-./Main.c:13:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buf, sizeof(buf), stdin);
-     ^
+} 

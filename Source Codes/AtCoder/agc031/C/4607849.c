@@ -48,7 +48,4 @@ int main(void){
         solve(a, b, 0, m, 0xFFFFFFFFFFFFFFFF, 0);
     }
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:42:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%ld %ld %ld", &n, &a, &b);
-     ^
+} 

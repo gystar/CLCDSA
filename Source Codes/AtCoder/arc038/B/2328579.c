@@ -26,17 +26,3 @@ main(){
 } ./Main.c:15:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:17:2: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  scanf("%d%d%*c",&H,&W);
-  ^
-./Main.c:17:2: warning: incompatible implicit declaration of built-in function ‘scanf’
-./Main.c:17:2: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-./Main.c:19:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-   gets(S[i]);
-   ^
-./Main.c:25:2: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
-  puts(f(0,0)>0?"First":"Second");
-  ^
-/tmp/ccKzLvaO.o: In function `main':
-Main.c:(.text.startup+0x3a): warning: the `gets' function is dangerous and should not be used.

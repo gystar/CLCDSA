@@ -20,16 +20,4 @@ int main()
         REP(i, 3) nim ^= XM[0][i] ^ (X[i] - 1 - XM[1][i]);
     }
     puts(nim ? "WIN" : "LOSE");
-} ./Main.c: In function ‘main’:
-./Main.c:8:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &N);
-     ^
-./Main.c:11:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d", &X[0], &X[1], &X[2]);
-         ^
-./Main.c:12:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d", &M);
-         ^
-./Main.c:16:13: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-             scanf("%d", &tmp);
-             ^
+} 

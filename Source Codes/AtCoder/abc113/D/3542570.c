@@ -42,11 +42,4 @@ int main() {
 	}
 	printf("%lld", s[1][1]);
 
-} ./Main.c: In function ‘main’:
-./Main.c:4:54: warning: excess elements in array initializer
-  long long int two[10] = { 1,2,3,5,8,13,21,34,55,256,512 };
-                                                      ^
-./Main.c:4:54: note: (near initialization for ‘two’)
-./Main.c:5:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld%lld", &h, &w, &k);
-  ^
+} 

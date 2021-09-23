@@ -19,7 +19,4 @@ int main(void){
   }else{
     printf("%lf\n", 360 - degree);
   }
-} ./Main.c: In function ‘main’:
-./Main.c:5:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%lf %lf", &n, &m);
-   ^
+} 

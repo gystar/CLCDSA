@@ -17,9 +17,3 @@ main(i,a,b){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(i,a,b){
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘i’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:3:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-  for(s...

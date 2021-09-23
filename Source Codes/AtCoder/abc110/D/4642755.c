@@ -77,7 +77,4 @@ SINT64 modpow(SINT64 base, SINT64 exp) {
             return (base * modpow(base, exp-1) % MOD);
         }
     }
-} ./Main.c: In function ‘main’:
-./Main.c:24:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d%d",&n,&m);
-     ^
+} 

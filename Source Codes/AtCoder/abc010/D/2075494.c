@@ -65,19 +65,4 @@ int main(){
         add_edge(a,b);
     }
     printf("%d\n",ford_fulkerson(0,100));
-} ./Main.c: In function ‘ford_fulkerson’:
-./Main.c:45:9: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-         memset(used,0,sizeof(used));
-         ^
-./Main.c:45:9: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:45:9: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c: In function ‘main’:
-./Main.c:55:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d %d",&n,&g,&e);
-     ^
-./Main.c:59:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d",&tmp);
-         ^
-./Main.c:64:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d",&a,&b);
-         ^
+} 

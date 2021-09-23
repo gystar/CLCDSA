@@ -62,12 +62,4 @@ int main(void){
     //Yes????????????No?????
     printf("No\n");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:30:9: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
-         memset(&a,0,sizeof(a));
-         ^
-./Main.c:30:9: warning: incompatible implicit declaration of built-in function ‘memset’
-./Main.c:30:9: note: include ‘<string.h>’ or provide a declaration of ‘memset’
-./Main.c:12:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d %d",&ab[i][0],&ab[i][1],&ab[i][2]);
-         ^
+} 

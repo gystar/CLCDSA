@@ -31,10 +31,4 @@ int main() {
 	for (int j = 1; j <= w - 1; j++) {
 		if (b[h][j] % 2 == 1) { printf("%d %d %d %d\n", h,j, h, j+1); b[h][j+1]++; }
 	}
-} ./Main.c: In function ‘main’:
-./Main.c:8:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d", &h, &w);
-  ^
-./Main.c:11:4: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-    scanf("%d", &a[i][j]);
-    ^
+} 

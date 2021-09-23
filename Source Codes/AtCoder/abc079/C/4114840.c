@@ -25,24 +25,4 @@ int main(void)
         printf("%d-%d-%d+%d=7\n",a[0],a[1],a[2],a[3],a[4]);
     else if(a[0]-a[1]-a[2]-a[3]==7)
         printf("%d-%d-%d-%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-} ./Main.c: In function ‘main’:
-./Main.c:7:5: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-     gets(c);
-     ^
-./Main.c:13:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d+%d+%d+%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-                ^
-./Main.c:15:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d+%d+%d-%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-                ^
-./Main.c:17:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d+%d-%d+%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-                ^
-./Main.c:19:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d+%d-%d-%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-                ^
-./Main.c:21:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d-%d+%d+%d=7\n",a[0],a[1],a[2],a[3],a[4]);
-                ^
-./Main.c:23:16: warning: too many arguments for format [-Wformat-extra-args]
-         printf("%d...
+} 

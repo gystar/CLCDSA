@@ -45,10 +45,4 @@ int main(void)
   }
   printf("%d\n", max);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:29:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buffer, sizeof(buffer), stdin);
-   ^
-./Main.c:36:5: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-     fgets(buffer, sizeof(buffer), stdin);
-     ^
+} 

@@ -75,10 +75,4 @@ int main (void) {
 
 	solve();
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:73:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s", s);
-  ^
-./Main.c:74:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d%d%d", &a[0], &a[1], &a[2], &a[3]);
-  ^
+} 

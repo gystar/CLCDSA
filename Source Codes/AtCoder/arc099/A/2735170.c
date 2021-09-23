@@ -83,19 +83,4 @@ int main(void){
     rep(i,n)a[i]=in();
     print((n-1)/(k-1)+!!((n-1)%(k-1)));
     return 0;
-} ./Main.c: In function ‘in’:
-./Main.c:22:11: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     int i;scanf("%d",&i);
-           ^
-./Main.c: In function ‘llin’:
-./Main.c:26:17: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     long long i;scanf("%lld",&i);
-                 ^
-./Main.c: In function ‘din’:
-./Main.c:30:14: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     double i;scanf("%lf",&i);
-              ^
-./Main.c: In function ‘chin’:
-./Main.c:34:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s",s);
-     ^
+} 

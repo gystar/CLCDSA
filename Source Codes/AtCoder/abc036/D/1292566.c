@@ -26,10 +26,4 @@ int main(){
 	f(1);
 	printf("%lld",(d[1][0]+d[1][1])%M);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:17:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:20:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&a,&b);
-   ^
+} 

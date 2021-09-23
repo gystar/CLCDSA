@@ -8,8 +8,3 @@ i,j;main(a){for(puts("98 99");i<98;puts(""))for(i++%49||scanf("%d",&a),j=0;j<99;
 ./Main.c:1:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
  i,j;main(a){for(puts("98 99");i<98;puts(""))for(i++%49||scanf("%d",&a),j=0;j<99;)putchar((i%2|j++%2||a--<2)^i>47?35:46);}
      ^
-./Main.c: In function ‘main’:
-./Main.c:1:5: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:1:17: warning: implicit declaration of function ‘puts’ [-Wimplicit-function-declaration]
- i,j;main(a){for(puts("98 99");i<98;puts(""))for(i++%49||scanf("%d",&a),j=0;j<99;)putchar((i%2|j++%2||a--<2)^i>47?35:46);}
-           ...

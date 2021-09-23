@@ -24,6 +24,3 @@ main(){
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(){
  ^
-./Main.c: In function ‘main’:
-./Main.c:3:10: warning: implicit declaration of function ‘getchar_unlocked’ [-Wimplicit-function-declaration]
-  for(;(s=get...

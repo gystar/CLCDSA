@@ -35,19 +35,4 @@ int main() {
 	getch();
 #endif
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:8: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-  scanf("%d", &N);
-        ^
-./Main.c:22:9: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘long long int *’ [-Wformat=]
-   scanf("%d", &A[i]);
-         ^
-./Main.c:32:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
-  printf("%d\n", ans);
-         ^
-./Main.c:20:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:22:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &A[i]);
-   ^
+} 

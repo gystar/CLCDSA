@@ -42,10 +42,4 @@ int main(){
 		}
 	}
 	rep(i,0,n)printf("%.9f\n",ans[i]);
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&n);
-  ^
-./Main.c:17:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,n)scanf("%lf%lf",x+i,y+i);
-            ^
+} 

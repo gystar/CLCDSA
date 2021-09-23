@@ -22,10 +22,4 @@ int main(){
 	
 	if(next(0,0)) printf("Found");
 	else printf("Nothing");
-} ./Main.c: In function ‘main’:
-./Main.c:18:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d %d",&N,&K);
-  ^
-./Main.c:20:20: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(j=0;j<K;j++) scanf("%d",&T[i][j]);
-                    ^
+} 

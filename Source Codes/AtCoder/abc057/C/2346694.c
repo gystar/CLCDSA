@@ -161,11 +161,4 @@ core_string_cr = core_string_charGG_core_prelude_Int(13);
 core_string_lf = core_string_charGG_core_prelude_Int(10);
 a3_mainGG_();
 }
-int main(int argc, char** argv) { flori_main(); } ./Main.c: In function ‘a3_mainGG_’:
-./Main.c:122:8: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘int64_t {aka long int}’ [-Wformat=]
- printf("%lld", a3_ans);
-        ^
-./Main.c: In function ‘stdio_read_intGG_’:
-./Main.c:81:1: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
- scanf("%" PRId64, &stdio_ret);
- ^
+int main(int argc, char** argv) { flori_main(); } 

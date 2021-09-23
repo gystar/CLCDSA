@@ -31,10 +31,4 @@ int main( void ){
 	for(i=0;i<m;i++)
 		printf("%06d%06d\n",pref[i],id[i]);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:19:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&city[i].p,&city[i].y);
-   ^
+} 

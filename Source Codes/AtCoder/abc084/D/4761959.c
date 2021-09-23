@@ -34,10 +34,4 @@ int main()
     for (i = 0; i < q; i++)
         printf("%d\n", p[r[i]] - p[l[i] - 1]);
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:20:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d", &q);
-     ^
-./Main.c:24:9: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-         scanf("%d %d", &l[i], &r[i]);
-         ^
+} 

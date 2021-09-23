@@ -20,10 +20,4 @@ int main(void){
     if(t[i]==1)putchar('\n');
   }
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:9:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&h,&w);
-   ^
-./Main.c:10:19: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   for(i=0;i<h;i++)scanf("%s",s[i]);
-                   ^
+} 

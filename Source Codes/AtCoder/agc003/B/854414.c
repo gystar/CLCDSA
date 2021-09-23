@@ -23,13 +23,4 @@ int main() {
 
 	printf("%ld\n", sum);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:24:9: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘long long unsigned int’ [-Wformat=]
-  printf("%ld\n", sum);
-         ^
-./Main.c:10:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d", &N);
-  ^
-./Main.c:13:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d", &A[loop]);
-   ^
+} 

@@ -22,7 +22,3 @@ main(w,d)
 ./Main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
  main(w,d)
  ^
-./Main.c: In function ‘main’:
-./Main.c:2:1: warning: type of ‘w’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:2:1: warning: type of ‘d’ defaults to ‘int’ [-Wimplicit-int]
-./Main.c:4:6: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declar...

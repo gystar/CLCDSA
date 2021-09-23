@@ -27,7 +27,4 @@ int main(void){
 if(flag==0){
     printf("%d %d %d",-1,-1,-1);
 }
-} ./Main.c: In function ‘main’:
-./Main.c:4:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&num,&value);
-   ^
+} 

@@ -54,13 +54,4 @@ int main(){
 	printf("%.12f\n",db/da);
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:21:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d",&N);
-  ^
-./Main.c:31:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf %lf",&Ax[i],&Ay[i]);
-  ^
-./Main.c:36:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lf %lf",&Bx[i],&By[i]);
-  ^
+} 

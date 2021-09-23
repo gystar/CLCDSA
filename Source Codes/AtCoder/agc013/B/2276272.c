@@ -62,10 +62,4 @@ int main(){
 	for(int i=p2cnt-1;i>=0;i--)printf("%d ",path2[i]+1);
 	rep(i,1,p1cnt)printf("%d ",path1[i]+1);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:16:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&m);
-  ^
-./Main.c:21:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d%d",&a,&b);
-   ^
+} 

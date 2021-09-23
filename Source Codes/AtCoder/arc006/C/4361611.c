@@ -52,12 +52,4 @@ int main(){
   }
 
   printf("%d\n",m);
-} ./Main.c: In function ‘main’:
-./Main.c:10:22: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-   int *weight=(int *)malloc(sizeof(int)*N);
-                      ^
-./Main.c:10:22: warning: incompatible implicit declaration of built-in function ‘malloc’
-./Main.c:10:22: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-./Main.c:7:3: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
-   fgets(buf,sizeof(buf),stdin);
-   ^
+} 

@@ -12,7 +12,4 @@ int main(void){
     if(s[a]==t[0]&&t[b]==u[0]) printf("YES");
     else printf("NO");
     return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:4:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%s %s %s",s,t,u);
-     ^
+} 

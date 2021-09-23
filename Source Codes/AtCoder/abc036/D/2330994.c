@@ -56,10 +56,4 @@ int main(void){
   count(p[0], -2, 0);
   printf("%lld\n",f2);
   return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:46:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d",&n);
-   ^
-./Main.c:50:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d %d",&a, &b);
-     ^
+} 

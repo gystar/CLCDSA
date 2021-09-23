@@ -27,10 +27,4 @@ int main(void){
 		N -= cost[j];
 	}
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:11:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&N,&M);
-  ^
-./Main.c:12:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<M;i++)scanf("%d",&A[i]);
-                  ^
+} 

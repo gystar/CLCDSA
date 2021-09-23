@@ -20,10 +20,4 @@ int main(){
 		puts("");
 	}
 	rep(i,0,w+2)putchar('#');puts("");
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld%lld",&h,&w);
-  ^
-./Main.c:13:12: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  rep(i,0,h)scanf("%s",s[i]);
-            ^
+} 

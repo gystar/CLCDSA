@@ -18,7 +18,4 @@ int main(){
 	ll flag=1;
 	rep(i,1,n)flag&=(s[i]=='9');
 	printf("%lld\n",(n-1)*9+(s[0]-48)-1+flag);
-} ./Main.c: In function ‘main’:
-./Main.c:12:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%s",s);
-  ^
+} 

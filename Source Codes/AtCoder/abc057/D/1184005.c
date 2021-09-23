@@ -101,14 +101,4 @@ int main (void) {
 	solve();
 	
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:98:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 3 has type ‘int *’ [-Wformat=]
-  scanf("%llu%llu%llu", &n, &a, &b);
-        ^
-./Main.c:98:8: warning: format ‘%llu’ expects argument of type ‘long long unsigned int *’, but argument 4 has type ‘int *’ [-Wformat=]
-./Main.c:98:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%llu%llu%llu", &n, &a, &b);
-  ^
-./Main.c:99:26: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for (i = 0; i < n; i++) scanf("%llu", &v[i]);
-                          ^
+} 

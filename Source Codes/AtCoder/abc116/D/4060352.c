@@ -54,10 +54,4 @@ int main(){
 //	for(i=0;i<k1c;i++)printf("%ld\n",kot[1][i]);
 	printf("%lld\n",ans);
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:15:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%d%d",&n,&k);
-  ^
-./Main.c:16:18: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  for(i=0;i<n;i++)scanf("%ld%ld",&td[i][0],&td[i][1]);
-                  ^
+} 

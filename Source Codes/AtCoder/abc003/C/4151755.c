@@ -18,10 +18,4 @@ int main(){
     ans=(ans+(double)R[i])/2.0;
   }
   printf("%f\n",ans);
-} ./Main.c: In function ‘main’:
-./Main.c:12:3: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-   scanf("%d %d",&N,&K);
-   ^
-./Main.c:14:5: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-     scanf("%d",&R[i]);
-     ^
+} 

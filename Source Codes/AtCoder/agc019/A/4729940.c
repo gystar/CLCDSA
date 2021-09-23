@@ -19,10 +19,4 @@ ll main()
 	printf("%lld\n", (n / 2 * two) + (n % 2 * one));
 
 	return 0;
-} ./Main.c: In function ‘main’:
-./Main.c:13:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld %lld %lld %lld", &q, &h, &s, &d);
-  ^
-./Main.c:14:2: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
-  scanf("%lld", &n);
-  ^
+} 
